@@ -63,6 +63,13 @@ module.exports.getFighterDB = async function(fighterID) {
     return fighterDB;
 };
 
+module.exports.getLicenseStatus = async function(fighterID) {
+    let fighterDB = await fightersDB.findOne(
+        { id: fighterID }
+    );
+    return fighterDB.licenseStatus;
+};
+
 module.exports.fighterDBExists = async function(fighterID) {
     let fighterDB = await fightersDB.findOne(
         { id: fighterID },
@@ -101,6 +108,28 @@ module.exports.setFighterName = async function(fighterID, newFighterName) {
         { id: fighterID },
         {$set:
             {fighterName: newFighterName}
+        }
+    );
+    await fighterDB.save().catch(err => console.log(err));
+    return fighterDB;
+}
+
+module.exports.recertifyLicense = async function(fighterID) {
+    let fighterDB = await fightersDB.findOneAndUpdate(
+        { id: fighterID },
+        {$set:
+            {licenseStatus: 'certified'}
+        }
+    );
+    await fighterDB.save().catch(err => console.log(err));
+    return fighterDB;
+}
+
+module.exports.voidLicense = async function(fighterID) {
+    let fighterDB = await fightersDB.findOneAndUpdate(
+        { id: fighterID },
+        {$set:
+            {licenseStatus: 'voided'}
         }
     );
     await fighterDB.save().catch(err => console.log(err));
