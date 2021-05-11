@@ -4,6 +4,7 @@ const cmdCooldown = {};
 
 module.exports = async(client, message) => {
     try {
+        
         //Halts if the message author is a bot
         if(message.author.bot) return;
 
