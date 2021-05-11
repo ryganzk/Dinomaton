@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'licenseinfo',
+    administrator: false,
 
     async execute(client, message, args) {
         if(args[0]){

@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'fighterhelp',
+    administrator: false,
 
     async execute(client, message, args) {
         message.channel.send(`__FIGHTER COMMANDS__\ncreatelicense - ISSUES YOUR VERY OWN FIGHTERS LICENSE\n`

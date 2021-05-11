@@ -180,6 +180,28 @@ module.exports.matchWithUserExists = async function(userID, statusArgs) {
     else
         return false;
 }
+module.exports.amount = async function(statusArgs) {
+    let count = await matchesDB.countDocuments(
+        { $or: [
+            { status: statusArgs[0] },
+            { status: statusArgs[1] },
+            { status: statusArgs[2] }
+        ]}
+    );
+    return count;
+}
+
+module.exports.deleteMatches = async function(statusArgs) {
+    let matchDB = await matchesDB.deleteMany(
+        { $or: [
+            { status: statusArgs[0] },
+            { status: statusArgs[1] },
+            { status: statusArgs[2] }
+        ]}
+    );
+    return matchDB;
+}
+
 
 module.exports.setWinner = async function(match, fighterName) {
     let matchDB = await match.updateOne({ winner: fighterName });

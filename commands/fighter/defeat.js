@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: "defeat",
+    administrator: false,
 
     async execute(client, message, args) {
         let userID = message.author.id;

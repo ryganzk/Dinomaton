@@ -3,6 +3,7 @@ const { fighterDBExists } = require('../../database/mongodb');
 
 module.exports = {
     name: 'battle',
+    administrator: false,
 
     async execute(client, message, args) {
         let userID = message.author.id;

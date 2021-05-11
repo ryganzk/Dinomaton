@@ -21,6 +21,15 @@ module.exports = async(client, message) => {
         //Returns if the message is not a command
         if(!cmd) return
 
+        //Checks if the command requires administrator permissions, and makes sure the user has them if it does
+        if(cmd.administrator) {
+            if (!message.guild.member(message.author).hasPermission('ADMINISTRATOR')) {
+                message.channel.send(`I DO NOT GIVE YOU PERMISSION TO USE THAT COMMAND, SKREE!!!`);
+                client.logger.cmd(`${message.author.tag} used ${cmd.name}... But nothing happened!`);
+                return;
+            }
+        }
+
         //Gets the user database
         let userDB = await client.data.getUserDB(message.author.id, message.author.tag);
         let data = {};
