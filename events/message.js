@@ -31,6 +31,15 @@ module.exports = async(client, message) => {
             }
         }
 
+        //Checks if the command requires fighter permissions, and makes sure the user has them if it does
+        if(cmd.fighter) {
+            if (await client.data.getLicenseStatus(message.author.id) !== 'certified') {
+                message.channel.send(`ONLY VALIDATED FIGHTERS HAVE PERMISSION TO USE THAT COMMAND, SKREE!!!`);
+                client.logger.cmd(`${message.author.tag} used ${cmd.name}... But nothing happened!`);
+                return;
+            }
+        }
+
         //Gets the user database
         let userDB = await client.data.getUserDB(message.author.id, message.author.tag);
         let data = {};
