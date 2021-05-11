@@ -2,13 +2,14 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'createlicense',
+    fighter: false,
     administrator: false,
 
     async execute(client, message, args) {
 
         //Checks whether a license has already been issued
         if(await client.data.fighterDBExists(message.author.id)) {
-            message.channel.send(`YOU ALREADY HAVE AN APPROVED LICENSE, SKREE!!!`);
+            message.channel.send(`YOU ALREADY HAVE A LICENSE, SKREE!!!`);
         } else {
 
             //Checks if the user has specified a name for the license

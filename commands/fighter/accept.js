@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'accept',
+    fighter: true,
     administrator: false,
 
     async execute(client, message, args) {
@@ -10,11 +11,6 @@ module.exports = {
         //An opponent must be specified
         if(!args[0]) {
             message.channel.send(`YOU MUST SPECIFY AN OPPONENT TO FIGHT, SKREE!!!`);
-            return;
-
-        //Makes sure the user actually has a fighter license
-        } else if(!(await client.data.fighterDBExists(userID))) {
-            message.channel.send(`YOU'RE NOT ALLOWED TO BATTLE WITHOUT AN APPROVED LICENSE, SKREE!!!`);
             return;
         }
 

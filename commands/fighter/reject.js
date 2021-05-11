@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'reject',
+    fighter: true,
     administrator: false,
 
     async execute(client, message, args) {

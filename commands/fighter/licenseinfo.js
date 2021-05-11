@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
     name: 'licenseinfo',
+    fighter: false,
     administrator: false,
 
     async execute(client, message, args) {
@@ -15,6 +16,7 @@ module.exports = {
             let embed = new Discord.MessageEmbed()
             .addFields(
                 { name: 'Fighter', value: fighter.fighterName, inline: false },
+                { name: 'Current Status', value: fighter.licenseStatus, inline: false },
                 { name: 'Wins', value: fighter.battleWins, inline: false },
                 { name: 'Losses', value: fighter.battleLosses, inline: false },
             );
