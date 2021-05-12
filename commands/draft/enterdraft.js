@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 module.exports = {
     name: 'enterdraft',
     fighter: true,
-    administrator: true,
+    administrator: false,
 
     async execute(client, message, args) {
 
