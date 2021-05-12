@@ -3,6 +3,7 @@ const config = require('../config.json');
 usersDB = require('./schemas/user.js');
 fightersDB = require('./schemas/fighter.js');
 matchesDB = require('./schemas/match.js');
+draftsDB = require('./schemas/draft.js');
 
 /*------------- USER COMMANDS -------------*/
 
@@ -209,6 +210,7 @@ module.exports.matchWithUserExists = async function(userID, statusArgs) {
     else
         return false;
 }
+
 module.exports.amount = async function(statusArgs) {
     let count = await matchesDB.countDocuments(
         { $or: [
@@ -265,4 +267,56 @@ module.exports.flagMatch = async function(match) {
 module.exports.dropMatch = async function(match) {
     let matchDB = await match.updateOne({ status: 'dropped' });
     return matchDB;
+}
+
+/*------------ DRAFT COMMANDS ------------*/
+
+//Creates a new draft document
+module.exports.newDraft = async function() {
+    draftDB = new draftsDB();
+    await draftDB.save().catch(err => console.log(err));
+    return draftDB;
+};
+
+module.exports.findOngoing = async function() {
+    let draft = await draftsDB.findOne(
+        { $or: [
+            { status: { $ne: 'completed' }},
+            { status: { $ne: 'dropped' }}
+        ]}
+    );
+
+    if(draft)
+        return draft;
+    else
+        return false;
+}
+
+module.exports.findParticipant = async function(userID, statusArgs) {
+    let fighter = await draftsDB.findOne(
+        { $and: [
+            { $or: [
+                { status: statusArgs[0] },
+                { status: statusArgs[1] },
+                { status: statusArgs[2] }
+            ]},
+            { fighterList: { $elemMatch: { id: userID }}}
+        ]}
+    );
+
+    if(fighter)
+        return fighter;
+    else
+        return false;
+}
+
+module.exports.addParticipant = async function(userID, draft) {
+    let fighterDoc = await fightersDB.findOne(
+        { id: userID }
+    );
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id},
+        { $push: { fighterList: { id: fighterDoc.id, fighterName: fighterDoc.fighterName }}}
+    );
+    return updatedDraft;
 }
