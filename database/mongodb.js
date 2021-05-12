@@ -320,3 +320,14 @@ module.exports.addParticipant = async function(userID, draft) {
     );
     return updatedDraft;
 }
+
+module.exports.removeParticipant = async function(userID, draft) {
+    let fighterDoc = await fightersDB.findOne(
+        { id: userID }
+    );
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id},
+        { $pull: { fighterList: { id: fighterDoc.id, fighterName: fighterDoc.fighterName }}}
+    );
+    return updatedDraft;
+}
