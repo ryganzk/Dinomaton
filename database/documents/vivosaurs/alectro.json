@@ -6,7 +6,7 @@
     "description": "Alectro is a dependable vivosaur whose Auto Counter skill punishes attackers. It also learns a move that poisons enemies",
     "stats": {
         "LP": 420,
-        "ATT": 42,
+        "ATT": 72,
         "DEF": 32,
         "ACC": 50,
         "SPE": 14
