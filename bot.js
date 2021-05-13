@@ -46,6 +46,22 @@ async function bootSequence() {
         client.logger.log("Hmmm, seems like Dinomaton could not find a valid database...");
     });
 
+    //Handles vivosaur documents on first run
+    const vivosaurFiles = fs.readdirSync('./database/documents/vivosaurs/');
+    var vivoList = [];
+    for(const file of vivosaurFiles) {
+        const vivosaur = require(`./database/documents/vivosaurs/${file}`);
+        if(!(await client.data.vivosaurExists(vivosaur))) {
+            vivoList.push(vivosaur);
+            client.logger.log(`${file.split(".")[0]} has been imported into dinomaton.vivosaurs`);
+        }
+    }
+
+    //Imports the array of vivosaur documents (if they exist)
+    if(vivoList.length > 0) {
+        await client.data.importVivosaurs(vivoList);
+    }
+
     client.login(config.token);
 }
 
