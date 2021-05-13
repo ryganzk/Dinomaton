@@ -340,7 +340,7 @@ module.exports.importVivosaurs = async function(dataArray) {
 }
 
 module.exports.vivosaurExists = async function(vivosaur) {
-    let exists = await vivosaursDB.collection.findOne({ num: vivosaur.num });
+    let exists = await vivosaursDB.collection.findOne({ name: vivosaur.name });
     if(exists) {
         return exists;
     } else {
