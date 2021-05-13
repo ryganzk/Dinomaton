@@ -4,6 +4,7 @@ usersDB = require('./schemas/user.js');
 fightersDB = require('./schemas/fighter.js');
 matchesDB = require('./schemas/match.js');
 draftsDB = require('./schemas/draft.js');
+vivosaursDB = require('./schemas/vivosaur.js');
 
 /*------------- USER COMMANDS -------------*/
 
@@ -330,4 +331,19 @@ module.exports.removeParticipant = async function(userID, draft) {
         { $pull: { fighterList: { id: fighterDoc.id, fighterName: fighterDoc.fighterName }}}
     );
     return updatedDraft;
+}
+
+/*------------ VIVOSAUR COMMANDS ------------*/
+
+module.exports.importVivosaurs = async function(dataArray) {
+    await vivosaursDB.collection.insertMany(dataArray);
+}
+
+module.exports.vivosaurExists = async function(vivosaur) {
+    let exists = await vivosaursDB.collection.findOne({ num: vivosaur.num });
+    if(exists) {
+        return exists;
+    } else {
+        return false;
+    }
 }
