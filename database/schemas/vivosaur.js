@@ -30,10 +30,11 @@ module.exports = mongoose.model("Vivosaur", new mongoose.Schema({
         SPE: { type: String }
     }},
     misc: { type: {
-        genus: { type: String },
-        group: { type: String },
-        era: { type: String },
-        diet: { type: String },
-        discovered: { type: String }
+        genus: { type: String, default: null },
+        prperName: { type: String, default: null },
+        group: { type: String, default: null },
+        era: { type: String, default: null },
+        diet: { type: String, default: null },
+        discovered: { type: String, default: null }
     }}
 }));
