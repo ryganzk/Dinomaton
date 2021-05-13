@@ -1,0 +1,65 @@
+{
+    "num": 1,
+    "element": "Fire",
+    "name": "T-Rex",
+    "class": "Close-Range",
+    "description": "While the most powerful of all Attack-class vivosaurs, T-Rex cannot be placed in the SZ without severely hindering allies' abilities",
+    "stats": {
+        "LP": 600,
+        "ATT": 99,
+        "DEF": 50,
+        "ACC": 43,
+        "SPE": 18
+    },
+    "skills": [
+        {
+            "name": "Tyrant's Roar",
+            "baseDamage": 1,
+            "fpCost": 100,
+            "effect": {
+                "description": "Special: Attack both AZ and SZ"
+            }
+        },
+        {
+            "name": "Scare Tactics",
+            "baseDamage": 67,
+            "fpCost": 200,
+            "effect": {
+                "description": "Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Frightful Assault",
+            "baseDamage": 90,
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 200,
+            "effect": {
+                "description": "Recover using ally LP",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Tyrant's Breath",
+            "baseDamage": 65,
+            "fpCost": 280,
+            "effect": {
+                "description": "Team Skill: Attack both AZ and SZ"
+            }
+        }
+    ],
+    "misc": {
+        "genus": "Tyrannosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Canada, USA"
+    }
+}
