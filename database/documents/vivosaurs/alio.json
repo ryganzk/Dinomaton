@@ -1,0 +1,49 @@
+{
+    "num": 5,
+    "element": "Water",
+    "name": "Alio",
+    "class": "Close-Range",
+    "description": "Once it learns Poison Breath, Alio can guarantee a successful poison attack. It can also learn a team skill that poisons all enemies",
+    "stats": {
+        "LP": 420,
+        "ATT": 76,
+        "DEF": 32,
+        "ACC": 50,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Alio Tusk",
+            "baseDamage": 20,
+            "fpCost": 80
+        },
+        {
+            "name": "Poison Needle",
+            "baseDamage": 27,
+            "fpCost": 130
+        },
+        {
+            "name": "Poison Breath",
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Toxic Bazooka",
+            "fpCost": 380,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 80
+            }
+        }
+    ],
+    "misc": {
+        "genus": "Alioramus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Mongolia"
+    }
+}

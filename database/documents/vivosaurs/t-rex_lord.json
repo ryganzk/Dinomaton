@@ -1,0 +1,64 @@
+{
+    "num": 1,
+    "element": "Fire",
+    "name": "T-Rex Lord",
+    "class": "Close-Range",
+    "description": "T-Rex Lord has the highest Attack power among super evolvers. Although its skills are powerful, their high FP costs make them tough to use",
+    "stats": {
+        "LP": 600,
+        "ATT": 94,
+        "DEF": 45,
+        "ACC": 35,
+        "SPE": 4
+    },
+    "skills": [
+        {
+            "name": "Lordly Strike",
+            "baseDamage": 1,
+            "fpCost": 150
+        },
+        {
+            "name": "Lordly Buster",
+            "baseDamage": 67,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Lordly Fire",
+            "baseDamage": 90,
+            "fpCost": 450,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Dark Lord",
+            "baseDamage": 195,
+            "fpCost": 840,
+            "effect": {
+                "description": "Team Skill: Attack both AZ and SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "down 40%",
+        "DEF": "down 40%",
+        "ACC": "down 40%",
+        "SPE": "down 40%"
+    },
+    "misc": {
+        "properName": "Tyrannosaurus Lord"
+    }
+}

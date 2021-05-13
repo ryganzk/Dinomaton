@@ -1,0 +1,61 @@
+{
+    "num": 4,
+    "element": "Air",
+    "name": "Tarbo",
+    "class": "Close-Range",
+    "description": "Tarbo gains high Attack and Defense as it grows in rank",
+    "stats": {
+        "LP": 540,
+        "ATT": 85,
+        "DEF": 40,
+        "ACC": 46,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Tarbo Bite",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Tarbo Combo",
+            "baseDamage": 40,
+            "fpCost": 140
+        },
+        {
+            "name": "Cyclone",
+            "baseDamage": 55,
+            "fpCost": 220,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Cyclonic Breath",
+            "baseDamage": 60,
+            "fpCost": 260,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "SPE": "down 10%"
+    },
+    "misc": {
+        "genus": "Tarbosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Mongolia"
+    }
+}

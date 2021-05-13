@@ -1,0 +1,55 @@
+{
+    "num": 7,
+    "element": "Water",
+    "name": "Alectro",
+    "class": "Close-Range",
+    "description": "Alectro is a dependable vivosaur whose Auto Counter skill punishes attackers. It also learns a move that poisons enemies",
+    "stats": {
+        "LP": 420,
+        "ATT": 42,
+        "DEF": 32,
+        "ACC": 50,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Blue Fang",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Alectro Combo",
+            "baseDamage": 24,
+            "fpCost": 90
+        },
+        {
+            "name": "Poison Breath",
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Aqua Cannon",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Team Skill: Attack both AZ and SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "May retaliate and return some damage"
+            }
+        }
+    ],
+    "misc": {
+        "genus": "Alectrosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Mongolia, China"
+    }
+}

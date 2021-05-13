@@ -1,0 +1,55 @@
+{
+    "num": 2,
+    "element": "Earth",
+    "name": "Daspleto",
+    "class": "Close-Range",
+    "description": "The highest defensive rating of any Close-Range vivosaur and lots of LP make Daspleto well suited for drawn-out battles",
+    "stats": {
+        "LP": 540,
+        "ATT": 85,
+        "DEF": 52,
+        "ACC": 44,
+        "SPE": 12
+    },
+    "skills": [
+        {
+            "name": "Lethal Jaws",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Smash Combo",
+            "baseDamage": 36,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Burst Breath",
+            "baseDamage": 60,
+            "fpCost": 210
+        },
+        {
+            "name": "Terror Storm",
+            "baseDamage": 62,
+            "fpCost": 380,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": "down 10%"
+    },
+    "misc": {
+        "genus": "Daspletosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Canada, USA"
+    }
+}

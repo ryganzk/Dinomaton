@@ -25,8 +25,8 @@
             "baseDamage": 67,
             "fpCost": 200,
             "effect": {
-                "description": "Scare",
-                "rate": 50
+                "description": "Silver Scare",
+                "rate": 40
             }
         },
         {
@@ -35,15 +35,14 @@
             "fpCost": 300,
             "effect": {
                 "description": "Gold Scare",
-                "rate": 100
+                "rate": 80
             }
         },
         {
             "name": "Law of the Jungle",
-            "fpCost": 200,
+            "fpCost": 50,
             "effect": {
-                "description": "Recover using ally LP",
-                "rate": 100
+                "description": "Recover using ally LP"
             }
         },
         {
@@ -55,6 +54,13 @@
             }
         }
     ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "down 30%",
+        "DEF": "down 30%",
+        "ACC": "down 30%",
+        "SPE": "down 30%"
+    },
     "misc": {
         "genus": "Tyrannosaurus",
         "group": "Theropods",

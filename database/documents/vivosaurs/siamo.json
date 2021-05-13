@@ -1,0 +1,51 @@
+{
+    "num": 6,
+    "element": "Fire",
+    "name": "Siamo",
+    "class": "Close-Range",
+    "description": "Once Siamo learns Sizzling Breath, it can prevent enemies from rotating zones. It's also powerful at low ranks",
+    "stats": {
+        "LP": 440,
+        "ATT": 76,
+        "DEF": 32,
+        "ACC": 50,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Siamo Fang",
+            "baseDamage": 24,
+            "fpCost": 80
+        },
+        {
+            "name": "Siamo Combo",
+            "baseDamage": 35,
+            "fpCost": 120
+        },
+        {
+            "name": "Sizzling Breath",
+            "baseDamage": 45,
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Wild Scent",
+            "baseDamage": 58,
+            "fpCost": 280,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 50
+            }
+        }
+    ],
+    "misc": {
+        "genus": "Siamotyrannus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Thailand"
+    }
+}

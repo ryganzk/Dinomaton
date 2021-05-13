@@ -1,0 +1,54 @@
+{
+    "num": 3,
+    "element": "Fire",
+    "name": "Gorgo",
+    "class": "Close-Range",
+    "description": "Known for its high Attack and Accuracy, Gorgo learns scare-inducing skills as it ranks up",
+    "stats": {
+        "LP": 480,
+        "ATT": 83,
+        "DEF": 36,
+        "ACC": 48,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Jaws of Terror",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Fearsome Combo",
+            "baseDamage": 48,
+            "fpCost": 190
+        },
+        {
+            "name": "Nightmare Combo",
+            "baseDamage": 76,
+            "fpCost": 300,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Terror Breath",
+            "fpCost": 350,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 70
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": "down 10%"
+    },
+    "misc": {
+        "genus": "Gorgosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Canada, USA"
+    }
+}
