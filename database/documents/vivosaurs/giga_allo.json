@@ -1,0 +1,60 @@
+{
+    "num": 10,
+    "element": "Neutral",
+    "name": "Giga Allo",
+    "class": "Close-Range",
+    "description": "A super evolver made by using a gold fossil on an Allo. With its sharper fangs and claws, it is prone to violent behavior",
+    "stats": {
+        "LP": 500,
+        "ATT": 93,
+        "DEF": 38,
+        "ACC": 45,
+        "SPE": 6
+    },
+    "skills": [
+        {
+            "name": "Allo Mega",
+            "baseDamage": 40,
+            "fpCost": 130
+        },
+        {
+            "name": "Allo Giga",
+            "baseDamage": 74,
+            "fpCost": 230,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Allo Tera",
+            "baseDamage": 130,
+            "fpCost": 500
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Allo Peta",
+            "baseDamage": 175,
+            "fpCost": 840,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "up 60%",
+        "DEF": "down 30%",
+        "ACC": "down 30%",
+        "SPE": "down 30%"
+    },
+    "misc": {
+        "properName": "Giga Allosaurus"
+    }
+}

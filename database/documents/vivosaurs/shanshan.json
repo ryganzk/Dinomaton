@@ -1,0 +1,61 @@
+{
+    "num": 9,
+    "element": "Air",
+    "name": "Shanshan",
+    "class": "Close-Range",
+    "description": "Shanshan often lands a critical hit and can eventually learn Grow Up, which allows it to transform into Tarbo",
+    "stats": {
+        "LP": 280,
+        "ATT": 61,
+        "DEF": 29,
+        "ACC": 50,
+        "SPE": 19
+    },
+    "skills": [
+        {
+            "name": "Shan Fang",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Shan Combo",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Shan Fury",
+            "baseDamage": 36,
+            "fpCost": 120
+        },
+        {
+            "name": "Grow Up",
+            "fpCost": 120,
+            "effect": {
+                "description": "Transform into Tarbo"
+            }
+        },
+        {
+            "name": "Confusion Cyclone",
+            "baseDamage": 60,
+            "fpCost": 390,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "up 5%",
+        "DEF": "up 5%",
+        "ACC": "up 5%",
+        "SPE": "up 5%"
+    },
+    "misc": {
+        "genus": "Shanshanosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "China"
+    }
+}

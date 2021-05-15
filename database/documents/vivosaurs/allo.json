@@ -1,0 +1,61 @@
+{
+    "num": 10,
+    "element": "Neutral",
+    "name": "Allo",
+    "class": "Close-Range",
+    "description": "The strongest Neutral-type vivosaur, Allo's excellent support effects make it a natural for the SZ",
+    "stats": {
+        "LP": 580,
+        "ATT": 88,
+        "DEF": 45,
+        "ACC": 48,
+        "SPE": 12
+    },
+    "skills": [
+        {
+            "name": "Allo Bite",
+            "baseDamage": 18,
+            "fpCost": 70
+        },
+        {
+            "name": "Allo Combo",
+            "baseDamage": 38,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Allo Fury",
+            "baseDamage": 97,
+            "fpCost": 300
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Void Blast",
+            "baseDamage": 65,
+            "fpCost": 280,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "SPE": "up 40%"
+    },
+    "misc": {
+        "genus": "Allosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "diet": "Carnivore",
+        "discovered": "USA"
+    }
+}

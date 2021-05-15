@@ -1,0 +1,57 @@
+{
+    "num": 8,
+    "element": "Fire",
+    "name": "Guan",
+    "class": "Close-Range",
+    "description": "Guan gains strong support effects as it goes up in rank. It can also learn Great Unmasking and transform into a T-Rex!",
+    "stats": {
+        "LP": 340,
+        "ATT": 59,
+        "DEF": 14,
+        "ACC": 50,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Long Fangs",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Guanlong Combo",
+            "baseDamage": 31,
+            "fpCost": 120
+        },
+        {
+            "name": "Guanlong Fury",
+            "baseDamage": 47,
+            "fpCost": 180
+        },
+        {
+            "name": "Great Unmasking",
+            "fpCost": 120,
+            "effect": {
+                "description": "Transform into T-Rex"
+            }
+        },
+        {
+            "name": "Scorch Breath",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "up 90%"
+    },
+    "misc": {
+        "genus": "Guanlong",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "diet": "Carnivore",
+        "discovered": "China"
+    }
+}
