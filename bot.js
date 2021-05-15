@@ -51,7 +51,7 @@ async function bootSequence() {
     var vivoList = [];
     for(const file of vivosaurFiles) {
         const vivosaur = require(`./database/documents/vivosaurs/${file}`);
-        if(!(await client.data.vivosaurExists(vivosaur))) {
+        if(!(await client.data.vivosaurDocExists(vivosaur))) {
             vivoList.push(vivosaur);
             client.logger.log(`${file.split(".")[0]} has been imported into dinomaton.vivosaurs`);
         }
