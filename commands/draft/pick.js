@@ -42,6 +42,7 @@ module.exports = {
         //Now that we know what the user typed, we need to see if that vivosaur exists in the collection
         if (!(await client.data.vivosaurExists(vivoName))) {
             message.channel.send("THAT VIVOSAUR DOES NOT EXIST, SKREE!!!");
+            return;
         }
 
         let fighterWithVivo = await client.data.checkDraftSaur(vivoName)
