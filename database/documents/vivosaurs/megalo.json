@@ -1,0 +1,61 @@
+{
+    "num": 12,
+    "element": "Neutral",
+    "name": "Megalo",
+    "class": "Close-Range",
+    "description": "Megalo is adept at using scare skills to restrict enemy actions. Raise it in rank to draw out its full potential",
+    "stats": {
+        "LP": 460,
+        "ATT": 70,
+        "DEF": 36,
+        "ACC": 50,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Megalo Bite",
+            "baseDamage": 12,
+            "fpCost": 50
+        },
+        {
+            "name": "Megalo Combo",
+            "baseDamage": 32,
+            "fpCost": 110
+        },
+        {
+            "name": "Null Breathe",
+            "fpCost": 80,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Cyclonic Breath",
+            "fpCost": 420,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 40
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": "up 5%",
+        "SPE": "up 5%"
+    },
+    "misc": {
+        "genus": "Megalosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "diet": "Carnivore",
+        "discovered": "England"
+    }
+}

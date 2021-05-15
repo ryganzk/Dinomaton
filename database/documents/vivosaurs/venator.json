@@ -1,0 +1,65 @@
+{
+    "num": 13,
+    "element": "Earth",
+    "name": "Venator",
+    "class": "Close-Range",
+    "description": "Venator's Elemental Boost makes it tough against Air-type vivosaurs, but keep it away from Fire types!",
+    "stats": {
+        "LP": 480,
+        "ATT": 72,
+        "DEF": 36,
+        "ACC": 48,
+        "SPE": 18
+    },
+    "skills": [
+        {
+            "name": "Venator Bite",
+            "baseDamage": 14,
+            "fpCost": 60
+        },
+        {
+            "name": "Venator Combo",
+            "baseDamage": 45,
+            "fpCost": 160
+        },
+        {
+            "name": "Venator Fury",
+            "baseDamage": 75,
+            "fpCost": 270
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Evasion Rate",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Sand Storm",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "up 10%",
+        "SPE": "up 10%"
+    },
+    "misc": {
+        "genus": "Afrovenator",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "diet": "Carnivore",
+        "discovered": "Nigeria"
+    }
+}

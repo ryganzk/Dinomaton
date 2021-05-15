@@ -1,0 +1,62 @@
+{
+    "num": 11,
+    "element": "Air",
+    "name": "Metria",
+    "class": "Close-Range",
+    "description": "Metria learns an excite-inducing move when it grows. It can also learn Rallying Cry, a skill that lifts all status conditions",
+    "stats": {
+        "LP": 440,
+        "ATT": 72,
+        "DEF": 36,
+        "ACC": 50,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Green Fang",
+            "baseDamage": 12,
+            "fpCost": 50
+        },
+        {
+            "name": "Metria Combo",
+            "baseDamage": 28,
+            "fpCost": 110,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Cyclone",
+            "baseDamage": 55,
+            "fpCost": 220
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Cyclonic Breath",
+            "baseDamage": 60,
+            "fpCost": 260,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "up 8%",
+        "DEF": "up 8%"
+    },
+    "misc": {
+        "genus": "Metriacanthosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "diet": "Carnivore",
+        "discovered": "England"
+    }
+}

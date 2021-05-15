@@ -1,0 +1,64 @@
+{
+    "num": 15,
+    "element": "Fire",
+    "name": "Giganto",
+    "class": "Close-Range",
+    "description": "Giganto's support effects harshly penalize AZ teammates. On the bright side, it has top-class Attack and learns powerful skills",
+    "stats": {
+        "LP": 560,
+        "ATT": 90,
+        "DEF": 43,
+        "ACC": 42,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Giga Bite",
+            "baseDamage": 22,
+            "fpCost": 80
+        },
+        {
+            "name": "Mighty Stomp",
+            "baseDamage": 36,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Rotate",
+                "effect": 60
+            }
+        },
+        {
+            "name": "Heat Breath",
+            "baseDamage": 45,
+            "fpCost": 180
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Scorch Breath",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": "down 20%",
+        "DEF": "down 20%",
+        "ACC": "down 20%",
+        "SPE": "down 20%"
+    },
+    "misc": {
+        "genus": "Gigantosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "diet": "Carnivore",
+        "discovered": "Argentina"
+    }
+}

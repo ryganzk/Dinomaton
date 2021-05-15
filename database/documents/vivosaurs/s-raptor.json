@@ -1,0 +1,62 @@
+{
+    "num": 14,
+    "element": "Fire",
+    "name": "S-Raptor",
+    "class": "Close-Range",
+    "description": "S-Raptor is solid and versatile even at low ranks and can eventually learn Enflame",
+    "stats": {
+        "LP": 440,
+        "ATT": 67,
+        "DEF": 32,
+        "ACC": 50,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "S-Fang",
+            "baseDamage": 12,
+            "fpCost": 50
+        },
+        {
+            "name": "S-Combo",
+            "baseDamage": 30,
+            "fpCost": 100,
+            "effect": {
+                "description": "Silver Rotate",
+                "effect": 50
+            }
+        },
+        {
+            "name": "S-Fury",
+            "baseDamage": 48,
+            "fpCost": 180
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Scorch Breath",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": "up 20%",
+        "ACC": "up 20%"
+    },
+    "misc": {
+        "genus": "Sinraptor",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "diet": "Carnivore",
+        "discovered": "China"
+    }
+}
