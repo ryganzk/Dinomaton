@@ -293,6 +293,37 @@ module.exports.findOngoing = async function() {
         return false;
 }
 
+module.exports.draftStatus = async function(statusArgs) {
+    let draft = await draftsDB.findOne(
+        { $or: [
+                { status: statusArgs[0] },
+                { status: statusArgs[1] },
+                { status: statusArgs[2] }
+        ]}
+    );
+
+    if(draft)
+        return draft;
+    else
+        return false;
+}
+
+module.exports.updateMinFighters = async function(draft, fighters) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+            { _id: draft._id },
+            { $set: { minFighters : fighters }}
+    );
+    return updatedDraft;
+}
+
+module.exports.updateMaxFighters = async function(draft, fighters) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+            { _id: draft._id },
+            { $set: { maxFighters : fighters }}
+    );
+    return updatedDraft;
+}
+
 module.exports.findParticipant = async function(userID, statusArgs) {
     let fighter = await draftsDB.findOne(
         { $and: [
@@ -333,14 +364,42 @@ module.exports.removeParticipant = async function(userID, draft) {
     return updatedDraft;
 }
 
+module.exports.checkDraftSaur = async function(vivosaur) {
+    let taken = await fightersDB.findOne(
+        { 'currentDraft.takenSaurs': { $in: [vivosaur]}}
+    );
+
+    if(taken)
+        return taken;
+    else
+        return false;
+}
+
+module.exports.giveDraftSaur = async function(userID, vivosaur) {
+    let fighter = await fightersDB.findOneAndUpdate(
+            { id: userID },
+            { $push: { 'currentDraft.takenSaurs': vivosaur }}
+    );
+    return fighter;
+}
+
 /*------------ VIVOSAUR COMMANDS ------------*/
 
 module.exports.importVivosaurs = async function(dataArray) {
     await vivosaursDB.collection.insertMany(dataArray);
 }
 
-module.exports.vivosaurExists = async function(vivosaur) {
+module.exports.vivosaurDocExists = async function(vivosaur) {
     let exists = await vivosaursDB.collection.findOne({ name: vivosaur.name });
+    if(exists) {
+        return exists;
+    } else {
+        return false;
+    }
+}
+
+module.exports.vivosaurExists = async function(vivosaur) {
+    let exists = await vivosaursDB.collection.findOne({ name: vivosaur });
     if(exists) {
         return exists;
     } else {
