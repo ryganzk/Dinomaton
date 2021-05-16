@@ -308,18 +308,50 @@ module.exports.draftStatus = async function(statusArgs) {
         return false;
 }
 
+module.exports.setDraftStatus = async function(draft, newStatus) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id },
+        { $set: { status: newStatus }}
+    );
+    return updatedDraft
+}
+
+module.exports.updateFighters = async function(draft, fightersArray) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id },
+        { $set: { fighterList: fightersArray }}
+    );
+    return updatedDraft;
+}
+
 module.exports.updateMinFighters = async function(draft, fighters) {
     let updatedDraft = await draftsDB.findOneAndUpdate(
-            { _id: draft._id },
-            { $set: { minFighters : fighters }}
+        { _id: draft._id },
+        { $set: { minFighters : fighters }}
     );
     return updatedDraft;
 }
 
 module.exports.updateMaxFighters = async function(draft, fighters) {
     let updatedDraft = await draftsDB.findOneAndUpdate(
-            { _id: draft._id },
-            { $set: { maxFighters : fighters }}
+        { _id: draft._id },
+        { $set: { maxFighters : fighters }}
+    );
+    return updatedDraft;
+}
+
+module.exports.incrementPick = async function(draft) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id },
+        { $inc: { nextPickNum: 1 }}
+    );
+    return updatedDraft;
+}
+
+module.exports.decrementPick = async function(draft) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id },
+        { $inc: { nextPickNum: -1 }}
     );
     return updatedDraft;
 }
