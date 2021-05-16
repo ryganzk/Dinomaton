@@ -39,7 +39,7 @@
             "baseDamage": 58,
             "fpCost": 250,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         }
     ],

@@ -35,7 +35,7 @@
             "baseDamage": 62,
             "fpCost": 270,
             "effect": {
-                "description": "Team Skill: Attack both AZ and SZ"
+                "description": "Attack AZ + SZ"
             }
         },
         {
