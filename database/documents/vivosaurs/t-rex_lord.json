@@ -47,7 +47,7 @@
             "baseDamage": 195,
             "fpCost": 840,
             "effect": {
-                "description": "Team Skill: Attack both AZ and SZ"
+                "description": "Attack AZ + SZ"
             }
         }
     ],
@@ -59,6 +59,7 @@
         "SPE": "down 40%"
     },
     "misc": {
-        "properName": "Tyrannosaurus Lord"
+        "properName": "Tyrannosaurus Lord",
+        "length": "49 ft. - 14.9 m. (Large)"
     }
 }

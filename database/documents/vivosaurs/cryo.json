@@ -1,0 +1,59 @@
+{
+    "num": 16,
+    "element": "Water",
+    "name": "Cryo",
+    "class": "Close-Range",
+    "description": "Cryo is proficient at harassing the enemy with poison and excite-inducing skills from the SZ. It also has great support stats",
+    "stats": {
+        "LP": 440,
+        "ATT": 70,
+        "DEF": 36,
+        "ACC": 48,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Cold Shout",
+            "baseDamage": 14,
+            "fpCost": 50,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Cryo Combo",
+            "baseDamage": 35,
+            "fpCost": 120
+        },
+        {
+            "name": "Toxic Ruin",
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Frozen Pulse",
+            "fpCost": 330,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 60
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": "up 30%",
+        "ACC": "up 30%"
+    },
+    "misc": {
+        "genus": "Cryophosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "length": "26 ft. - 7.9 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": "Antarctica"
+    }
+}

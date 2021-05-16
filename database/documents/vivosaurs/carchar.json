@@ -1,0 +1,63 @@
+{
+    "num": 17,
+    "element": "Earth",
+    "name": "Carchar",
+    "class": "Close-Range",
+    "description": "When it ranks up enough, Carchar learns a rotation move that ruin enemy foundations",
+    "stats": {
+        "LP": 540,
+        "ATT": 88,
+        "DEF": 41,
+        "ACC": 45,
+        "SPE": 11
+    },
+    "skills": [
+        {
+            "name": "Massive Jaws",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Carchar Combo",
+            "baseDamage": 40,
+            "fpCost": 140
+        },
+        {
+            "name": "Charchar Fury",
+            "baseDamage": 80,
+            "fpCost": 280,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Earthen Blast",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": "down 10%",
+        "ACC": "down 10%"
+    },
+    "misc": {
+        "genus": "Carcharodontosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "42 ft. - 12.8 m. (Large)",
+        "diet": "Carnivore",
+        "discovered": "Morocco, Egypt"
+    }
+}

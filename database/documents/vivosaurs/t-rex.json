@@ -50,7 +50,7 @@
             "baseDamage": 65,
             "fpCost": 280,
             "effect": {
-                "description": "Team Skill: Attack both AZ and SZ"
+                "description": "Attack AZ + SZ"
             }
         }
     ],
@@ -65,6 +65,7 @@
         "genus": "Tyrannosaurus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
+        "length": "42 ft. - 12.8 m. (Large)",
         "diet": "Carnivore",
         "discovered": "Canada, USA"
     }
