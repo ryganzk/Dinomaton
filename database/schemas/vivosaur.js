@@ -6,6 +6,7 @@ module.exports = mongoose.model("Vivosaur", new mongoose.Schema({
     name: { type: String },
     class: { type: String },
     description: { type: String },
+    sprite: { type: String },
     stats: { type: {
         LP: { type: Number },
         ATT: { type: Number },
@@ -28,7 +29,7 @@ module.exports = mongoose.model("Vivosaur", new mongoose.Schema({
         DEF: { type: String },
         ACC: { type: String },
         SPE: { type: String }
-    }},
+    }, default: [] },
     misc: { type: {
         genus: { type: String, default: null },
         prperName: { type: String, default: null },
