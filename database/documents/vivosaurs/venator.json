@@ -4,6 +4,7 @@
     "name": "Venator",
     "class": "Close-Range",
     "description": "Venator's Elemental Boost makes it tough against Air-type vivosaurs, but keep it away from Fire types!",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/8/87/Venator_Battle.png/revision/latest/scale-to-width-down/60?cb=20121225031303",
     "stats": {
         "LP": 480,
         "ATT": 72,

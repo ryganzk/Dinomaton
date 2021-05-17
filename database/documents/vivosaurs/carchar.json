@@ -4,6 +4,7 @@
     "name": "Carchar",
     "class": "Close-Range",
     "description": "When it ranks up enough, Carchar learns a rotation move that ruin enemy foundations",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/5/52/Carchar_Battle.png/revision/latest/scale-to-width-down/61?cb=20121225030322",
     "stats": {
         "LP": 540,
         "ATT": 88,

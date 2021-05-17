@@ -4,6 +4,7 @@
     "name": "T-Rex",
     "class": "Close-Range",
     "description": "While the most powerful of all Attack-class vivosaurs, T-Rex cannot be placed in the SZ without severely hindering allies' abilities",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/0/06/T-Rex_Battle.png/revision/latest/scale-to-width-down/63?cb=20200714153556",
     "stats": {
         "LP": 600,
         "ATT": 99,

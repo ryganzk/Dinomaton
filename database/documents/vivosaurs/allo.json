@@ -4,6 +4,7 @@
     "name": "Allo",
     "class": "Close-Range",
     "description": "The strongest Neutral-type vivosaur, Allo's excellent support effects make it a natural for the SZ",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/1/11/Allo_Battle.png/revision/latest/scale-to-width-down/62?cb=20121225030005",
     "stats": {
         "LP": 580,
         "ATT": 88,

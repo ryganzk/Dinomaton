@@ -4,6 +4,7 @@
     "name": "Giganto",
     "class": "Close-Range",
     "description": "Giganto's support effects harshly penalize AZ teammates. On the bright side, it has top-class Attack and learns powerful skills",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/9/9d/Giganto_Battle.png/revision/latest/scale-to-width-down/64?cb=20121225030325",
     "stats": {
         "LP": 560,
         "ATT": 90,

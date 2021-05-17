@@ -4,6 +4,7 @@
     "name": "Tarbo",
     "class": "Close-Range",
     "description": "Tarbo gains high Attack and Defense as it grows in rank",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/0/0f/Tarbo_Battle.png/revision/latest/scale-to-width-down/64?cb=20121225031303",
     "stats": {
         "LP": 540,
         "ATT": 85,

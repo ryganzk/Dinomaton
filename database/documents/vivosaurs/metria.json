@@ -4,6 +4,7 @@
     "name": "Metria",
     "class": "Close-Range",
     "description": "Metria learns an excite-inducing move when it grows. It can also learn Rallying Cry, a skill that lifts all status conditions",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/1/1b/Metria_Battle.png/revision/latest/scale-to-width-down/57?cb=20121225030626",
     "stats": {
         "LP": 440,
         "ATT": 72,

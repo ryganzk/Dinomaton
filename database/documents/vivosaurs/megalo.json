@@ -4,6 +4,7 @@
     "name": "Megalo",
     "class": "Close-Range",
     "description": "Megalo is adept at using scare skills to restrict enemy actions. Raise it in rank to draw out its full potential",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/8/88/Megalo_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030626",
     "stats": {
         "LP": 460,
         "ATT": 70,

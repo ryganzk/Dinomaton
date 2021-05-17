@@ -4,6 +4,7 @@
     "name": "Alio",
     "class": "Close-Range",
     "description": "Once it learns Poison Breath, Alio can guarantee a successful poison attack. It can also learn a team skill that poisons all enemies",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/3/32/Alio_Battle.png/revision/latest/scale-to-width-down/64?cb=20121225030005",
     "stats": {
         "LP": 420,
         "ATT": 76,
@@ -39,6 +40,7 @@
             }
         }
     ],
+    "support": {},
     "misc": {
         "genus": "Alioramus",
         "group": "Theropods",

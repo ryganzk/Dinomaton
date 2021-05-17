@@ -4,6 +4,7 @@
     "name": "S-Raptor",
     "class": "Close-Range",
     "description": "S-Raptor is solid and versatile even at low ranks and can eventually learn Enflame",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/3/38/S-Raptor_Battle.png/revision/latest/scale-to-width-down/59?cb=20121225031301",
     "stats": {
         "LP": 440,
         "ATT": 67,

@@ -4,6 +4,7 @@
     "name": "Daspleto",
     "class": "Close-Range",
     "description": "The highest defensive rating of any Close-Range vivosaur and lots of LP make Daspleto well suited for drawn-out battles",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/3/3f/Daspleto_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030324",
     "stats": {
         "LP": 540,
         "ATT": 85,

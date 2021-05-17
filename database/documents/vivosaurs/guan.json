@@ -4,6 +4,7 @@
     "name": "Guan",
     "class": "Close-Range",
     "description": "Guan gains strong support effects as it goes up in rank. It can also learn Great Unmasking and transform into a T-Rex!",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/1/19/Guan_Battle.png/revision/latest/scale-to-width-down/59?cb=20121225030624",
     "stats": {
         "LP": 340,
         "ATT": 59,

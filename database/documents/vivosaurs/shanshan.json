@@ -4,6 +4,7 @@
     "name": "Shanshan",
     "class": "Close-Range",
     "description": "Shanshan often lands a critical hit and can eventually learn Grow Up, which allows it to transform into Tarbo",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/0/03/Shanshan_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030908",
     "stats": {
         "LP": 280,
         "ATT": 61,

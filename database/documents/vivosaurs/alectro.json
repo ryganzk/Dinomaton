@@ -4,6 +4,7 @@
     "name": "Alectro",
     "class": "Close-Range",
     "description": "Alectro is a dependable vivosaur whose Auto Counter skill punishes attackers. It also learns a move that poisons enemies",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/f/f1/Alectro_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030005",
     "stats": {
         "LP": 420,
         "ATT": 72,
@@ -45,6 +46,7 @@
             }
         }
     ],
+    "support": {},
     "misc": {
         "genus": "Alectrosaurus",
         "group": "Theropods",

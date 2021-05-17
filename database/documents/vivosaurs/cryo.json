@@ -4,6 +4,7 @@
     "name": "Cryo",
     "class": "Close-Range",
     "description": "Cryo is proficient at harassing the enemy with poison and excite-inducing skills from the SZ. It also has great support stats",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/d/d0/Cryo_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030323",
     "stats": {
         "LP": 440,
         "ATT": 70,

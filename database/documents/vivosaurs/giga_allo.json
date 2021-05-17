@@ -4,6 +4,7 @@
     "name": "Giga Allo",
     "class": "Close-Range",
     "description": "A super evolver made by using a gold fossil on an Allo. With its sharper fangs and claws, it is prone to violent behavior",
+    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/a/ae/Giga_Allo_Battle.png/revision/latest/scale-to-width-down/64?cb=20130112034050",
     "stats": {
         "LP": 500,
         "ATT": 93,
