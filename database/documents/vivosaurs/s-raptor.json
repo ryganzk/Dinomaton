@@ -4,7 +4,7 @@
     "name": "S-Raptor",
     "class": "Close-Range",
     "description": "S-Raptor is solid and versatile even at low ranks and can eventually learn Enflame",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/3/38/S-Raptor_Battle.png/revision/latest/scale-to-width-down/59?cb=20121225031301",
+    "sprite": "images/sprites/S-Raptor_Battle.png",
     "stats": {
         "LP": 440,
         "ATT": 67,
@@ -50,8 +50,8 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "DEF": "up 20%",
-        "ACC": "up 20%"
+        "DEF": 20,
+        "ACC": 20
     },
     "misc": {
         "genus": "Sinraptor",
@@ -59,6 +59,6 @@
         "era": "Mesozoic Jurassic",
         "length": "23 ft. - 7 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "China"
+        "discovered": ["China"]
     }
 }

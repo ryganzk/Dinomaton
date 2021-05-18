@@ -1,0 +1,64 @@
+{
+    "num": 28,
+    "element": "Fire",
+    "name": "U-Raptor",
+    "class": "Close-Range",
+    "description": "While the success rate is only 20%, U-Raptor has the ultimate poison skill. Care to try your luck?",
+    "sprite": "images/sprites/U-Raptor_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 68,
+        "DEF": 22,
+        "ACC": 50,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Raptor Claw",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "U-Venom",
+            "baseDamage": 29,
+            "fpCost": 120,
+            "effect": {
+                "description": "Venom",
+                "rate": 20
+            }
+        },
+        {
+            "name": "Raptor Rage",
+            "baseDamage": 34,
+            "fpCost": 220
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Poison Pant",
+            "baseDamage": 58,
+            "fpCost": 330,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 20
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 5
+    },
+    "misc": {
+        "genus": "Utahraptor",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "23 ft. - 7 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

@@ -4,7 +4,7 @@
     "name": "T-Rex",
     "class": "Close-Range",
     "description": "While the most powerful of all Attack-class vivosaurs, T-Rex cannot be placed in the SZ without severely hindering allies' abilities",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/0/06/T-Rex_Battle.png/revision/latest/scale-to-width-down/63?cb=20200714153556",
+    "sprite": "images/sprites/T-Rex_Battle.png",
     "stats": {
         "LP": 600,
         "ATT": 99,
@@ -18,7 +18,7 @@
             "baseDamage": 1,
             "fpCost": 100,
             "effect": {
-                "description": "Attack AZ + SZ"
+                "description": "Attack AZ and SZ simultaneously"
             }
         },
         {
@@ -57,10 +57,10 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "down 30%",
-        "DEF": "down 30%",
-        "ACC": "down 30%",
-        "SPE": "down 30%"
+        "ATT": -30,
+        "DEF": -30,
+        "ACC": -30,
+        "SPE": -30
     },
     "misc": {
         "genus": "Tyrannosaurus",
@@ -68,6 +68,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "42 ft. - 12.8 m. (Large)",
         "diet": "Carnivore",
-        "discovered": "Canada, USA"
+        "discovered": ["Canada", "USA"]
     }
 }

@@ -1,0 +1,68 @@
+{
+    "num": 26,
+    "element": "Fire",
+    "name": "Nychus",
+    "class": "Close-Range",
+    "description": "Let Nychus use poison attacks in succession. Its support effect can negate the Defense of enemies in the AZ",
+    "sprite": "images/sprites/Nychus_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 59,
+        "DEF": 20,
+        "ACC": 50,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Nychus Claw",
+            "baseDamage": 24,
+            "fpCost": 40
+        },
+        {
+            "name": "Nychus Venom",
+            "baseDamage": 28,
+            "fpCost": 80,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Nychus Toxin",
+            "baseDamage": 36,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Speed +30%"
+            }
+        },
+        {
+            "name": "Venom Breath",
+            "baseDamage": 58,
+            "fpCost": 300,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -99
+    },
+    "misc": {
+        "genus": "Deinonychus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "13 ft. - 4 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

@@ -4,7 +4,7 @@
     "name": "Alio",
     "class": "Close-Range",
     "description": "Once it learns Poison Breath, Alio can guarantee a successful poison attack. It can also learn a team skill that poisons all enemies",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/3/32/Alio_Battle.png/revision/latest/scale-to-width-down/64?cb=20121225030005",
+    "sprite": "images/sprites/Alio_Battle.png",
     "stats": {
         "LP": 420,
         "ATT": 76,
@@ -47,6 +47,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "19 ft. - 5.8 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "Mongolia"
+        "discovered": ["Mongolia"]
     }
 }

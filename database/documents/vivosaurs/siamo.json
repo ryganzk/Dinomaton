@@ -4,7 +4,7 @@
     "name": "Siamo",
     "class": "Close-Range",
     "description": "Once Siamo learns Sizzling Breath, it can prevent enemies from rotating zones. It's also powerful at low ranks",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/a/af/Siamo_Battle.png/revision/latest/scale-to-width-down/64?cb=20121225031301",
+    "sprite": "images/sprites/Siamo_Battle.png",
     "stats": {
         "LP": 440,
         "ATT": 76,
@@ -49,6 +49,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "23 ft. - 7 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "Thailand"
+        "discovered": ["Thailand"]
     }
 }

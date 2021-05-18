@@ -4,7 +4,7 @@
     "name": "Venator",
     "class": "Close-Range",
     "description": "Venator's Elemental Boost makes it tough against Air-type vivosaurs, but keep it away from Fire types!",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/8/87/Venator_Battle.png/revision/latest/scale-to-width-down/60?cb=20121225031303",
+    "sprite": "images/sprites/Venator_Battle.png",
     "stats": {
         "LP": 480,
         "ATT": 72,
@@ -53,8 +53,8 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "up 10%",
-        "SPE": "up 10%"
+        "ATT": 10,
+        "SPE": 10
     },
     "misc": {
         "genus": "Afrovenator",
@@ -62,6 +62,6 @@
         "era": "Mesozoic Jurassic",
         "length": "29 ft. - 8.8 m. (Large)",
         "diet": "Carnivore",
-        "discovered": "Nigeria"
+        "discovered": ["Nigeria"]
     }
 }

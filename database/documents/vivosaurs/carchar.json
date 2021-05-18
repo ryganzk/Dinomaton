@@ -4,7 +4,7 @@
     "name": "Carchar",
     "class": "Close-Range",
     "description": "When it ranks up enough, Carchar learns a rotation move that ruin enemy foundations",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/5/52/Carchar_Battle.png/revision/latest/scale-to-width-down/61?cb=20121225030322",
+    "sprite": "images/sprites/Carchar_Battle.png",
     "stats": {
         "LP": 540,
         "ATT": 88,
@@ -50,8 +50,8 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "DEF": "down 10%",
-        "ACC": "down 10%"
+        "DEF": -10,
+        "ACC": -10
     },
     "misc": {
         "genus": "Carcharodontosaurus",
@@ -59,6 +59,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "42 ft. - 12.8 m. (Large)",
         "diet": "Carnivore",
-        "discovered": "Morocco, Egypt"
+        "discovered": ["Morocco", "Egypt"]
     }
 }

@@ -4,7 +4,7 @@
     "name": "Gorgo",
     "class": "Close-Range",
     "description": "Known for its high Attack and Accuracy, Gorgo learns scare-inducing skills as it ranks up",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/e/e0/Gorgo_Battle.png/revision/latest/scale-to-width-down/62?cb=20121225030623",
+    "sprite": "images/sprites/Gorgo_Battle.png",
     "stats": {
         "LP": 480,
         "ATT": 83,
@@ -43,7 +43,7 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ACC": "down 10%"
+        "ACC": -10
     },
     "misc": {
         "genus": "Gorgosaurus",
@@ -51,6 +51,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "29 ft. - 8.8 m. (Large)",
         "diet": "Carnivore",
-        "discovered": "Canada, USA"
+        "discovered": ["Canada", "USA"]
     }
 }

@@ -4,7 +4,7 @@
     "name": "Shanshan",
     "class": "Close-Range",
     "description": "Shanshan often lands a critical hit and can eventually learn Grow Up, which allows it to transform into Tarbo",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/0/03/Shanshan_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030908",
+    "sprite": "images/sprites/Shanshan_Battle.png",
     "stats": {
         "LP": 280,
         "ATT": 61,
@@ -47,10 +47,10 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "up 5%",
-        "DEF": "up 5%",
-        "ACC": "up 5%",
-        "SPE": "up 5%"
+        "ATT": 5,
+        "DEF": 5,
+        "ACC": 5,
+        "SPE": 5
     },
     "misc": {
         "genus": "Shanshanosaurus",
@@ -58,6 +58,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "10 ft. - 3 m. (Small)",
         "diet": "Carnivore",
-        "discovered": "China"
+        "discovered": ["China"]
     }
 }

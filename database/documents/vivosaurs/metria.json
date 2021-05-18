@@ -4,7 +4,7 @@
     "name": "Metria",
     "class": "Close-Range",
     "description": "Metria learns an excite-inducing move when it grows. It can also learn Rallying Cry, a skill that lifts all status conditions",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/1/1b/Metria_Battle.png/revision/latest/scale-to-width-down/57?cb=20121225030626",
+    "sprite": "images/sprites/Metria_Battle.png",
     "stats": {
         "LP": 440,
         "ATT": 72,
@@ -50,8 +50,8 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "up 8%",
-        "DEF": "up 8%"
+        "ATT": 8,
+        "DEF": 8
     },
     "misc": {
         "genus": "Metriacanthosaurus",
@@ -59,6 +59,6 @@
         "era": "Mesozoic Jurassic",
         "length": "26 ft. - 7.9 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "England"
+        "discovered": ["England"]
     }
 }

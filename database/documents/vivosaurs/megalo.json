@@ -4,7 +4,7 @@
     "name": "Megalo",
     "class": "Close-Range",
     "description": "Megalo is adept at using scare skills to restrict enemy actions. Raise it in rank to draw out its full potential",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/8/88/Megalo_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030626",
+    "sprite": "images/sprites/Megalo_Battle.png",
     "stats": {
         "LP": 460,
         "ATT": 70,
@@ -49,8 +49,8 @@
     ],
     "support": {
         "supportPosition": "Enemy AZ",
-        "ATT": "up 5%",
-        "SPE": "up 5%"
+        "ATT": 5,
+        "SPE": 5
     },
     "misc": {
         "genus": "Megalosaurus",
@@ -58,6 +58,6 @@
         "era": "Mesozoic Jurassic",
         "length": "26 ft. - 7.9 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "England"
+        "discovered": ["England"]
     }
 }

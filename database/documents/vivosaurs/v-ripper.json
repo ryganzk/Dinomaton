@@ -1,0 +1,66 @@
+{
+    "num": 29,
+    "element": "Air",
+    "name": "V-Ripper",
+    "class": "Close-Range",
+    "description": "Use V-Ripper's high Speed to grab the first attack, then support an ally with its Enflame skill",
+    "sprite": "images/sprites/V-Ripper_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 67,
+        "DEF": 20,
+        "ACC": 44,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Ripper Bite",
+            "baseDamage": 35,
+            "fpCost": 100
+        },
+        {
+            "name": "Ripper Kick",
+            "baseDamage": 55,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Ripper Rage",
+            "baseDamage": 90,
+            "fpCost": 370,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Morbid Mirage",
+            "baseDamage": 169,
+            "fpCost": 900,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -70,
+        "ACC": 30,
+        "SPE": -15
+    },
+    "misc": {
+        "properName": "Velociripper",
+        "length": "33 ft. - 10.1 m. (Large)"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "num": 23,
+    "element": "Fire",
+    "name": "Sopteryx",
+    "class": "Mid-Range",
+    "description": "Sopteryx's Disorienting Kick can confuse even tough enemies, while its support effect can make high-Speed allies virtually impossible to hit",
+    "sprite": "images/sprites/Sopteryx_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 41,
+        "DEF": 11,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Ankle-Biter",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Disorienting Kick",
+            "baseDamage": 6,
+            "fpCost": 250,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Sopteryx Fire",
+            "baseDamage": 24,
+            "fpCost": 100
+        },
+        {
+            "name": "Life Charge",
+            "fpCost": 160,
+            "effect": {
+                "description": "Heal one ally by 200 LP"
+            }
+        },
+        {
+            "name": "Heat Pulse",
+            "baseDamage": 28,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "FP Plus 3",
+            "effect": {
+                "description": "FP recharge is boosted by 30%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "SPE": 90
+    },
+    "misc": {
+        "genus": "Sinosauropteryx",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "3 ft. - 0.9 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["China"]
+    }
+}

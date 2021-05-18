@@ -1,36 +1,36 @@
 {
-    "num": 10,
-    "element": "Neutral",
-    "name": "Allo",
+    "num": 18,
+    "element": "Earth",
+    "name": "Acro",
     "class": "Close-Range",
-    "description": "The strongest Neutral-type vivosaur, Allo's excellent support effects make it a natural for the SZ",
-    "sprite": "images/sprites/Allo_Battle.png",
+    "description": "Acro is well balanced and reliable. It can also learn an excite-inducing skill that prevents enemy rotation",
+    "sprite": "images/sprites/Acro_Battle.png",
     "stats": {
-        "LP": 580,
-        "ATT": 88,
-        "DEF": 45,
+        "LP": 540,
+        "ATT": 79,
+        "DEF": 38,
         "ACC": 48,
         "SPE": 12
     },
     "skills": [
         {
-            "name": "Allo Bite",
+            "name": "Acro Bite",
             "baseDamage": 18,
-            "fpCost": 70
+            "fpCost": 60
         },
         {
-            "name": "Allo Combo",
-            "baseDamage": 38,
-            "fpCost": 150,
+            "name": "Acro Combo",
+            "baseDamage": 43,
+            "fpCost": 150
+        },
+        {
+            "name": "Acro Fury",
+            "baseDamage": 83,
+            "fpCost": 290,
             "effect": {
                 "description": "Silver Excite",
                 "rate": 50
             }
-        },
-        {
-            "name": "Allo Fury",
-            "baseDamage": 97,
-            "fpCost": 300
         },
         {
             "name": "Law of the Jungle",
@@ -40,9 +40,9 @@
             }
         },
         {
-            "name": "Void Blast",
-            "baseDamage": 65,
-            "fpCost": 280,
+            "name": "Sand Storm",
+            "baseDamage": 62,
+            "fpCost": 270,
             "effect": {
                 "description": "Attack AZ + SZ"
             }
@@ -50,12 +50,12 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "SPE": 40
+        "ATT": 10
     },
     "misc": {
-        "genus": "Allosaurus",
+        "genus": "Acrocanthosaurus",
         "group": "Theropods",
-        "era": "Mesozoic Jurassic",
+        "era": "Mesozoic Cretaceous",
         "length": "39 ft. - 11.9 m. (Large)",
         "diet": "Carnivore",
         "discovered": ["USA"]

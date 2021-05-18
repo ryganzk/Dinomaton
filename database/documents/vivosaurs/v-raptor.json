@@ -1,0 +1,65 @@
+{
+    "num": 29,
+    "element": "Air",
+    "name": "V-Raptor",
+    "class": "Close-Range",
+    "description": "While it relies mostly on poison skills, V-Raptor can eventually learn Enflame, making it far more versatile in battle",
+    "sprite": "images/sprites/V-Raptor_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 52,
+        "DEF": 18,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Veloci-Claw",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Toxic Combo",
+            "baseDamage": 21,
+            "fpCost": 80,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Lethal Poison",
+            "baseDamage": 44,
+            "fpCost": 240,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Toxic Cyclone",
+            "baseDamage": 60,
+            "fpCost": 320,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Velociraptor",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "6 ft. - 1.8 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["China, Mongolia"]
+    }
+}

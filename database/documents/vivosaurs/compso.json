@@ -1,0 +1,59 @@
+{
+    "num": 22,
+    "element": "Earth",
+    "name": "Compso",
+    "class": "Mid-Range",
+    "description": "A powerful vivosaur packed into a tiny body. Compso's debilitating Support Effects can render AZ-positioned enemies all but helpless",
+    "sprite": "images/sprites/Compso_Battle.png",
+    "stats": {
+        "LP": 220,
+        "ATT": 41,
+        "DEF": 11,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Ankle-Biter",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Compso Kick",
+            "baseDamage": 14,
+            "fpCost": 50
+        },
+        {
+            "name": "Gravel Breath",
+            "baseDamage": 28,
+            "fpCost": 100
+        },
+        {
+            "name": "Terra Pulse",
+            "baseDamage": 30,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "FP Plus 3",
+            "effect": {
+                "description": "FP recharge is boosted by 30%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -90,
+        "DEF": -90
+    },
+    "misc": {
+        "genus": "Compsognathus",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "length": "3 ft. - 0.9 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["Germany", "France"]
+    }
+}

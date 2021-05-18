@@ -1,0 +1,58 @@
+{
+    "num": 20,
+    "element": "Air",
+    "name": "Giga Spinax",
+    "class": "Close-Range",
+    "description": "A super evolver made by using a gold fossil on a Spinax. Attacks bounce off the rock-hard hide of its back",
+    "sprite": "images/sprites/Giga_Spinax_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 72,
+        "DEF": 36,
+        "ACC": 48,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Spinax Mega",
+            "baseDamage": 31,
+            "fpCost": 110
+        },
+        {
+            "name": "Spinax Giga",
+            "baseDamage": 76,
+            "fpCost": 240
+        },
+        {
+            "name": "Spinax Tera",
+            "baseDamage": 110,
+            "fpCost": 400
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Spinax Peta",
+            "baseDamage": 170,
+            "fpCost": 780,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 50,
+        "DEF": -25,
+        "ACC": -25,
+        "SPE": -25
+    },
+    "misc": {
+        "properName": "Giga Altispinax",
+        "length": "56 ft. - 17.1 m. (Large)"
+    }
+}

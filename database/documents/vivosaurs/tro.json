@@ -1,0 +1,73 @@
+{
+    "num": 25,
+    "element": "Neutral",
+    "name": "Tro",
+    "class": "Close-Range",
+    "description": "High support bonuses make Tro best suited for SZ positioning, but a high critical-hit rate helps its AZ chances",
+    "sprite": "images/sprites/Tro_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 52,
+        "DEF": 18,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Fierce Claw",
+            "baseDamage": 12,
+            "fpCost": 40
+        },
+        {
+            "name": "Fierce Combo",
+            "baseDamage": 16,
+            "fpCost": 80
+        },
+        {
+            "name": "Tro Toxin",
+            "baseDamage": 18,
+            "fpCost": 250,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Tro Storm",
+            "baseDamage": 65,
+            "fpCost": 340,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "FP Plus 2",
+            "effect": {
+                "description": "FP recharge is boosted by 20%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "DEF": 40,
+        "ACC": 40,
+        "SPE": 40
+    },
+    "misc": {
+        "genus": "Troodon",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "6 ft. - 1.8 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

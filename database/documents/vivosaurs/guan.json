@@ -4,7 +4,7 @@
     "name": "Guan",
     "class": "Close-Range",
     "description": "Guan gains strong support effects as it goes up in rank. It can also learn Great Unmasking and transform into a T-Rex!",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/1/19/Guan_Battle.png/revision/latest/scale-to-width-down/59?cb=20121225030624",
+    "sprite": "images/sprites/Guan_Battle.png",
     "stats": {
         "LP": 340,
         "ATT": 59,
@@ -46,7 +46,7 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "up 90%"
+        "ATT": 90
     },
     "misc": {
         "genus": "Guanlong",
@@ -54,6 +54,6 @@
         "era": "Mesozoic Jurassic",
         "length": "16 ft. - 4.9 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "China"
+        "discovered": ["China"]
     }
 }

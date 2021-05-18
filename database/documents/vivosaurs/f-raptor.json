@@ -1,0 +1,66 @@
+{
+    "num": 19,
+    "element": "Earth",
+    "name": "F-Raptor",
+    "class": "Close-Range",
+    "description": "F-Raptor is an attack-oriented vivosaur with well-balanced stats, but its true worth will emerge when it learns its team skill",
+    "sprite": "images/sprites/F-Raptor_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 72,
+        "DEF": 32,
+        "ACC": 50,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Savage Bite",
+            "baseDamage": 21,
+            "fpCost": 60
+        },
+        {
+            "name": "Savage Combo",
+            "baseDamage": 35,
+            "fpCost": 100
+        },
+        {
+            "name": "Savage Fury",
+            "baseDamage": 70,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Lantern Blight",
+            "baseDamage": 100,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 5,
+        "DEF": 5,
+        "ACC": 5,
+        "SPE": 5
+    },
+    "misc": {
+        "genus": "Fukuiraptor",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "16 ft. - 4.9 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["Japan"]
+    }
+}

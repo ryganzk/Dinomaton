@@ -1,0 +1,67 @@
+{
+    "num": 20,
+    "element": "Air",
+    "name": "Spinax",
+    "class": "Close-Range",
+    "description": "Spinax has the Auto Counter ability. It can also raise the Defense of any ally once it learns Harden",
+    "sprite": "images/sprites/Spinax_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 72,
+        "DEF": 36,
+        "ACC": 48,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Spinax Fang",
+            "baseDamage": 12,
+            "fpCost": 50
+        },
+        {
+            "name": "Spinax Combo",
+            "baseDamage": 45,
+            "fpCost": 150
+        },
+        {
+            "name": "Cyclone",
+            "baseDamage": 55,
+            "fpCost": 220
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Cyclonic Breath",
+            "baseDamage": 60,
+            "fpCost": 260,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 5,
+        "DEF": 5,
+        "ACC": 5
+    },
+    "misc": {
+        "genus": "Altispinax",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "29 ft. - 8.8 m. (Large)",
+        "diet": "Carnivore",
+        "discovered": ["England"]
+    }
+}

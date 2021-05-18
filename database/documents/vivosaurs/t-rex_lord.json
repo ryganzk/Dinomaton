@@ -4,7 +4,7 @@
     "name": "T-Rex Lord",
     "class": "Close-Range",
     "description": "T-Rex Lord has the highest Attack power among super evolvers. Although its skills are powerful, their high FP costs make them tough to use",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/2/27/T-Rex_Lord_Battle.png/revision/latest/scale-to-width-down/63?cb=20130112034342",
+    "sprite": "images/sprites/T-Rex_Lord_Battle.png",
     "stats": {
         "LP": 600,
         "ATT": 94,
@@ -54,10 +54,10 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "down 40%",
-        "DEF": "down 40%",
-        "ACC": "down 40%",
-        "SPE": "down 40%"
+        "ATT": -40,
+        "DEF": -40,
+        "ACC": -40,
+        "SPE": -40
     },
     "misc": {
         "properName": "Tyrannosaurus Lord",

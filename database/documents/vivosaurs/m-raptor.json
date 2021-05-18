@@ -1,0 +1,70 @@
+{
+    "num": 27,
+    "element": "Air",
+    "name": "M-Raptor",
+    "class": "Mid-Range",
+    "description": "With impressive support bonuses and a learned set of poison skills, M-Raptor can be a valuable SZ addition to any team",
+    "sprite": "images/sprites/M-Raptor_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 41,
+        "DEF": 18,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "M-Claw",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "M-Venom",
+            "baseDamage": 16,
+            "fpCost": 80,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "M-Toxin",
+            "baseDamage": 34,
+            "fpCost": 170,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Halitosis",
+            "fpCost": 340,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 60
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 35,
+        "DEF": 15,
+        "ACC": 25,
+        "SPE": 25
+    },
+    "misc": {
+        "genus": "Microraptor",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "3 ft. - 0.9 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["China"]
+    }
+}

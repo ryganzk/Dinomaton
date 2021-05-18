@@ -4,7 +4,7 @@
     "name": "Giga Allo",
     "class": "Close-Range",
     "description": "A super evolver made by using a gold fossil on an Allo. With its sharper fangs and claws, it is prone to violent behavior",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/a/ae/Giga_Allo_Battle.png/revision/latest/scale-to-width-down/64?cb=20130112034050",
+    "sprite": "images/sprites/Giga_Allo_Battle.png",
     "stats": {
         "LP": 500,
         "ATT": 93,
@@ -50,10 +50,10 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "ATT": "up 60%",
-        "DEF": "down 30%",
-        "ACC": "down 30%",
-        "SPE": "down 30%"
+        "ATT": 60,
+        "DEF": -30,
+        "ACC": -30,
+        "SPE": -30
     },
     "misc": {
         "properName": "Giga Allosaurus",

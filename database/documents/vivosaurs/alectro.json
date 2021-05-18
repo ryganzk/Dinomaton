@@ -4,7 +4,7 @@
     "name": "Alectro",
     "class": "Close-Range",
     "description": "Alectro is a dependable vivosaur whose Auto Counter skill punishes attackers. It also learns a move that poisons enemies",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/f/f1/Alectro_Battle.png/revision/latest/scale-to-width-down/63?cb=20121225030005",
+    "sprite": "images/sprites/Alectro_Battle.png",
     "stats": {
         "LP": 420,
         "ATT": 72,
@@ -42,7 +42,7 @@
         {
             "name": "Auto Counter",
             "effect": {
-                "description": "May retaliate and return some damage"
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }
         }
     ],
@@ -53,6 +53,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "19 ft. - 5.8 m. (Medium)",
         "diet": "Carnivore",
-        "discovered": "Mongolia, China"
+        "discovered": ["Mongolia", "China"]
     }
 }

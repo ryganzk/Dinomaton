@@ -1,0 +1,67 @@
+{
+    "num": 24,
+    "element": "Water",
+    "name": "Delta",
+    "class": "Close-Range",
+    "description": "Although it's most notable for its FP Plus ability, Delta's eventual confuse and Payback skills make it a real threat",
+    "sprite": "images/sprites/Delta_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 59,
+        "DEF": 14,
+        "ACC": 50,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Snapping Bite",
+            "baseDamage": 14,
+            "fpCost": 70
+        },
+        {
+            "name": "Delta Combo",
+            "baseDamage": 28,
+            "fpCost": 140
+        },
+        {
+            "name": "Delta Blitz",
+            "baseDamage": 42,
+            "fpCost": 210,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Delta Cannon",
+            "baseDamage": 62,
+            "fpCost": 410,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "FP Plus 2",
+            "effect": {
+                "description": "FP recharge is boosted by 20%"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Deltadromeus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "26 ft. - 7.9 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["Morocco"]
+    }
+}

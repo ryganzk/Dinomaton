@@ -4,7 +4,7 @@
     "name": "Tarbo",
     "class": "Close-Range",
     "description": "Tarbo gains high Attack and Defense as it grows in rank",
-    "sprite": "https://static.wikia.nocookie.net/fossilfighters/images/0/0f/Tarbo_Battle.png/revision/latest/scale-to-width-down/64?cb=20121225031303",
+    "sprite": "images/sprites/Tarbo_Battle.png",
     "stats": {
         "LP": 540,
         "ATT": 85,
@@ -26,11 +26,7 @@
         {
             "name": "Cyclone",
             "baseDamage": 55,
-            "fpCost": 220,
-            "effect": {
-                "description": "Silver Scare",
-                "rate": 50
-            }
+            "fpCost": 220
         },
         {
             "name": "Law of the Jungle",
@@ -50,7 +46,7 @@
     ],
     "support": {
         "supportPosition": "Own AZ",
-        "SPE": "down 10%"
+        "SPE": -10
     },
     "misc": {
         "genus": "Tarbosaurus",
@@ -58,6 +54,6 @@
         "era": "Mesozoic Cretaceous",
         "length": "39 ft. - 11.9 m. (Large)",
         "diet": "Carnivore",
-        "discovered": "Mongolia"
+        "discovered": ["Mongolia"]
     }
 }
