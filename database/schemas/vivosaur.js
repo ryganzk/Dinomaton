@@ -25,10 +25,10 @@ module.exports = mongoose.model("Vivosaur", new mongoose.Schema({
     }]},
     support: { type: {
         supportPosition: { type: String },
-        ATT: { type: String },
-        DEF: { type: String },
-        ACC: { type: String },
-        SPE: { type: String }
+        ATT: { type: Number },
+        DEF: { type: Number },
+        ACC: { type: Number },
+        SPE: { type: Number }
     }, default: [] },
     misc: { type: {
         genus: { type: String, default: null },
@@ -37,6 +37,6 @@ module.exports = mongoose.model("Vivosaur", new mongoose.Schema({
         era: { type: String, default: null },
         length: { type: String, },
         diet: { type: String, default: null },
-        discovered: { type: String, default: null }
+        discovered: { type: [String], default: null }
     }}
 }));
