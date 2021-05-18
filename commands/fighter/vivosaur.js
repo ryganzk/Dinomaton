@@ -122,9 +122,7 @@ module.exports = {
                 var discoveredString = `${discoveredString + vivosaur.misc.discovered[i]}, `;
             }
 
-            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}
-            **Length:** ${vivosaur.misc.length}\n**Diet:** ${vivosaur.misc.diet}
-            **Discovered:** ${discoveredString.substring(9, discoveredString.length - 2)}`;
+            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}\n**Length:** ${vivosaur.misc.length}\n**Diet:** ${vivosaur.misc.diet}\n**Discovered:** ${discoveredString.substring(9, discoveredString.length - 2)}`;
             var goldFossilStatBonus = ``;
             var goldFossilLPBonus = ``;
         } else {
@@ -134,14 +132,8 @@ module.exports = {
         }
 
         //Creates the embed fields for stats
-        const statFields = [{name: `**__VIVOSAUR STATS__**`, value: `**LP:** ${vivosaur.stats.LP + goldFossilLPBonus}
-        **ATT:** ${vivosaur.stats.ATT + goldFossilStatBonus}\n**DEF:** ${vivosaur.stats.DEF + goldFossilStatBonus}
-        **ACC:** ${vivosaur.stats.ACC + goldFossilStatBonus}\n**SPE:** ${vivosaur.stats.SPE + goldFossilStatBonus}`,
-        inline: true}, {name: `**__SUPPORT EFFECTS__**`,
-        value: `**Support Position:** ${supportEffect(vivosaur.support.supportPosition)}
-        **ATT:** ${supportEffect(vivosaur.support.ATT)}\n**DEF:** ${supportEffect(vivosaur.support.DEF)}
-        **ACC:** ${supportEffect(vivosaur.support.ACC)}
-        **SPE:** ${supportEffect(vivosaur.support.SPE)}`, inline: true}];
+        const statFields = [{name: `**__VIVOSAUR STATS__**`, value: `**LP:** ${vivosaur.stats.LP + goldFossilLPBonus}\n**ATT:** ${vivosaur.stats.ATT + goldFossilStatBonus}\n**DEF:** ${vivosaur.stats.DEF + goldFossilStatBonus}\n**ACC:** ${vivosaur.stats.ACC + goldFossilStatBonus}\n**SPE:** ${vivosaur.stats.SPE + goldFossilStatBonus}`, inline: true},
+        {name: `**__SUPPORT EFFECTS__**`, value: `**Support Position:** ${supportEffect(vivosaur.support.supportPosition)}\n**ATT:** ${supportEffect(vivosaur.support.ATT)}\n**DEF:** ${supportEffect(vivosaur.support.DEF)}\n**ACC:** ${supportEffect(vivosaur.support.ACC)}\n**SPE:** ${supportEffect(vivosaur.support.SPE)}`, inline: true}];
 
         let desc = [desc1, desc2, desc3];
         let currentPage = 1;
