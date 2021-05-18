@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const chalk = require("chalk");
 
 module.exports = {
     name: 'vivosaur',
@@ -38,7 +37,7 @@ module.exports = {
 
         let embed = new Discord.MessageEmbed()
 
-        //Sets embed color and enoji to corresponding vivosaur element
+        //Sets embed color and enoji to corresponding vivosaur element (emojis stored in images/emojis)
         //Note: you can change the emoji names below to whatever you want, but these are their default names
         switch (vivosaur.element) {
             case "Fire":
@@ -91,7 +90,8 @@ module.exports = {
             //Creates varaibles for skill data
             //Ternary expressions are used to check if the vivosaur contains data corresponding to (some skills don't include baseDamage or effects)
             //Base damage also includes a ternary to increase damage by 5 if a super evolver is detected
-            let baseDamage = vivosaur.skills[i].baseDamage ? `**Damage:** ${vivosaur.skills[i].baseDamage + (vivosaur.misc.genus ? vivosaur.stats.ATT : vivosaur.stats.ATT + 5)}` : ``;
+            let baseDamage = vivosaur.skills[i].baseDamage ? `**Damage:** ${vivosaur.skills[i].baseDamage
+                + (vivosaur.misc.genus ? vivosaur.stats.ATT : vivosaur.stats.ATT + 5)}` : ``;
             let fpCost = vivosaur.skills[i].fpCost ? `**FP Cost:** ${vivosaur.skills[i].fpCost}` : ``;
             let effect = vivosaur.skills[i].effect ? `**Effect:** ${vivosaur.skills[i].effect.description}` : ``;
 
@@ -102,7 +102,11 @@ module.exports = {
             //Unfortunately Discord doesn't allow for colored text (and I'm not using code blocks eww), so this will have to do
             if(!vivosaur.skills[i].fpCost) {
                 skillFields.push({name: `**__${vivosaur.skills[i].name} (Ability)__**`, value: `${effect}`});
-            } else if (!vivosaur.skills[i].effect || (vivosaur.skills[i].effect.description !== 'Attack AZ + SZ' && !vivosaur.skills[i].effect.description.includes('(team)'))) {
+            } else if (!vivosaur.skills[i].baseDamage && !vivosaur.skills[i].effect.description.includes('Silver')
+            && !vivosaur.skills[i].effect.description.includes('Gold')) {
+                skillFields.push({name: `**__${vivosaur.skills[i].name} (Support)__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
+            } else if (!vivosaur.skills[i].effect || (vivosaur.skills[i].effect.description !== 'Attack AZ + SZ'
+            && !vivosaur.skills[i].effect.description.includes('(team)'))) {
                 skillFields.push({name: `**__${vivosaur.skills[i].name}__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
             } else {
                 skillFields.push({name: `**__${vivosaur.skills[i].name} (Team Skill)__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
@@ -112,7 +116,15 @@ module.exports = {
         //Determines whether the vivo is a super evolver or not, and prints out the appropriate miscellaneous data
         //Also adds gold fossil bonuses under stats if the vivo IS a super evolver
         if (vivosaur.misc.genus) {
-            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}\n**Length:** ${vivosaur.misc.length}\n**Diet:** ${vivosaur.misc.diet}\n**Discovered:** ${vivosaur.misc.discovered}`;
+
+            //This for loop takes the array of discovered locations of the dinosaur counterpart and stores it as a single string!
+            for(i in vivosaur.misc.discovered) {
+                var discoveredString = `${discoveredString + vivosaur.misc.discovered[i]}, `;
+            }
+
+            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}
+            **Length:** ${vivosaur.misc.length}\n**Diet:** ${vivosaur.misc.diet}
+            **Discovered:** ${discoveredString.substring(9, discoveredString.length - 2)}`;
             var goldFossilStatBonus = ``;
             var goldFossilLPBonus = ``;
         } else {
@@ -122,17 +134,25 @@ module.exports = {
         }
 
         //Creates the embed fields for stats
-        const statFields = [{name: `**__VIVOSAUR STATS__**`, value: `**LP:** ${vivosaur.stats.LP + goldFossilLPBonus}\n**ATT:** ${vivosaur.stats.ATT + goldFossilStatBonus}\n**DEF:** ${vivosaur.stats.DEF + goldFossilStatBonus}
-        **ACC:** ${vivosaur.stats.ACC + goldFossilStatBonus}\n**SPE:** ${vivosaur.stats.SPE + goldFossilStatBonus}`, inline: true}, {name: `**__SUPPORT EFFECTS__**`,
+        const statFields = [{name: `**__VIVOSAUR STATS__**`, value: `**LP:** ${vivosaur.stats.LP + goldFossilLPBonus}
+        **ATT:** ${vivosaur.stats.ATT + goldFossilStatBonus}\n**DEF:** ${vivosaur.stats.DEF + goldFossilStatBonus}
+        **ACC:** ${vivosaur.stats.ACC + goldFossilStatBonus}\n**SPE:** ${vivosaur.stats.SPE + goldFossilStatBonus}`,
+        inline: true}, {name: `**__SUPPORT EFFECTS__**`,
         value: `**Support Position:** ${supportEffect(vivosaur.support.supportPosition)}
-        **ATT:** ${supportEffect(vivosaur.support.ATT)}\n**DEF:** ${supportEffect(vivosaur.support.DEF)}\n**ACC:** ${supportEffect(vivosaur.support.ACC)}
+        **ATT:** ${supportEffect(vivosaur.support.ATT)}\n**DEF:** ${supportEffect(vivosaur.support.DEF)}
+        **ACC:** ${supportEffect(vivosaur.support.ACC)}
         **SPE:** ${supportEffect(vivosaur.support.SPE)}`, inline: true}];
 
         let desc = [desc1, desc2, desc3];
         let currentPage = 1;
         
+        //Creates an attachment so the vivosaur sprite can be displayed locally (sprites stored in images/sprites)
+        const vivoSprite = vivosaur.sprite.substring(15);
+        const sprite = new Discord.MessageAttachment(vivosaur.sprite, vivoSprite);
+        
         //Creates the embedded message on the first page
-        embed.setThumbnail(vivosaur.sprite)
+        embed.attachFiles(sprite)
+        .setThumbnail(`attachment://${vivoSprite}`)
         .setDescription(desc[currentPage - 1])
         .addFields(statFields)
         .setTimestamp()
@@ -183,7 +203,8 @@ module.exports = {
 //Outside function used to set null supports to '---'
 function supportEffect(support) {
     if(!support) return '---';
-    else return support;
+    else if (support > 0) return `+${support}%`;
+    else return (support === 'Own AZ' || support === 'Enemy AZ') ? `${support}` : `${support}%`;
 }
 
 //Outside function used to set the right fields
