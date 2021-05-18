@@ -4,7 +4,7 @@
     "name": "Zino",
     "class": "Close-Range",
     "description": "Zino is guaranteed a critical hit every time, but its Accuracy is so low it needs ally-support effects to hit. Beware—its support effects benefit the enemy!",
-    "sprite": "images/sprites/O-Raptor_Battle.png",
+    "sprite": "images/sprites/Zino_Battle.png",
     "stats": {
         "LP": 460,
         "ATT": 70,
