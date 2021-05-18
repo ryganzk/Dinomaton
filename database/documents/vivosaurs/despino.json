@@ -1,0 +1,65 @@
+{
+    "num": 34,
+    "element": "Water",
+    "name": "Despino",
+    "class": "Close-Range",
+    "description": "A Water-type super evolver, Despino learns poison skills as it ranks up",
+    "sprite": "images/sprites/Despino_Battle.png",
+    "stats": {
+        "LP": 520,
+        "ATT": 81,
+        "DEF": 25,
+        "ACC": 38,
+        "SPE": 23
+    },
+    "skills": [
+        {
+            "name": "Despino Bite",
+            "baseDamage": 40,
+            "fpCost": 120
+        },
+        {
+            "name": "Despino Kick",
+            "baseDamage": 60,
+            "fpCost": 190,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Despino Rage",
+            "baseDamage": 100,
+            "fpCost": 400,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Ruinous Hurricane",
+            "baseDamage": 186,
+            "fpCost": 810,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -60,
+        "ACC": 20,
+        "SPE": -10
+    },
+    "misc": {
+        "properName": "Despinosaurus",
+        "length": "16 ft. - 4.9 m. (Medium)"
+    }
+}

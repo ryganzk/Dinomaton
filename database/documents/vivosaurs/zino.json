@@ -1,0 +1,57 @@
+{
+    "num": 43,
+    "element": "Fire",
+    "name": "Zino",
+    "class": "Close-Range",
+    "description": "Zino is guaranteed a critical hit every time, but its Accuracy is so low it needs ally-support effects to hit. Beware—its support effects benefit the enemy!",
+    "sprite": "images/sprites/O-Raptor_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 70,
+        "DEF": 31,
+        "ACC": 6,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Reaper",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Cleaver",
+            "baseDamage": 36,
+            "fpCost": 120
+        },
+        {
+            "name": "Slicer",
+            "baseDamage": 69,
+            "fpCost": 230,
+            "effect": {
+                "description": "Steal 100 FP",
+                "rate": 85
+            }
+        },
+        {
+            "name": "Frenzy of Destruction",
+            "baseDamage": 35,
+            "fpCost": 150,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": 20,
+        "SPE": 20
+    },
+    "misc": {
+        "genus": "Therizinosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "33 ft. - 10.1 m. (Large)",
+        "diet": "Herbivore",
+        "discovered": ["Mongolia"]
+    }
+}

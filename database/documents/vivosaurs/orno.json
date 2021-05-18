@@ -1,0 +1,58 @@
+{
+    "num": 40,
+    "element": "Neutral",
+    "name": "Orno",
+    "class": "Mid-Range",
+    "description": "When raised, Orno's support effect can virtually double an ally's Accuracy. Team it with a vivosaur that has a high critical rate",
+    "sprite": "images/sprites/Orno_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 52,
+        "DEF": 18,
+        "ACC": 35,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Wild Claw",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Crazed Peck",
+            "baseDamage": 16,
+            "fpCost": 60
+        },
+        {
+            "name": "Manic Spin",
+            "baseDamage": 24,
+            "fpCost": 90
+        },
+        {
+            "name": "Spinning Rampage",
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Scare (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Parting Blow 1",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 99
+    },
+    "misc": {
+        "genus": "Ornithomimus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "10 ft. - 3 m. (Small)",
+        "diet": "Omnivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

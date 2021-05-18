@@ -1,0 +1,65 @@
+{
+    "num": 33,
+    "element": "Water",
+    "name": "Dilopho",
+    "class": "Close-Range",
+    "description": "Dilopho's support effect sharply reduces the enemies' Accuracy in the AZ. It also has the FP Plus ability",
+    "sprite": "images/sprites/Dilopho_Battle.png",
+    "stats": {
+        "LP": 360,
+        "ATT": 65,
+        "DEF": 11,
+        "ACC": 50,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Dilopho Fang",
+            "baseDamage": 12,
+            "fpCost": 30
+        },
+        {
+            "name": "Dilopho Combo",
+            "baseDamage": 21,
+            "fpCost": 60
+        },
+        {
+            "name": "Dilopho Fury",
+            "baseDamage": 41,
+            "fpCost": 120
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Speed +30%"
+            }
+        },
+        {
+            "name": "Water Arrow",
+            "fpCost": 300,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "FP Plus 1",
+            "effect": {
+                "description": "FP recharge is boosted by 10%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": -99
+    },
+    "misc": {
+        "genus": "Dilophosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "length": "19 ft. - 5.8 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

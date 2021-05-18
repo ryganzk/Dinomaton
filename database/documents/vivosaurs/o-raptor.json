@@ -1,0 +1,69 @@
+{
+    "num": 42,
+    "element": "Neutral",
+    "name": "O-Raptor",
+    "class": "Mid-Range",
+    "description": "With the eventual ability to steal enemy FP, O-Raptor is useful for powering high-FP skills",
+    "sprite": "images/sprites/O-Raptor_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 47,
+        "DEF": 18,
+        "ACC": 50,
+        "SPE": 24
+    },
+    "skills": [
+        {
+            "name": "Snout Strike",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Snout Combo",
+            "baseDamage": 28,
+            "fpCost": 60,
+            "effect": {
+                "description": "Steal 70 FP",
+                "rate": 55
+            }
+        },
+        {
+            "name": "Feather Blast",
+            "baseDamage": 10,
+            "fpCost": 80,
+            "effect": {
+                "description": "Steal 100 FP",
+                "rate": 85
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "O-Sonic",
+            "baseDamage": 1,
+            "fpCost": 250,
+            "effect": {
+                "description": "Steal 900 FP (team)",
+                "rate": 90
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": -20,
+        "SPE": -20
+    },
+    "misc": {
+        "genus": "Oviraptor",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "6 ft. - 1.8 m. (Small)",
+        "diet": "Omnivore",
+        "discovered": ["Mongolia"]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "num": 37,
+    "element": "Water",
+    "name": "Onyx",
+    "class": "Close-Range",
+    "description": "Onyx's low defense rating means it needs to rank up before committing to battle. Its Elemental Boost ability makes it tough against Fire types",
+    "sprite": "images/sprites/Onyx_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 77,
+        "DEF": 23,
+        "ACC": 50,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Onyx Bite",
+            "baseDamage": 12,
+            "fpCost": 50
+        },
+        {
+            "name": "Whiplash",
+            "baseDamage": 31,
+            "fpCost": 130,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Venomous Barrage",
+            "baseDamage": 57,
+            "fpCost": 240,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Poison Cannon",
+            "baseDamage": 62,
+            "fpCost": 330,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Baryonyx",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "26 ft. - 7.9 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["England"]
+    }
+}

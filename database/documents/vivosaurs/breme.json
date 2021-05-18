@@ -1,0 +1,62 @@
+{
+    "num": 30,
+    "element": "Fire",
+    "name": "Breme",
+    "class": "Close-Range",
+    "description": "LP- and FP-theiving skills help make up for Breme's low LP. It's a vampire vivosaur!",
+    "sprite": "images/sprites/Breme_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 54,
+        "DEF": 18,
+        "ACC": 50,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Claw Swipe",
+            "baseDamage": 21,
+            "fpCost": 70
+        },
+        {
+            "name": "Vampiric Rage",
+            "baseDamage": 23,
+            "fpCost": 100,
+            "effect": {
+                "description": "Recover LP equal to damage dealt"
+            }
+        },
+        {
+            "name": "Toxic Assault",
+            "baseDamage": 32,
+            "fpCost": 180
+        },
+        {
+            "name": "Vampiric Strength",
+            "baseDamage": 20,
+            "fpCost": 200,
+            "effect": {
+                "description": "Steal 220 FP",
+                "rate": 90
+            }
+        },
+        {
+            "name": "Venom Breath",
+            "baseDamage": 58,
+            "fpCost": 300,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Bradycneme",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "13 ft. - 4 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["Romania"]
+    }
+}

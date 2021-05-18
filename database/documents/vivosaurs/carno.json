@@ -1,0 +1,66 @@
+{
+    "num": 39,
+    "element": "Earth",
+    "name": "Carno",
+    "class": "Close-Range",
+    "description": "A lone wolf that can't get along with others, Carno may lose its fear of Fire types once it learns rotation skills",
+    "sprite": "images/sprites/Carno_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 70,
+        "DEF": 32,
+        "ACC": 49,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Carno Fang",
+            "baseDamage": 22,
+            "fpCost": 80
+        },
+        {
+            "name": "Carno Smash",
+            "baseDamage": 50,
+            "fpCost": 180,
+            "effect": {
+                "description": "Rotate",
+                "rate": 65
+            }
+        },
+        {
+            "name": "Headbutt",
+            "baseDamage": 42,
+            "fpCost": 210,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": -10
+    },
+    "misc": {
+        "genus": "Carnotaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "26 ft. - 7.9 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["Argentina"]
+    }
+}

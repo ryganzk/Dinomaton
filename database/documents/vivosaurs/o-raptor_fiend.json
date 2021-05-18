@@ -1,0 +1,67 @@
+{
+    "num": 42,
+    "element": "Neutral",
+    "name": "O-Raptor Fiend",
+    "class": "Mid-Range",
+    "description": "O-Raptor Fiend is a super evolver that excels at stealing FP from the enemy. Use it to build FP for powerful attacks",
+    "sprite": "images/sprites/O-Raptor_Fiend_Battle.png",
+    "stats": {
+        "LP": 560,
+        "ATT": 85,
+        "DEF": 52,
+        "ACC": 43,
+        "SPE": 8
+    },
+    "skills": [
+        {
+            "name": "Evil Strike",
+            "baseDamage": 43,
+            "fpCost": 150
+        },
+        {
+            "name": "Evil Buster",
+            "baseDamage": 70,
+            "fpCost": 200,
+            "effect": {
+                "description": "Steal 140 FP",
+                "rate": 55
+            }
+        },
+        {
+            "name": "Evil Blast",
+            "baseDamage": 120,
+            "fpCost": 420,
+            "effect": {
+                "description": "Steal 200 FP",
+                "rate": 85
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Diabolic Burst",
+            "baseDamage": 172,
+            "fpCost": 750,
+            "effect": {
+                "description": "Attack AZ + SZ",
+                "rate": 90
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -30,
+        "DEF": -30,
+        "ACC": -30,
+        "SPE": -30
+    },
+    "misc": {
+        "properName": "Oviraptor Fiend",
+        "length": "56 ft. - 17.1 m. (Large)"
+    }
+}

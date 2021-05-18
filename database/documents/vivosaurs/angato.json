@@ -1,0 +1,58 @@
+{
+    "num": 35,
+    "element": "Water",
+    "name": "Angato",
+    "class": "Close-Range",
+    "description": "Angato has naturally high Accuracy and learns a slate of poison skills while ranking up",
+    "sprite": "images/sprites/Angato_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 70,
+        "DEF": 22,
+        "ACC": 50,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Angato Bite",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Poison Combo",
+            "baseDamage": 31,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Poisonous Fury",
+            "baseDamage": 57,
+            "fpCost": 220,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Poison Cannon",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Angaturama",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "26 ft. - 7.9 m. (Medium)",
+        "diet": "Carnivore",
+        "discovered": ["Brazil"]
+    }
+}

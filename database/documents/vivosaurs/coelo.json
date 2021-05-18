@@ -1,0 +1,66 @@
+{
+    "num": 32,
+    "element": "Air",
+    "name": "Coelo",
+    "class": "Mid-Range",
+    "description": "Coelo can eventually learn Neutralize, erasing all status conditions from the target. It also has excellent support effects",
+    "sprite": "images/sprites/Coelo_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 52,
+        "DEF": 11,
+        "ACC": 50,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Coelo Fang",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Coelo Combo",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Battle Challenge",
+            "baseDamage": 35,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Neutralize",
+            "fpCost": 50,
+            "effect": {
+                "description": "Cure entire team of all negative status effects"
+            }
+        },
+        {
+            "name": "Typhoon",
+            "baseDamage": 28,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "DEF": 10,
+        "ACC": 20,
+        "SPE": 20
+    },
+    "misc": {
+        "genus": "Coelophysis",
+        "group": "Theropods",
+        "era": "Mesozoic Triassic",
+        "length": "10 ft. - 3 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

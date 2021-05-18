@@ -1,0 +1,69 @@
+{
+    "num": 31,
+    "element": "Neutral",
+    "name": "Aopteryx",
+    "class": "Close-Range",
+    "description": "Although one of the weakest vivosaurs, Aopteryx can learn Ancient Power for random transformations into other neutral vivosaurs. LP- and FP-stealing skills help add some punch as well",
+    "sprite": "images/sprites/Aopteryx_Battle.png",
+    "stats": {
+        "LP": 200,
+        "ATT": 41,
+        "DEF": 5,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Ancient Beak",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Thieving Talons",
+            "baseDamage": 15,
+            "fpCost": 50,
+            "effect": {
+                "description": "Steal 80 FP",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Life Drain",
+            "baseDamage": 30,
+            "fpCost": 100,
+            "effect": {
+                "description": "Recover LP equal to damage dealt"
+            }
+        },
+        {
+            "name": "Ancient Power",
+            "fpCost": 60,
+            "effect": {
+                "description": "Transform into any Neutral-type vivosaur"
+            }
+        },
+        {
+            "name": "Elder Wrath",
+            "baseDamage": 46,
+            "fpCost": 200,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 10,
+        "ACC": 10,
+        "SPE": 10
+    },
+    "misc": {
+        "genus": "Archaeopteryx",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "length": "3 ft. - 0.9 m. (Small)",
+        "diet": "Carnivore",
+        "discovered": ["Germany"]
+    }
+}

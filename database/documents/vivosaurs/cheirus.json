@@ -1,0 +1,58 @@
+{
+    "num": 41,
+    "element": "Air",
+    "name": "Cheirus",
+    "class": "Mid-Range",
+    "description": "Cheirus is a big help to allies with low Accuracy - its support effect progressively negates enemy Speed as it ranks up",
+    "sprite": "images/sprites/Cheirus_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 72,
+        "DEF": 22,
+        "ACC": 35,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Razor Claw",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Beak of Fury",
+            "baseDamage": 25,
+            "fpCost": 100
+        },
+        {
+            "name": "Whirling Doom",
+            "baseDamage": 48,
+            "fpCost": 180
+        },
+        {
+            "name": "Unholy Rampage",
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Enrage (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Parting Blow 1",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "SPE": -99
+    },
+    "misc": {
+        "genus": "Deinocheirus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "36 ft. - 11 m. (Large)",
+        "diet": "Omnivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

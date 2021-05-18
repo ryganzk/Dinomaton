@@ -1,0 +1,67 @@
+{
+    "num": 36,
+    "element": "Water",
+    "name": "Sucho",
+    "class": "Close-Range",
+    "description": "An accomplished user of excite- and poison-inducing skills, Sucho can even learn a team skill that poisons all enemies",
+    "sprite": "images/sprites/Sucho_Battle.png",
+    "stats": {
+        "LP": 520,
+        "ATT": 75,
+        "DEF": 25,
+        "ACC": 47,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Sucho Bite",
+            "baseDamage": 12,
+            "fpCost": 60
+        },
+        {
+            "name": "Infuriating Combo",
+            "baseDamage": 26,
+            "fpCost": 130,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Poison Barrage",
+            "baseDamage": 52,
+            "fpCost": 260,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Aqua Breath",
+            "fpCost": 330,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 80
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": -10
+    },
+    "misc": {
+        "genus": "Suchomimus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": "36 ft. - 11 m. (Large)",
+        "diet": "Carnivore",
+        "discovered": ["Niger"]
+    }
+}
