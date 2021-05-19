@@ -421,8 +421,38 @@ module.exports.importVivosaurs = async function(dataArray) {
     await vivosaursDB.collection.insertMany(dataArray);
 }
 
+module.exports.returnAllVivosaurs = async function() {
+    return await vivosaursDB.find(
+        { 'misc.genus': { $exists: true }}
+    );
+}
+
+module.exports.returnAllVivosaursWithQuery = async function(arg) {
+    return await vivosaursDB.find(
+        { $and: [
+            { 'misc.genus': { $exists: true }},
+            { element: arg }
+        ]}
+    );
+}
+
 module.exports.vivosaurDocExists = async function(vivosaur) {
     let exists = await vivosaursDB.collection.findOne({ name: vivosaur.name });
+    if(exists) {
+        return exists;
+    } else {
+        return false;
+    }
+}
+
+module.exports.vivosaurNumSuper = async function(number) {
+    let exists = await vivosaursDB.collection.findOne(
+        { $and: [
+            { num: number },
+            { 'misc.properName': { $exists: true }}
+        ]}
+    );
+
     if(exists) {
         return exists;
     } else {
