@@ -32,10 +32,14 @@ module.exports = mongoose.model("Vivosaur", new mongoose.Schema({
     }, default: [] },
     misc: { type: {
         genus: { type: String, default: null },
-        prperName: { type: String, default: null },
+        properName: { type: String, default: null },
         group: { type: String, default: null },
         era: { type: String, default: null },
-        length: { type: String, },
+        length: { type: {
+            feet: { type: Number },
+            meters: { type: Number },
+            overall: { type: String }
+        }},
         diet: { type: String, default: null },
         discovered: { type: [String], default: null }
     }}
