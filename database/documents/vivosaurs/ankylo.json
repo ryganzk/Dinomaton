@@ -1,0 +1,79 @@
+{
+    "num": 57,
+    "element": "Water",
+    "name": "Ankylo",
+    "class": "Mid-Range",
+    "description": "Ankylo's high defense progressively thwarts attacks. It also eventually learns a poison skill that helps it prevail in long battles",
+    "sprite": "images/sprites/Ankylo_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 65,
+        "DEF": 50,
+        "ACC": 46,
+        "SPE": 18
+    },
+    "skills": [
+        {
+            "name": "Body Hammer",
+            "baseDamage": 22,
+            "fpCost": 80
+        },
+        {
+            "name": "Ankylo Combo",
+            "baseDamage": 38,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Toxic Spear",
+            "baseDamage": 36,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Aqua Cannon",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -20,
+        "DEF": 99,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Anklyosaurus",
+        "group": "Ankylosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 36,
+            "meters": 11,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

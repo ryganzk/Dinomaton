@@ -1,0 +1,66 @@
+{
+    "num": 50,
+    "element": "Fire",
+    "name": "Omias",
+    "class": "Long-Range",
+    "description": "A Fire-type super evolver, Omias hinders the enemy with a scare-inducing skill and FP-stealing Power Scale",
+    "sprite": "images/sprites/Omias_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 74,
+        "DEF": 25,
+        "ACC": 48,
+        "SPE": 23
+    },
+    "skills": [
+        {
+            "name": "Omias X",
+            "baseDamage": 36,
+            "fpCost": 110
+        },
+        {
+            "name": "Omias Dos",
+            "baseDamage": 65,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Omias Punish",
+            "baseDamage": 88,
+            "fpCost": 400            
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Omias Exodus",
+            "baseDamage": 159,
+            "fpCost": 690,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20,
+        "DEF": 20,
+        "ACC": -10,
+        "SPE": -10
+    },
+    "misc": {
+        "properName": "Omiastrimus",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        }
+    }
+}

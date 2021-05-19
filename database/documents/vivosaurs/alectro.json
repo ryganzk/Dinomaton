@@ -51,7 +51,11 @@
         "genus": "Alectrosaurus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "19 ft. - 5.8 m. (Medium)",
+        "length": {
+            "feet": 19,
+            "meters": 5.8,
+            "overall": "Medium"
+        },
         "diet": "Carnivore",
         "discovered": ["Mongolia", "China"]
     }

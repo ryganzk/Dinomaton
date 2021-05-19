@@ -1,0 +1,78 @@
+{
+    "num": 60,
+    "element": "Earth",
+    "name": "Pelto",
+    "class": "Mid-Range",
+    "description": "Pelto knows Auto Counter and is also one of the few vivosaurs to learn a sleep skill",
+    "sprite": "images/sprites/Pelto_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 67,
+        "DEF": 43,
+        "ACC": 45,
+        "SPE": 18
+    },
+    "skills": [
+        {
+            "name": "Body Axe",
+            "baseDamage": 19,
+            "fpCost": 70
+        },
+        {
+            "name": "Pelto Combo",
+            "baseDamage": 33,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Earth Spear",
+            "baseDamage": 49,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Earth Cannon",
+            "baseDamage": 55,
+            "fpCost": 260,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -40
+    },
+    "misc": {
+        "genus": "Sauropelta",
+        "group": "Ankylosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

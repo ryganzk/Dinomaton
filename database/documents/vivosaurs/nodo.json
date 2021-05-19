@@ -1,0 +1,69 @@
+{
+    "num": 56,
+    "element": "Air",
+    "name": "Nodo",
+    "class": "Mid-Range",
+    "description": "Nodo acquires top-class Defense as it grows. The addition of Power Scale makes it perfect for marathon battles",
+    "sprite": "images/sprites/Nodo_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 41,
+        "DEF": 55,
+        "ACC": 38,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Nodo Tackle",
+            "baseDamage": 14,
+            "fpCost": 50
+        },
+        {
+            "name": "Nodo Combo",
+            "baseDamage": 30,
+            "fpCost": 110
+        },
+        {
+            "name": "Perplex Shot",
+            "baseDamage": 35,
+            "fpCost": 130,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Panic Typhoon",
+            "fpCost": 460,
+            "effect": {
+                "description": "Gold Confuse (team)",
+                "rate": 30
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 90,
+        "ACC": -10,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Nodosaurus",
+        "group": "Ankylosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 19,
+            "meters": 5.8,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

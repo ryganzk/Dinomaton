@@ -51,7 +51,11 @@
         "genus": "Deinocheirus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "36 ft. - 11 m. (Large)",
+        "length": {
+            "feet": 36,
+            "meters": 11,
+            "overall": "Large"
+        },
         "diet": "Omnivore",
         "discovered": ["Canada", "USA"]
     }

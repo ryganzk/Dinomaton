@@ -1,0 +1,64 @@
+{
+    "num": 44,
+    "element": "Neutral",
+    "name": "Brachio",
+    "class": "Long-Range",
+    "description": "Torment the enemy by rotating their zones with Mighty Stomp. Also, check out Brachio's high-damage SZ attacks",
+    "sprite": "images/sprites/Brachio_Battle.png",
+    "stats": {
+        "LP": 660,
+        "ATT": 65,
+        "DEF": 27,
+        "ACC": 44,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Mighty Stomp",
+            "baseDamage": 22,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Mountain Wave",
+            "baseDamage": 45,
+            "fpCost": 180
+        },
+        {
+            "name": "Earth Crush",
+            "baseDamage": 75,
+            "fpCost": 300            
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Voidquake",
+            "baseDamage": 92,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Brachiosaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 83,
+            "meters": 25.3,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Tanzania", "USA"]
+    }
+}

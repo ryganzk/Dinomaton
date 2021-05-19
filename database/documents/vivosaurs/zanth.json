@@ -1,0 +1,70 @@
+{
+    "num": 60,
+    "element": "Earth",
+    "name": "Zanth",
+    "class": "Mid-Range",
+    "description": "A super evolver that learns sleep and excite skills. When fully grown, Zanth's support effects can lower the Attack and Accuracy of AZ enemies by half",
+    "sprite": "images/sprites/Zanth_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 70,
+        "DEF": 44,
+        "ACC": 37,
+        "SPE": 6
+    },
+    "skills": [
+        {
+            "name": "Zanth Tail",
+            "baseDamage": 36,
+            "fpCost": 110
+        },
+        {
+            "name": "Zanth Press",
+            "baseDamage": 70,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Zanth Shot",
+            "baseDamage": 87,
+            "fpCost": 400,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Zanth Blade",
+            "baseDamage": 165,
+            "fpCost": 780,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -60,
+        "DEF": 20,
+        "ACC": -60,
+        "SPE": 20
+    },
+    "misc": {
+        "properName": "Zanthadon",
+        "length": {
+            "feet": 46,
+            "meters": 14,
+            "overall": "Close-Range"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "num": 52,
+    "element": "Fire",
+    "name": "Yango",
+    "class": "Mid-Range",
+    "description": "A durable super evolver, Dydomio boasts a naturally high Defense rating. When augmented with the Super Harden skill, it becomes virtually indestructible",
+    "sprite": "images/sprites/Dydomio_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 68,
+        "DEF": 50,
+        "ACC": 43,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Dydomio Spin",
+            "baseDamage": 36,
+            "fpCost": 110
+        },
+        {
+            "name": "Dydomio Mist",
+            "baseDamage": 58,
+            "fpCost": 190,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Dydomio Blast",
+            "baseDamage": 90,
+            "fpCost": 360   
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Dydomio Flame",
+            "baseDamage": 157,
+            "fpCost": 760,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -15,
+        "DEF": 50,
+        "ACC": -20,
+        "SPE": 30
+    },
+    "misc": {
+        "properName": "Dydomiosaurus",
+        "length": {
+            "feet": 16,
+            "meters": 4.9,
+            "overall": "Medium"
+        }
+    }
+}

@@ -60,7 +60,11 @@
         "genus": "Afrovenator",
         "group": "Theropods",
         "era": "Mesozoic Jurassic",
-        "length": "29 ft. - 8.8 m. (Large)",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
         "diet": "Carnivore",
         "discovered": ["Nigeria"]
     }

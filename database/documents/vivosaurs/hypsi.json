@@ -1,0 +1,75 @@
+{
+    "num": 61,
+    "element": "Air",
+    "name": "Hypsi",
+    "class": "Mid-Range",
+    "description": "Hypsi is a first-rate vivosaur that can learn a condition-lifting skill. Its support effects make it most valuable in the SZ role",
+    "sprite": "images/sprites/Hypsi_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 36,
+        "DEF": 13,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Leaping Snap",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Hypsi Combo",
+            "baseDamage": 16,
+            "fpCost": 80,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Perplexing Chitter",
+            "baseDamage": 20,
+            "fpCost": 140,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Neutralize",
+            "fpCost": 50,
+            "effect": {
+                "description": "Cure entire team of all negative status effects"
+            }
+        },
+        {
+            "name": "Nightmare Call",
+            "baseDamage": 25,
+            "fpCost": 160,
+            "effect": {
+                "description": "Gold Confuse (team)",
+                "rate": 10
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "DEF": 30,
+        "ACC": 30,
+        "SPE": 30
+    },
+    "misc": {
+        "genus": "Hypsilophodon",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["England", "Spain"]
+    }
+}

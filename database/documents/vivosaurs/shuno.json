@@ -1,0 +1,70 @@
+{
+    "num": 46,
+    "element": "Fire",
+    "name": "Shuno",
+    "class": "Long-Range",
+    "description": "Shuno has the Elemental Boost ability, but its stats improve slowly",
+    "sprite": "images/sprites/Shuno_Battle.png",
+    "stats": {
+        "LP": 580,
+        "ATT": 63,
+        "DEF": 27,
+        "ACC": 47,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Shuno Crush",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Shuno Combo",
+            "baseDamage": 38,
+            "fpCost": 140
+        },
+        {
+            "name": "Epicenter",
+            "baseDamage": 52,
+            "fpCost": 200            
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Flamequake",
+            "baseDamage": 51,
+            "fpCost": 310,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "SPE": 10
+    },
+    "misc": {
+        "genus": "Shunosaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["China"]
+    }
+}

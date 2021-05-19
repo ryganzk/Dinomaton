@@ -1,0 +1,79 @@
+{
+    "num": 58,
+    "element": "Fire",
+    "name": "Saichan",
+    "class": "Mid-Range",
+    "description": "Saichan is a Fire-type vivosaur with high Defense and the Auto Counter ability. It also provides impressive defensive support",
+    "sprite": "images/sprites/Saichan_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 67,
+        "DEF": 43,
+        "ACC": 44,
+        "SPE": 17
+    },
+    "skills": [
+        {
+            "name": "Body Hammer",
+            "baseDamage": 22,
+            "fpCost": 80
+        },
+        {
+            "name": "Saichan Combo",
+            "baseDamage": 31,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Fire Spear",
+            "baseDamage": 47,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Fire Cannon",
+            "baseDamage": 53,
+            "fpCost": 230,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -10,
+        "DEF": 80,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Saichania",
+        "group": "Ankylosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Mongolia"]
+    }
+}

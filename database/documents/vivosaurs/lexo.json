@@ -1,0 +1,83 @@
+{
+    "num": 55,
+    "element": "Earth",
+    "name": "Lexo",
+    "class": "Mid-Range",
+    "description": "Poison and sleep skills, combined with Auto Counter ability, make Lexo a versatile part of various strategies",
+    "sprite": "images/sprites/Kentro_Battle.png",
+    "stats": {
+        "LP": 360,
+        "ATT": 59,
+        "DEF": 29,
+        "ACC": 48,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Poison Tail",
+            "baseDamage": 15,
+            "fpCost": 60,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Poison Spin",
+            "baseDamage": 30,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Stone Spines",
+            "baseDamage": 42,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Poison Storm",
+            "baseDamage": 40,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": -20,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Lexovisaurus",
+        "group": "Stegosaurs",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["England", "France"]
+    }
+}

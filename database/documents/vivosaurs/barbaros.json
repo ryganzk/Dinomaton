@@ -1,0 +1,66 @@
+{
+    "num": 51,
+    "element": "Air",
+    "name": "Barbaros",
+    "class": "Mid-Range",
+    "description": "A super evolver with an outstanding Defense rating, Barbaros can use confuse-inducing skills to further reduce the odds of being attacked",
+    "sprite": "images/sprites/Barbaros_Battle.png",
+    "stats": {
+        "LP": 540,
+        "ATT": 75,
+        "DEF": 50,
+        "ACC": 35,
+        "SPE": 7
+    },
+    "skills": [
+        {
+            "name": "Barbaros Spin",
+            "baseDamage": 38,
+            "fpCost": 120
+        },
+        {
+            "name": "Barbaros Mist",
+            "baseDamage": 58,
+            "fpCost": 190,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Barbaros Blast",
+            "baseDamage": 95,
+            "fpCost": 380
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Barbaros Typhoon",
+            "baseDamage": 150,
+            "fpCost": 780,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 25,
+        "DEF": 35,
+        "ACC": -15,
+        "SPE": -20
+    },
+    "misc": {
+        "properName": "Barbarosaurus",
+        "length": {
+            "feet": 59,
+            "meters": 18,
+            "overall": "Large"
+        }
+    }
+}

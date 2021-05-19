@@ -60,6 +60,10 @@
     },
     "misc": {
         "properName": "Despinosaurus",
-        "length": "16 ft. - 4.9 m. (Medium)"
+        "length": {
+            "feet": 16,
+            "meters": 4.9,
+            "overall": "Medium"
+        }
     }
 }

@@ -1,0 +1,69 @@
+{
+    "num": 50,
+    "element": "Fire",
+    "name": "Amargo",
+    "class": "Long-Range",
+    "description": "Once Amargo learns Power Scale, it allows for multiple barrages of high-FP attacks",
+    "sprite": "images/sprites/Amargo_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 62,
+        "DEF": 27,
+        "ACC": 48,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Amargo Stomp",
+            "baseDamage": 16,
+            "fpCost": 60
+        },
+        {
+            "name": "Amargo Combo",
+            "baseDamage": 31,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Blazing Doom",
+            "baseDamage": 52,
+            "fpCost": 180            
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Fire Cannon",
+            "baseDamage": 53,
+            "fpCost": 230,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 10,
+        "SPE": 5
+    },
+    "misc": {
+        "genus": "Amargasaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 39,
+            "meters": 11.9,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Argentina"]
+    }
+}

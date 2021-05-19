@@ -61,6 +61,10 @@
     },
     "misc": {
         "properName": "Velociripper",
-        "length": "33 ft. - 10.1 m. (Large)"
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        }
     }
 }

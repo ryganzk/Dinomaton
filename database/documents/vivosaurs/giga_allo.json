@@ -57,6 +57,10 @@
     },
     "misc": {
         "properName": "Giga Allosaurus",
-        "length": "56 ft. - 17.1 m. (Large)"
+        "length": {
+            "feet": 56,
+            "meters": 17.1,
+            "overall": "Large"
+        }
     }
 }

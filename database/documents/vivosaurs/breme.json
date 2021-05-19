@@ -55,7 +55,11 @@
         "genus": "Bradycneme",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "13 ft. - 4 m. (Small)",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
         "diet": "Carnivore",
         "discovered": ["Romania"]
     }

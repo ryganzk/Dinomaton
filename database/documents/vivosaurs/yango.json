@@ -1,0 +1,74 @@
+{
+    "num": 52,
+    "element": "Fire",
+    "name": "Yango",
+    "class": "Mid-Range",
+    "description": "Yango has fast-growing support effects, so place it in the SZ and blast away with its excite-inducing Fire Spines",
+    "sprite": "images/sprites/Yango_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 61,
+        "DEF": 29,
+        "ACC": 47,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Spike Tail",
+            "baseDamage": 14,
+            "fpCost": 50
+        },
+        {
+            "name": "Whirling Dash",
+            "baseDamage": 28,
+            "fpCost": 100
+        },
+        {
+            "name": "Fire Spines",
+            "fpCost": 120,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Fire Storm",
+            "baseDamage": 35,
+            "fpCost": 170,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 40,
+        "SPE": 10
+    },
+    "misc": {
+        "genus": "Huayangosaurus",
+        "group": "Stegosaurs",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["China"]
+    }
+}

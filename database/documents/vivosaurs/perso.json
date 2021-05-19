@@ -1,0 +1,70 @@
+{
+    "num": 47,
+    "element": "Earth",
+    "name": "Perso",
+    "class": "Long-Range",
+    "description": "A Long-Range vivosaur with top-class LP, Perso can learn Clear the Path for big FP boosts",
+    "sprite": "images/sprites/Perso_Battle.png",
+    "stats": {
+        "LP": 720,
+        "ATT": 72,
+        "DEF": 35,
+        "ACC": 38,
+        "SPE": 12
+    },
+    "skills": [
+        {
+            "name": "Siege Tower",
+            "baseDamage": 38,
+            "fpCost": 150
+        },
+        {
+            "name": "Awesome Presence",
+            "baseDamage": 63,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Earth Crush",
+            "baseDamage": 75,
+            "fpCost": 300            
+        },
+        {
+            "name": "Clear the Path",
+            "baseDamage": 1,
+            "fpCost": 80,
+            "effect": {
+                "description": "Steal 180 FP",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Culture Shock",
+            "baseDamage": 95,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -10,
+        "DEF": -10
+    },
+    "misc": {
+        "genus": "Supersaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 105,
+            "meters": 32,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

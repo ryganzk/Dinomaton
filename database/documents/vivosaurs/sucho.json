@@ -60,7 +60,11 @@
         "genus": "Suchomimus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "36 ft. - 11 m. (Large)",
+        "length": {
+            "feet": 36,
+            "meters": 11,
+            "overall": "Large"
+        },
         "diet": "Carnivore",
         "discovered": ["Niger"]
     }

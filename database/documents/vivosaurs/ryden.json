@@ -1,0 +1,64 @@
+{
+    "num": 44,
+    "element": "Neutral",
+    "name": "Ryden",
+    "class": "Long-Range",
+    "description": "A super evolver suited to tormenting the enemy team, Ryden's skills include Power Scale for stealing FP and a rotation skill that can wreck enemy formations",
+    "sprite": "images/sprites/Ryden_Battle.png",
+    "stats": {
+        "LP": 620,
+        "ATT": 71,
+        "DEF": 25,
+        "ACC": 39,
+        "SPE": 4
+    },
+    "skills": [
+        {
+            "name": "Ryden Rage",
+            "baseDamage": 38,
+            "fpCost": 160,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Ryden Wrath",
+            "baseDamage": 80,
+            "fpCost": 250
+        },
+        {
+            "name": "Ryden Rumble",
+            "baseDamage": 105,
+            "fpCost": 410          
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Ryden Bolt",
+            "baseDamage": 184,
+            "fpCost": 890,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "ACC": 10
+    },
+    "misc": {
+        "properName": "Rydentrodon",
+        "length": {
+            "feet": 82,
+            "meters": 25,
+            "overall": "Titanic"
+        }
+    }
+}

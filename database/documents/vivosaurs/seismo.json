@@ -1,0 +1,67 @@
+{
+    "num": 48,
+    "element": "Earth",
+    "name": "Seismo",
+    "class": "Long-Range",
+    "description": "Top-class LP and Auto LP Recovery make Seismo a solid guard",
+    "sprite": "images/sprites/Seismo_Battle.png",
+    "stats": {
+        "LP": 700,
+        "ATT": 75,
+        "DEF": 29,
+        "ACC": 40,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Seismo Stomp",
+            "baseDamage": 36,
+            "fpCost": 150
+        },
+        {
+            "name": "Tremor Tail",
+            "baseDamage": 60,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Earth Crush",
+            "baseDamage": 75,
+            "fpCost": 300            
+        },
+        {
+            "name": "Continental Drift",
+            "baseDamage": 95,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }, 
+        {
+            "name": "Auto LP Recovery",
+            "effect": {
+                "description": "Recovers 1/20 of the vivosaur's max LP at the start of every turn"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": -10,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Seismosaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 108,
+            "meters": 32.9,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

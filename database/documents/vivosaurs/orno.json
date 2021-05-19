@@ -51,7 +51,11 @@
         "genus": "Ornithomimus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "10 ft. - 3 m. (Small)",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
         "diet": "Omnivore",
         "discovered": ["Canada", "USA"]
     }

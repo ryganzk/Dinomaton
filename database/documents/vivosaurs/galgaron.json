@@ -1,0 +1,69 @@
+{
+    "num": 57,
+    "element": "Water",
+    "name": "Galgaron",
+    "class": "Mid-Range",
+    "description": "Galgaron is a super evolver skilled in inflicting conditions on targets. As it grows, its support effect progressively boosts the Defense of allies in the AZ",
+    "sprite": "images/sprites/Galgaron_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 65,
+        "DEF": 48,
+        "ACC": 39,
+        "SPE": 5
+    },
+    "skills": [
+        {
+            "name": "Galgaron Tail",
+            "baseDamage": 40,
+            "fpCost": 150
+        },
+        {
+            "name": "Galgaron Grip",
+            "baseDamage": 78,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Galgaron Shot",
+            "baseDamage": 82,
+            "fpCost": 390,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Galgaron Blade",
+            "baseDamage": 158,
+            "fpCost": 710,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -10,
+        "DEF": 99,
+        "SPE": -10
+    },
+    "misc": {
+        "properName": "Galgaronosus",
+        "length": {
+            "feet": 43,
+            "meters": 13.1,
+            "overall": "Large"
+        }
+    }
+}

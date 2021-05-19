@@ -1,0 +1,73 @@
+{
+    "num": 45,
+    "element": "Earth",
+    "name": "Salto",
+    "class": "Long-Range",
+    "description": "The Long-Range-class Salto is strong against distant enemies. Add in the Auto Counter ability, and you have a vivosaur that's effective from any zone",
+    "sprite": "images/sprites/Brachio_Battle.png",
+    "stats": {
+        "LP": 560,
+        "ATT": 61,
+        "DEF": 36,
+        "ACC": 47,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Salto Crush",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Salto Combo",
+            "baseDamage": 27,
+            "fpCost": 100,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Shockwave",
+            "baseDamage": 50,
+            "fpCost": 180            
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Aftershock",
+            "baseDamage": 51,
+            "fpCost": 220,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 10
+    },
+    "misc": {
+        "genus": "Saltasaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 39,
+            "meters": 11.9,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Argentina"]
+    }
+}

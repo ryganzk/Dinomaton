@@ -62,7 +62,11 @@
         "genus": "Archaeopteryx",
         "group": "Theropods",
         "era": "Mesozoic Jurassic",
-        "length": "3 ft. - 0.9 m. (Small)",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
         "diet": "Carnivore",
         "discovered": ["Germany"]
     }

@@ -53,7 +53,11 @@
         "genus": "Cryophosaurus",
         "group": "Theropods",
         "era": "Mesozoic Jurassic",
-        "length": "26 ft. - 7.9 m. (Medium)",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
         "diet": "Carnivore",
         "discovered": ["Antarctica"]
     }

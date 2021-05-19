@@ -1,0 +1,75 @@
+{
+    "num": 51,
+    "element": "Air",
+    "name": "Stego",
+    "class": "Mid-Range",
+    "description": "Stego is a Mid-Range vivosaur with well-balanced attributes. It can also learn a powerful team skill that confuses all enemies",
+    "sprite": "images/sprites/Stego_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 65,
+        "DEF": 34,
+        "ACC": 45,
+        "SPE": 19
+    },
+    "skills": [
+        {
+            "name": "Spike Tail",
+            "baseDamage": 14,
+            "fpCost": 50
+        },
+        {
+            "name": "Whirling Dash",
+            "baseDamage": 28,
+            "fpCost": 100
+        },
+        {
+            "name": "Wind Spines",
+            "baseDamage": 42,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Wind Storm",
+            "baseDamage": 40,
+            "fpCost": 260,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 10
+    },
+    "misc": {
+        "genus": "Stegosaurus",
+        "group": "Stegosaurs",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

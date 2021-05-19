@@ -1,0 +1,64 @@
+{
+    "num": 49,
+    "element": "Neutral",
+    "name": "Apato",
+    "class": "Long-Range",
+    "description": "Although a powerful attacker from the SZ, learning Sacrifice will tend to push Apato into a healing role",
+    "sprite": "images/sprites/Apato_Battle.png",
+    "stats": {
+        "LP": 680,
+        "ATT": 64,
+        "DEF": 27,
+        "ACC": 45,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Mighty Stomp",
+            "baseDamage": 22,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Fly Swatter",
+            "baseDamage": 45,
+            "fpCost": 180
+        },
+        {
+            "name": "Earth Crush",
+            "baseDamage": 75,
+            "fpCost": 300            
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Voidquake",
+            "baseDamage": 92,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Apatosaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 81,
+            "meters": 24.7,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

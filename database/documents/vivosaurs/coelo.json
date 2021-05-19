@@ -59,7 +59,11 @@
         "genus": "Coelophysis",
         "group": "Theropods",
         "era": "Mesozoic Triassic",
-        "length": "10 ft. - 3 m. (Small)",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
         "diet": "Carnivore",
         "discovered": ["USA"]
     }

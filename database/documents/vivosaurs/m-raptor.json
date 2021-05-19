@@ -63,7 +63,11 @@
         "genus": "Microraptor",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "3 ft. - 0.9 m. (Small)",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
         "diet": "Carnivore",
         "discovered": ["China"]
     }

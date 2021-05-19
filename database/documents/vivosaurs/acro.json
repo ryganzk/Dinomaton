@@ -56,7 +56,11 @@
         "genus": "Acrocanthosaurus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "39 ft. - 11.9 m. (Large)",
+        "length": {
+            "feet": 39,
+            "meters": 11.9,
+            "overall": "Large"
+        },
         "diet": "Carnivore",
         "discovered": ["USA"]
     }

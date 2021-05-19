@@ -57,7 +57,11 @@
         "genus": "Neovenator",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "26 ft. - 7.9 m. (Medium)",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
         "diet": "Carnivore",
         "discovered": ["England"]
     }

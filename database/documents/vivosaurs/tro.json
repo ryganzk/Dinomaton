@@ -66,7 +66,11 @@
         "genus": "Troodon",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "6 ft. - 1.8 m. (Small)",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
         "diet": "Carnivore",
         "discovered": ["Canada", "USA"]
     }

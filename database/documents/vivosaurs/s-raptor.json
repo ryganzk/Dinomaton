@@ -57,7 +57,11 @@
         "genus": "Sinraptor",
         "group": "Theropods",
         "era": "Mesozoic Jurassic",
-        "length": "23 ft. - 7 m. (Medium)",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        },
         "diet": "Carnivore",
         "discovered": ["China"]
     }

@@ -57,7 +57,11 @@
         "genus": "Carcharodontosaurus",
         "group": "Theropods",
         "era": "Mesozoic Cretaceous",
-        "length": "42 ft. - 12.8 m. (Large)",
+        "length": {
+            "feet": 42,
+            "meters": 12.8,
+            "overall": "Large"
+        },
         "diet": "Carnivore",
         "discovered": ["Morocco", "Egypt"]
     }

@@ -61,6 +61,10 @@
     },
     "misc": {
         "properName": "Tyrannosaurus Lord",
-        "length": "49 ft. - 14.9 m. (Large)"
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        }
     }
 }

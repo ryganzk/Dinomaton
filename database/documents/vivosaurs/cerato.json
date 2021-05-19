@@ -59,7 +59,11 @@
         "genus": "Ceratosaurus",
         "group": "Theropods",
         "era": "Mesozoic Jurassic",
-        "length": "19 ft. - 5.8 m. (Medium)",
+        "length": {
+            "feet": 19,
+            "meters": 5.8,
+            "overall": "Medium"
+        },
         "diet": "Carnivore",
         "discovered": ["Tanzania", "USA"]
     }
