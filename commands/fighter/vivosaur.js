@@ -37,7 +37,7 @@ module.exports = {
 
         let embed = new Discord.MessageEmbed()
 
-        //Sets embed color and enoji to corresponding vivosaur element (emojis stored in images/emojis)
+        //Sets embed color and emoji to corresponding vivosaur element (emojis stored in images/emojis)
         //Note: you can change the emoji names below to whatever you want, but these are their default names
         switch (vivosaur.element) {
             case "Fire":
@@ -45,7 +45,7 @@ module.exports = {
                 var element = client.emojis.cache.find(emoji => emoji.name === "Fire_Medal");
                 break;
             case "Earth":
-                embed.setColor('YELLOW')
+                embed.setColor('GOLD')
                 var element = client.emojis.cache.find(emoji => emoji.name === "Earth_Medal");
                 break;
             case "Air":
@@ -122,7 +122,8 @@ module.exports = {
                 var discoveredString = `${discoveredString + vivosaur.misc.discovered[i]}, `;
             }
 
-            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}\n**Length:** ${vivosaur.misc.length}\n**Diet:** ${vivosaur.misc.diet}\n**Discovered:** ${discoveredString.substring(9, discoveredString.length - 2)}`;
+            var vivoLength = vivosaur.misc.length;
+            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}\n**Length:** ${vivoLength.feet} ft. - ${vivoLength.meters} m. (${vivoLength.overall})\n**Diet:** ${vivosaur.misc.diet}\n**Discovered:** ${discoveredString.substring(9, discoveredString.length - 2)}`;
             var goldFossilStatBonus = ``;
             var goldFossilLPBonus = ``;
         } else {
