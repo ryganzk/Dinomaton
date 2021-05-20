@@ -39,6 +39,12 @@
             "effect": {
                 "description": "Attack AZ + SZ"
             }
+        },
+        {
+            "name": "Parting Blow 1",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
+            }
         }
     ],
     "support": {
