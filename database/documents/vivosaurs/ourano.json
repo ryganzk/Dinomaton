@@ -1,0 +1,70 @@
+{
+    "num": 64,
+    "element": "Earth",
+    "name": "Ourano",
+    "class": "Close-Range",
+    "description": "It's an effective one-two punch! Use Ourano Combo to confuse the target, then Payback to set up a retaliation",
+    "sprite": "images/sprites/Ourano_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 70,
+        "DEF": 31,
+        "ACC": 48,
+        "SPE": 30
+    },
+    "skills": [
+        {
+            "name": "Fist Jab",
+            "baseDamage": 26,
+            "fpCost": 100
+        },
+        {
+            "name": "Igua Combo",
+            "baseDamage": 28,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Fist Flurry",
+            "baseDamage": 55,
+            "fpCost": 200
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Spirit Calling",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -7,
+        "DEF": -7,
+        "ACC": -7,
+        "SPE": -7
+    },
+    "misc": {
+        "genus": "Ouranosaurus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Nigeria"]
+    }
+}

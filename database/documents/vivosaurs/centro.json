@@ -1,0 +1,67 @@
+{
+    "num": 76,
+    "element": "Earth",
+    "name": "Centro",
+    "class": "Mid-Range",
+    "description": "Centro's high critical-hit rate and Parting Blow ability is tempered by its terrible Accuracy. A good supporting cast is critical for success",
+    "sprite": "images/sprites/Centro_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 65,
+        "DEF": 32,
+        "ACC": 6,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Running Smash",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Centro Combo",
+            "baseDamage": 36,
+            "fpCost": 90
+        },
+        {
+            "name": "Centro Fury",
+            "baseDamage": 54,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Centro Bomb",
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Centrosaurus",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 19,
+            "meters": 5.8,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

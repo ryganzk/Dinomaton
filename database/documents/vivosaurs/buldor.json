@@ -1,0 +1,69 @@
+{
+    "num": 78,
+    "element": "Earth",
+    "name": "Buldor",
+    "class": "Mid-Range",
+    "description": "As it grows, Buldor's support effects progressively boost the Accuracy of allies. However, they also equally slash their Speed",
+    "sprite": "images/sprites/Buldor_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 80,
+        "DEF": 40,
+        "ACC": 40,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Buldor Bash",
+            "baseDamage": 36,
+            "fpCost": 110
+        },
+        {
+            "name": "Buldor Batter",
+            "baseDamage": 65,
+            "fpCost": 200,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Buldor Missile",
+            "baseDamage": 100,
+            "fpCost": 430,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Stone Crusher",
+            "baseDamage": 160,
+            "fpCost": 680,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 99,
+        "SPE": -99
+    
+    },
+    "misc": {
+        "properName": "Buldorgerias",
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        }
+    }
+}

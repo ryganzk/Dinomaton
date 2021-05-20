@@ -1,0 +1,67 @@
+{
+    "num": 72,
+    "element": "Water",
+    "name": "Proto",
+    "class": "Close-Range",
+    "description": "Proto's strong support effects make it a good SZ candidate. However, it also learns Metamorphosis, which allows it to transforms into a powerful Tricera!",
+    "sprite": "images/sprites/Proto_Battle.png",
+    "stats": {
+        "LP": 220,
+        "ATT": 41,
+        "DEF": 11,
+        "ACC": 40,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Headlong Rush",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Double Rush",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Metamorphosis",
+            "fpCost": 120,
+            "effect": {
+                "description": "Transform into Tricera"
+            }
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Jagged Thunder",
+            "baseDamage": 26,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Sleep (team)",
+                "rate": 30
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 70,
+        "SPE": 70
+    },
+    "misc": {
+        "genus": "Protoceratops",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Mongolia", "China"]
+    }
+}

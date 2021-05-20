@@ -1,0 +1,57 @@
+{
+    "num": 70,
+    "element": "Fire",
+    "name": "Stygi",
+    "class": "Mid-Range",
+    "description": "Stygi has an unusually high critical hit rate. Team its low-FP skills with high-FP vivosaurs to take advantage of a well-balanced arsenal",
+    "sprite": "images/sprites/Stygi_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 43,
+        "DEF": 22,
+        "ACC": 45,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Fiendish Headbutt",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Fiendish Ram",
+            "baseDamage": 20,
+            "fpCost": 60
+        },
+        {
+            "name": "Fiendish Missile",
+            "baseDamage": 30,
+            "fpCost": 90
+        },
+        {
+            "name": "Fiendish Barrage",
+            "fpCost": 210,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 60
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -40,
+        "ACC": -60
+    },
+    "misc": {
+        "genus": "Stygimoloch",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

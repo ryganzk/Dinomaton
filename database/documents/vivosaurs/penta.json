@@ -1,0 +1,70 @@
+{
+    "num": 77,
+    "element": "Neutral",
+    "name": "Penta",
+    "class": "Mid-Range",
+    "description": "With both excite-inducing moves and ally-healing skills, Penta is a valuable ally to have in the SZ position",
+    "sprite": "images/sprites/Penta_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 70,
+        "DEF": 32,
+        "ACC": 40,
+        "SPE": 23
+    },
+    "skills": [
+        {
+            "name": "Leaping Gore",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Penta Combo",
+            "baseDamage": 31,
+            "fpCost": 110,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Penta Fury",
+            "baseDamage": 56,
+            "fpCost": 200
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Penta Bomb",
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Parting Blow 3",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Pentaceratops",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

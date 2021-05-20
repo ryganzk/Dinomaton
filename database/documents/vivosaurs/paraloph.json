@@ -1,0 +1,70 @@
+{
+    "num": 68,
+    "element": "Air",
+    "name": "Paraloph",
+    "class": "Close-Range",
+    "description": "Paraloph is an Air-type vivosaur that learns Payback. It can make counterattacking a major part of your battle strategy",
+    "sprite": "images/sprites/Paraloph_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 72,
+        "DEF": 25,
+        "ACC": 50,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Fist Jab",
+            "baseDamage": 26,
+            "fpCost": 100
+        },
+        {
+            "name": "Dino Uppercut",
+            "baseDamage": 39,
+            "fpCost": 150
+        },
+        {
+            "name": "Paraloph Rush",
+            "baseDamage": 57,
+            "fpCost": 220,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Spirit Calling",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 7,
+        "DEF": 7,
+        "ACC": 7,
+        "SPE": 7
+    },
+    "misc": {
+        "genus": "Parasaurolophus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 42,
+            "meters": 12.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

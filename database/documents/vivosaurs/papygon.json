@@ -1,0 +1,66 @@
+{
+    "num": 67,
+    "element": "Earth",
+    "name": "Papygon",
+    "class": "Mid-Range",
+    "description": "Papygon is a super evolver that can learn a strong confuse-inducing skill. Once it learns Sacrifice, it can heal allies in a pinch",
+    "sprite": "images/sprites/Papygon_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 75,
+        "DEF": 30,
+        "ACC": 45,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Papygon Scale",
+            "baseDamage": 40,
+            "fpCost": 160
+        },
+        {
+            "name": "Papygon Soar",
+            "baseDamage": 73,
+            "fpCost": 220
+        },
+        {
+            "name": "Papygon Dive",
+            "baseDamage": 95,
+            "fpCost": 420,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Papygon Immolation",
+            "baseDamage": 185,
+            "fpCost": 780,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 35,
+        "DEF": 25,
+        "ACC": -10,
+        "SPE": -20
+    },
+    "misc": {
+        "properName": "Papygonian",
+        "length": {
+            "feet": 43,
+            "meters": 13.1,
+            "overall": "Large"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "num": 75,
+    "element": "Fire",
+    "name": "Einio",
+    "class": "Mid-Range",
+    "description": "When fully raised, Einio's support effect can halve an enemy's Speed, so team it with critical-proficient AZ allies. If that wasn't enough, it also knows Parting Blow!",
+    "sprite": "images/sprites/Einio_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 61,
+        "DEF": 32,
+        "ACC": 41,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Running Smash",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Einio Combo",
+            "baseDamage": 28,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Einio Fury",
+            "baseDamage": 53,
+            "fpCost": 190
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Einio Tornado",
+            "baseDamage": 40,
+            "fpCost": 170,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": -25,
+        "SPE": -50
+    },
+    "misc": {
+        "genus": "Einiosaurus",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 19,
+            "meters": 5.8,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

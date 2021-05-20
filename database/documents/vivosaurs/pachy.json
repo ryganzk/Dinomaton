@@ -1,0 +1,57 @@
+{
+    "num": 69,
+    "element": "Earth",
+    "name": "Pachy",
+    "class": "Mid-Range",
+    "description": "Pachy is a Mid-Range vivosaur that can attack effectively from any zone. However, you'll want to take advantage of its superior support effects",
+    "sprite": "images/sprites/Pachy_Battle.png",
+    "stats": {
+        "LP": 360,
+        "ATT": 47,
+        "DEF": 25,
+        "ACC": 44,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Iron Headbutt",
+            "baseDamage": 17,
+            "fpCost": 50
+        },
+        {
+            "name": "Iron Ram",
+            "baseDamage": 33,
+            "fpCost": 100
+        },
+        {
+            "name": "Iron Missile",
+            "baseDamage": 50,
+            "fpCost": 150
+        },
+        {
+            "name": "Iron Barrage",
+            "fpCost": 220,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 90
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -60,
+        "DEF": -40
+    },
+    "misc": {
+        "genus": "Pachycephalosaurus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

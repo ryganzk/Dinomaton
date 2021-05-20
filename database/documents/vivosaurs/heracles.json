@@ -1,0 +1,66 @@
+{
+    "num": 73,
+    "element": "Water",
+    "name": "Heracles",
+    "class": "Mid-Range",
+    "description": "Heracles is a super evolver whose high Attack at low ranks makes it a trusty choice. Its low Speed, however, is somewhat distressing",
+    "sprite": "images/sprites/Heracles_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 88,
+        "DEF": 33,
+        "ACC": 37,
+        "SPE": 6
+    },
+    "skills": [
+        {
+            "name": "Heracles Blade",
+            "baseDamage": 40,
+            "fpCost": 120
+        },
+        {
+            "name": "Tricera Combo",
+            "baseDamage": 83,
+            "fpCost": 270,
+            "effect": {
+                "description": "Rotate",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Triple Threat",
+            "baseDamage": 120,
+            "fpCost": 430
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Tri-Torpedo",
+            "baseDamage": 170,
+            "fpCost": 850,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 60,
+        "DEF": -30,
+        "ACC": 20,
+        "SPE": -10
+    },
+    "misc": {
+        "properName": "Heracletius",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        }
+    }
+}

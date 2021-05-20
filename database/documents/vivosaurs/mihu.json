@@ -1,0 +1,73 @@
+{
+    "num": 79,
+    "element": "Neutral",
+    "name": "Mihu",
+    "class": "Mid-Range",
+    "description": "Mihu features both Parting Blow ability and a mighty team skill. Make sure to pair it with the right vivosaurs!",
+    "sprite": "images/sprites/Mihu_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 67,
+        "DEF": 32,
+        "ACC": 60,
+        "SPE": 24
+    },
+    "skills": [
+        {
+            "name": "Mihu Blade",
+            "baseDamage": 27,
+            "fpCost": 90
+        },
+        {
+            "name": "Mihu Combo",
+            "baseDamage": 48,
+            "fpCost": 180,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Mihu Fury",
+            "baseDamage": 81,
+            "fpCost": 270
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Mountainbolt",
+            "baseDamage": 100,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 60
+    },
+    "misc": {
+        "genus": "Mihunekisaurus",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Japan"]
+    }
+}

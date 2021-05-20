@@ -1,0 +1,57 @@
+{
+    "num": 71,
+    "element": "Air",
+    "name": "Goyo",
+    "class": "Mid-Range",
+    "description": "Goyo gains a team skill when matched with Pachy and Stygi. Its support effects weaken the Defense and Speed of enemies in the AZ",
+    "sprite": "images/sprites/Goyo_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 40,
+        "DEF": 25,
+        "ACC": 43,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Rock Head",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Rock Shot",
+            "baseDamage": 20,
+            "fpCost": 60
+        },
+        {
+            "name": "Rock Missile",
+            "baseDamage": 30,
+            "fpCost": 90
+        },
+        {
+            "name": "Rock Bombing",
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 90
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -60,
+        "SPE": -40
+    },
+    "misc": {
+        "genus": "Goyocephale",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Mongolia"]
+    }
+}

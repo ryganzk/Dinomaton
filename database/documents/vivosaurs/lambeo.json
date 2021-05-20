@@ -1,0 +1,66 @@
+{
+    "num": 65,
+    "element": "Fire",
+    "name": "Lambeo",
+    "class": "Close-Range",
+    "description": "Lambeo is a vivosaur with high Attack and LP. It can even learn a team skill that heals all allies",
+    "sprite": "images/sprites/Lambeeo_Battle.png",
+    "stats": {
+        "LP": 620,
+        "ATT": 90,
+        "DEF": 29,
+        "ACC": 47,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Sliding Ram",
+            "baseDamage": 25,
+            "fpCost": 100
+        },
+        {
+            "name": "Lambeo Combo",
+            "baseDamage": 38,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Counting Coup",
+            "baseDamage": 50,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Healing Hand",
+            "fpCost": 250,
+            "effect": {
+                "description": "Heals 100 LP (team)"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -10,
+        "DEF": -10,
+        "ACC": -10,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Lambeosaurus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "Mexico"]
+    }
+}

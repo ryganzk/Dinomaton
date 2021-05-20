@@ -1,0 +1,64 @@
+{
+    "num": 63,
+    "element": "Air",
+    "name": "Hibigon",
+    "class": "Close-Range",
+    "description": "A powerful super evolver. As it grows, Hibigon's support effects increasingly boost Attack and Accuracy ratings",
+    "sprite": "images/sprites/Hibigon_Battle.png",
+    "stats": {
+        "LP": 60,
+        "ATT": 63,
+        "DEF": 7,
+        "ACC": 46,
+        "SPE": 12
+    },
+    "skills": [
+        {
+            "name": "Hibi Headbutt",
+            "baseDamage": 42,
+            "fpCost": 110
+        },
+        {
+            "name": "Hibi Hustle",
+            "baseDamage": 75,
+            "fpCost": 230,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Hibi Howitzer",
+            "baseDamage": 90,
+            "fpCost": 360
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Hibi Hustle",
+            "baseDamage": 174,
+            "fpCost": 750,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 99,
+        "ACC": 99
+    },
+    "misc": {
+        "properName": "Hibiguanodon",
+        "length": {
+            "feet": 2,
+            "meters": 0.6,
+            "overall": "Small"
+        }
+    }
+}

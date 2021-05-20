@@ -1,0 +1,70 @@
+{
+    "num": 63,
+    "element": "Air",
+    "name": "Igua",
+    "class": "Close-Range",
+    "description": "A balanced mix of attributes makes Igua dependable. It can also learn a confuse skill that helps dictate the pace of battle",
+    "sprite": "images/sprites/Igua_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 65,
+        "DEF": 32,
+        "ACC": 48,
+        "SPE": 30
+    },
+    "skills": [
+        {
+            "name": "Fist Jab",
+            "baseDamage": 26,
+            "fpCost": 100
+        },
+        {
+            "name": "Igua Combo",
+            "baseDamage": 47,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Fist Flurry",
+            "baseDamage": 55,
+            "fpCost": 200
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Spirit Calling",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 7,
+        "DEF": 7,
+        "ACC": 7,
+        "SPE": 7
+    },
+    "misc": {
+        "genus": "Iguanodon",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Belgium", "Germany"]
+    }
+}

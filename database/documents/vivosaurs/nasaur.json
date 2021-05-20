@@ -1,0 +1,75 @@
+{
+    "num": 62,
+    "element": "Water",
+    "name": "Nasaur",
+    "class": "Mid-Range",
+    "description": "Nasaur can learn to use a low-FP team skill and features enemy-punishing support effects across all stats",
+    "sprite": "images/sprites/Nasaur_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 40,
+        "DEF": 14,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Leaping Snap",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Nasaur Combo",
+            "baseDamage": 18,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Toxic Chitter",
+            "baseDamage": 25,
+            "fpCost": 130,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Healing Chorus",
+            "fpCost": 480,
+            "effect": {
+                "description": "Heals the entire team for 200 LP"
+            }
+        },
+        {
+            "name": "Toxic Dream",
+            "baseDamage": 25,
+            "fpCost": 130,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 20
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15,
+        "DEF": -15,
+        "ACC": -15,
+        "SPE": -15
+    },
+    "misc": {
+        "genus": "Leaellynasaura",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Australia"]
+    }
+}

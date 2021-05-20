@@ -1,0 +1,74 @@
+{
+    "num": 73,
+    "element": "Water",
+    "name": "Tricera",
+    "class": "Mid-Range",
+    "description": "Tricera is an offensive threat whose support effect boosts the Attack of allies in the AZ. It also knows the Parting Blow ability",
+    "sprite": "images/sprites/Tricera_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 72,
+        "DEF": 36,
+        "ACC": 45,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Running Smash",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Tricera Combo",
+            "baseDamage": 52,
+            "fpCost": 180,
+            "effect": {
+                "description": "Rotate",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Triple Threat",
+            "baseDamage": 87,
+            "fpCost": 300
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Tri-Torpedo",
+            "baseDamage": 40,
+            "fpCost": 170,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 3",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Triceratops",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

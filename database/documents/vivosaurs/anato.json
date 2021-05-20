@@ -1,0 +1,67 @@
+{
+    "num": 67,
+    "element": "Earth",
+    "name": "Anato",
+    "class": "Mid-Range",
+    "description": "With a 100% confuse skill, Anato can be teamed with allies who know Payback to produce powerful counterstrikes",
+    "sprite": "images/sprites/Anato_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 65,
+        "DEF": 29,
+        "ACC": 46,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Flailing Blow",
+            "baseDamage": 18,
+            "fpCost": 70
+        },
+        {
+            "name": "Duck and Cover",
+            "baseDamage": 38,
+            "fpCost": 140
+        },
+        {
+            "name": "Discord",
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Chaos Song",
+            "baseDamage": 65,
+            "fpCost": 260,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": -10,
+        "SPE": -20
+    },
+    "misc": {
+        "genus": "Anatotitan",
+        "group": "Hadrosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 42,
+            "meters": 12.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

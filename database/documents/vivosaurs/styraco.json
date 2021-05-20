@@ -1,0 +1,71 @@
+{
+    "num": 74,
+    "element": "Air",
+    "name": "Styraco",
+    "class": "Mid-Range",
+    "description": "Due to its Parting Blow ability, Styraco is best used supporting AZ allies with high critical rates",
+    "sprite": "images/sprites/Styraco_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 63,
+        "DEF": 32,
+        "ACC": 40,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Leaping Gore",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Styraco Combo",
+            "baseDamage": 18,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Styraco Fury",
+            "baseDamage": 36,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Styraco Bomb",
+            "baseDamage": 40,
+            "fpCost": 170,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 50,
+        "SPE": 25
+    },
+    "misc": {
+        "genus": "Styracosaurus",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 19,
+            "meters": 5.8,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}

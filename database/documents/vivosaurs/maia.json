@@ -1,0 +1,69 @@
+{
+    "num": 66,
+    "element": "Fire",
+    "name": "Maia",
+    "class": "Mid-Range",
+    "description": "Maia can learn a variety of healing skills, making it useful in long, drawn-out battles",
+    "sprite": "images/sprites/Maia_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 59,
+        "DEF": 29,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Dainty Punch",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Null Song",
+            "fpCost": 50,
+            "effect": {
+                "description": "Cure entire team of all negative status effects"
+            }
+        },
+        {
+            "name": "Healing Song",
+            "fpCost": 90,
+            "effect": {
+                "description": "Heals a chosen ally for LP"
+            }
+        },
+        {
+            "name": "Healing Chorus",
+            "fpCost": 480,
+            "effect": {
+                "description": "Heals the entire team for 200 LP"
+            }
+        },
+        {
+            "name": "Song of Life",
+            "fpCost": 500,
+            "effect": {
+                "description": "Heals 250 LP (team)"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15,
+        "DEF": -15,
+        "ACC": -15,
+        "SPE": -15
+    },
+    "misc": {
+        "genus": "Maiasaura",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

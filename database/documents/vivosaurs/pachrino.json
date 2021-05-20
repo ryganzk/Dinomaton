@@ -1,0 +1,77 @@
+{
+    "num": 78,
+    "element": "Earth",
+    "name": "Pachrino",
+    "class": "Mid-Range",
+    "description": "Once it learns Pachrino Combo, it can rotate the enemy team. Also, Parting Blow makes Pachrino extra useful",
+    "sprite": "images/sprites/Pachrino_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 67,
+        "DEF": 32,
+        "ACC": 39,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Running Smash",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Pachrino Combo",
+            "baseDamage": 30,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Pachrino Fury",
+            "baseDamage": 60,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Pachrino Tornado",
+            "baseDamage": 40,
+            "fpCost": 170,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 40
+    },
+    "misc": {
+        "genus": "Pachyrhinosaurus",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada", "USA"]
+    }
+}
