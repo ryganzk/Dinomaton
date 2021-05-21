@@ -8,6 +8,10 @@ module.exports = async(client, message) => {
         //Halts if the message author is a bot
         if(message.author.bot) return;
 
+        if(!message.guild){
+            return message.channel.send("I DO NOT ANSWER PERSONALIZED MESSAGES, YOU MEAN NOTHING TO ME, SKREE!!!")
+        }
+
         //Gets the bot prefix from ../config.json
         let prefix = config.prefix;
 
