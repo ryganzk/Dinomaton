@@ -123,7 +123,7 @@ module.exports = {
         let msg = await message.channel.send(embed);
         
         //Adds reaction collectors if more than a single page exists
-        if(pages.length > 2) {
+        if(pages.length > 1) {
             await msg.react("⬅️");
             await msg.react("➡️");
 
