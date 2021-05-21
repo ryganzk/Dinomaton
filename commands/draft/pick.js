@@ -6,6 +6,7 @@ module.exports = {
     administrator: false,
 
     async execute(client, message, args) {
+        var skippedPick = false;
 
         //First off a draft needs to actually exist
         if (!(await client.data.findOngoing())) {
@@ -13,17 +14,32 @@ module.exports = {
             return;
         }
 
-        //The current draft needs to be ready for users to pick vivosaurs
-        if(!(await client.data.draftStatus(['picking vivosaurs']))) {
-            message.channel.send(`THE DRAFT ISN'T ACCEPTING VIVOSAUR SELECTIONS AT THIS TIME, SKREE!!!`);
-            return;
-        }
-
         let draft = await client.data.findOngoing();
 
-        if(draft.fighterList[draft.nextPickNum].id !== message.author.id) {
-            message.channel.send("PLEASE WAIT YOUR TURN TO PICK A VIVOSAUR, SKREE!!!");
+        //If we're still in picking phase...
+        if(draft.status === 'picking vivosaurs') {
+
+            //You need to wait your turn
+            if(draft.fighterList[draft.nextPickNum].id !== message.author.id) {
+                message.channel.send("PLEASE WAIT YOUR TURN TO PICK A VIVOSAUR, SKREE!!!");
+                return;
+            }
+
+        //If the draft hasn't started the picking process yet, you're not allowed to pick
+        } else if (draft.status === 'congregating') {
+            message.channel.send(`THE DRAFT ISN'T ACCEPTING VIVOSAUR SELECTIONS AT THIS TIME, SKREE!!!`);
             return;
+
+        //Oooo you must've skipped your original pick, this will be important later...
+        } else {
+            fighter = await client.data.getFighterDB(message.author.id);
+
+            //Will not let the user pick another vivosaur if they already hit the max amount
+            if(!fighter.currentDraft.takenSaurs.includes("-----") && fighter.currentDraft.takenSaurs.length >= draft.vivoNum) {
+                message.channel.send(`YOU'VE HIT THE MAXIMUM ALLOWED VIVOSAURS FOR THIS DRAFT, SKREE!!!`);
+                return;
+            }
+            skippedPick = true;
         }
 
         //User needs to actually specify a vivosaur to pick
@@ -56,8 +72,15 @@ module.exports = {
 
         //Now let's see if another user has already picked that vivosaur, and if that's false we're allowed to use it
         if(!fighterWithVivo) {
-            await client.data.giveDraftSaur(message.author.id, vivoName);
             message.channel.send(`<@${message.author.id}> HAS CHOSEN ${vivoName.toUpperCase()} FOR THE DRAFT, SKREE!!!`);
+
+            //Aha, you skipped your original chance to pick! All good, you got your saur, now get outta here >;(((
+            if(skippedPick) {
+                await client.data.replaceSkippedSaur(message.author.id, vivoName);
+                return;
+            }
+
+            await client.data.giveDraftSaur(message.author.id, vivoName);
 
             //We're gonna need the id's of the first and last fighters for the next few steps
             let firstFighter = await client.data.getFighterDB(draft.fighterList[0].id);
