@@ -12,6 +12,7 @@ client.events = new Discord.Collection();
 client.commands = new Discord.Collection();
 client.data = require('./database/mongodb.js');
 client.logger = require('./console/logger.js');
+client.timer = require('./console/timer.js');
 
 async function bootSequence() {
 
