@@ -2,5 +2,15 @@
     "bot-name": "Dinomaton V2.0",
     "token": "not telling ;)))",
     "prefix": "d!",
-    "mongoDB": "also not telling ;)))"
+    "mongoDB": "also not telling ;)))",
+    "emojis": {
+        "fireMedal": "Fire_Medal",
+        "earthMedal": "Earth_Medal",
+        "airMedal": "Air_Medal",
+        "waterMedal": "Water_Medal",
+        "neutralMedal": "Neutral_Medal",
+        "legendaryMedal": "Legendary_Medal"
+    },
+    "draftChannel": "general",
+    "pickTime": 10
 }
