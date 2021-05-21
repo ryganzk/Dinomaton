@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('../../config.json');
 
 module.exports = {
     name: 'pick',
@@ -100,6 +101,7 @@ module.exports = {
             } else if(firstFighter.currentDraft.takenSaurs.length === lastFighter.currentDraft.takenSaurs.length && firstFighter.currentDraft.takenSaurs.length === draft.vivoNum) {
                 await client.data.setDraftStatus(draft, 'regular season')
                 message.channel.send(`@everyone DRAFT PICKS ARE COMPLETE, AND WE WILL NOW TRANSITION INTO OUR REGULAR SEASON, SKREE!!!`);
+                await client.timer.stopPickInterval();
                 return;
 
             //Else they pick again
@@ -109,6 +111,8 @@ module.exports = {
             }
 
             message.channel.send(`IT IS NOW <@${draft.fighterList[draft.nextPickNum + index].id}>'S TURN TO PICK, SKREE!!!`);
+            await client.timer.stopPickInterval();
+            await client.timer.startPickInterval(client, config.pickTime);
 
         //The fact that you've come here means that you or someone else already has that vivosaur
         } else if (fighterWithVivo.id === message.author.id) {

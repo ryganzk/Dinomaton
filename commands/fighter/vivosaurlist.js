@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('../../config.json');
 
 module.exports = {
     name: 'vivosaurlist',
@@ -68,25 +69,25 @@ module.exports = {
             let vivosaur = vivosaurList[i];
 
             //Sets embed color and emoji to corresponding vivosaur element (emojis stored in images/emojis)
-            //Note: you might need to change emoji names here too
+            //You can change the names in ./config.json if you need to
             switch(vivosaur.element) {
                 case "Fire":
-                    var element = client.emojis.cache.find(emoji => emoji.name === "Fire_Medal");
+                    var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.fireMedal);
                     break;
                 case "Earth":
-                    var element = client.emojis.cache.find(emoji => emoji.name === "Earth_Medal");
+                    var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.earthMedal);
                     break;
                 case "Air":
-                    var element = client.emojis.cache.find(emoji => emoji.name === "Air_Medal");
+                    var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.airMedal);
                     break;
                 case "Water":
-                    var element = client.emojis.cache.find(emoji => emoji.name === "Water_Medal");
+                    var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.waterMedal);
                     break;
                 case "Neutral":
-                    var element = client.emojis.cache.find(emoji => emoji.name === "Neutral_Medal");
+                    var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.neutralMedal);
                     break;
                 case "Legendary":
-                    var element = client.emojis.cache.find(emoji => emoji.name === "Legendary_Medal");
+                    var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.legendaryMedal);
                     break;
             }
 

@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('../../config.json');
 
 module.exports = {
     name: 'vivosaur',
@@ -42,27 +43,27 @@ module.exports = {
         switch (vivosaur.element) {
             case "Fire":
                 embed.setColor('RED');
-                var element = client.emojis.cache.find(emoji => emoji.name === "Fire_Medal");
+                var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.fireMedal);
                 break;
             case "Earth":
                 embed.setColor('GOLD')
-                var element = client.emojis.cache.find(emoji => emoji.name === "Earth_Medal");
+                var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.earthMedal);
                 break;
             case "Air":
                 embed.setColor('GREEN');
-                var element = client.emojis.cache.find(emoji => emoji.name === "Air_Medal");
+                var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.airMedal);
                 break;
             case "Water":
                 embed.setColor('BLUE');
-                var element = client.emojis.cache.find(emoji => emoji.name === "Water_Medal");
+                var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.waterMedal);
                 break;
             case "Neutral":
                 embed.setColor('FFFFFE'); //Pure white cannot be set, so we have to make-do with the next closest thing: 99.9% white
-                var element = client.emojis.cache.find(emoji => emoji.name === "Neutral_Medal");
+                var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.neutralMedal);
                 break;
             case "Legendary":
-                embed.setColor('000001');
-                var element = client.emojis.cache.find(emoji => emoji.name === "Legendary_Medal");
+                embed.setColor('000001'); //Same old, we need to use 99.9% black
+                var element = client.emojis.cache.find(emoji => emoji.name === config.emojis.legendaryMedal);
                 break;
         }
 
