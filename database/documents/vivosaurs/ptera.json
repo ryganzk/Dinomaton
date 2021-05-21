@@ -1,0 +1,69 @@
+{
+    "num": 80,
+    "element": "Air",
+    "name": "Ptera",
+    "class": "Long-Range",
+    "description": "Ptera's frequent critcal hits are best used from the SZ, where its Speed-cutting support effect can come into play",
+    "sprite": "images/sprites/Ptera_Battle.png",
+    "stats": {
+        "LP": 320,
+        "ATT": 43,
+        "DEF": 11,
+        "ACC": 48,
+        "SPE": 27
+    },
+    "skills": [
+        {
+            "name": "Diving Thrust",
+            "baseDamage": 20,
+            "fpCost": 60
+        },
+        {
+            "name": "Double Rush",
+            "baseDamage": 26,
+            "fpCost": 80
+        },
+        {
+            "name": "Great Vortex",
+            "baseDamage": 34,
+            "fpCost": 120,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Blow Away",
+            "baseDamage": 22,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Cyclone Wing",
+            "fpCost": 170,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 90
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "SPE": -60
+    },
+    "misc": {
+        "genus": "Pteranodon",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

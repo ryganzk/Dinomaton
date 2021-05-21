@@ -415,6 +415,18 @@ module.exports.giveDraftSaur = async function(userID, vivosaur) {
     return fighter;
 }
 
+module.exports.replaceSkippedSaur = async function(userID, vivosaur) {
+    let fighter = await fightersDB.findOneAndUpdate(
+        { $and: [
+            { id: userID },
+            { 'currentDraft.takenSaurs': "-----" }
+        ]},        
+        { $set: { 'currentDraft.takenSaurs.$': vivosaur }}
+    );
+    return fighter;
+}
+
+
 /*------------ VIVOSAUR COMMANDS ------------*/
 
 module.exports.importVivosaurs = async function(dataArray) {

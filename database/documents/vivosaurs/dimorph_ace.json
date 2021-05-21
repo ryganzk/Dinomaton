@@ -1,0 +1,70 @@
+{
+    "num": 83,
+    "element": "Fire",
+    "name": "Dimorph Ace",
+    "class": "Long-Range",
+    "description": "Dimorph Ace is a super evolver adept at the use of enrage skills. Its support effects can sharply lower all enemy stats",
+    "sprite": "images/sprites/Dimorph_Ace_Battle.png",
+    "stats": {
+        "LP": 360,
+        "ATT": 73,
+        "DEF": 17,
+        "ACC": 50,
+        "SPE": 29
+    },
+    "skills": [
+        {
+            "name": "Dimorph Star",
+            "baseDamage": 25,
+            "fpCost": 70
+        },
+        {
+            "name": "Dimorph Somersault",
+            "baseDamage": 50,
+            "fpCost": 60,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Ignite Rage",
+            "baseDamage": 80,
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Firebird",
+            "baseDamage": 143,
+            "fpCost": 700,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -25,
+        "DEF": -25,
+        "ACC": -25,
+        "SPE": -25
+    },
+    "misc": {
+        "properName": "Dimorphaserius",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        }
+    }
+}

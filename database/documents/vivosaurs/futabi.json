@@ -1,0 +1,72 @@
+{
+    "num": 86,
+    "element": "Water",
+    "name": "Futabi",
+    "class": "Mid-Range",
+    "description": "Futabi develops excite skills as its core arsenal and reaches its full potential when teamed with specific vivosaurs",
+    "sprite": "images/sprites/Futabi_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 54,
+        "DEF": 25,
+        "ACC": 45,
+        "SPE": 23
+    },
+    "skills": [
+        {
+            "name": "Broadslide",
+            "baseDamage": 10,
+            "fpCost": 40
+        },
+        {
+            "name": "Winding Snap",
+            "baseDamage": 28,
+            "fpCost": 100,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Steer the Storm",
+            "baseDamage": 56,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Tidal Assault",
+            "baseDamage": 100,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -35,
+        "ACC": -35
+    },
+    "misc": {
+        "genus": "Futabasaurus",
+        "group": "Plesiosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 23,
+            "meters": 7,
+            "overall": "Medium"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Japan"]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "num": 87,
+    "element": "Water",
+    "name": "Kaishin",
+    "class": "Mid-Range",
+    "description": "A Mid-Range super evolver that learns enrage skills, Kaishin can also learn Law of the Jungle",
+    "sprite": "images/sprites/Kaishin_Battle.png",
+    "stats": {
+        "LP": 520,
+        "ATT": 77,
+        "DEF": 31,
+        "ACC": 40,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Kaishin Step",
+            "baseDamage": 32,
+            "fpCost": 110
+        },
+        {
+            "name": "Kaishin Thump",
+            "baseDamage": 66,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Kaishin Crash",
+            "baseDamage": 105,
+            "fpCost": 440,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Kaishin Strike",
+            "baseDamage": 165,
+            "fpCost": 750,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "DEF": -20,
+        "ACC": 20,
+        "SPE": -40
+    },
+    "misc": {
+        "properName": "Kaishinorasmus",
+        "length": {
+            "feet": 46,
+            "meters": 14,
+            "overall": "Large"
+        }
+    }
+}

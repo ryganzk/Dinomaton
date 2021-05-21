@@ -1,0 +1,74 @@
+{
+    "num": 95,
+    "element": "Water",
+    "name": "Paki",
+    "class": "Mid-Range",
+    "description": "Paki's Link ability is activated while in the SZ. Link attacks at no FP cost, which makes for economical battling",
+    "sprite": "images/sprites/Paki_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 61,
+        "DEF": 25,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Paki Fang",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Paki Kick",
+            "baseDamage": 24,
+            "fpCost": 80
+        },
+        {
+            "name": "Paki Combo",
+            "baseDamage": 45,
+            "fpCost": 150
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Icy Exhalation",
+            "fpCost": 160,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 80
+            }
+        },{
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15
+    },
+    "misc": {
+        "genus": "Pakicetus",
+        "group": "Cetaceans",
+        "era": "Cenozoic Paleogene",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Pakistan"]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "num": 91,
+    "element": "Water",
+    "name": "Brontoth",
+    "class": "Mid-Range",
+    "description": "A fast-growing vivosaur with low LP, Brontoth shows its true potential when teamed with Arsith and Elasmoth—where it gains a team skill that poisons all enemies",
+    "sprite": "images/sprites/Brontoth_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 56,
+        "DEF": 33,
+        "ACC": 48,
+        "SPE": 24
+    },
+    "skills": [
+        {
+            "name": "Ramming Horn",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Brontoth Combo",
+            "baseDamage": 18,
+            "fpCost": 60,
+            "effect": {
+                "description": "Rotate",
+                "effect": 70
+            }
+        },
+        {
+            "name": "Toxia Beam",
+            "baseDamage": 16,
+            "fpCost": 240,
+            "effect": {
+                "description": "Gold Poison",
+                "effect": 100
+            }
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Ruin Beam",
+            "fpCost": 160,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 15,
+        "DEF": 40
+    },
+    "misc": {
+        "genus": "Brontotherium",
+        "group": "Megacerops",
+        "era": "Cenozoic Paleogene",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

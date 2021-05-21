@@ -1,0 +1,79 @@
+{
+    "num": 99,
+    "element": "Air",
+    "name": "Megath",
+    "class": "Mid-Range",
+    "description": "Despite its appearance, Megath is surprisingly quick on its feet. It can also learn the powerful confuse skill Slow Fury",
+    "sprite": "images/sprites/Megath_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 32,
+        "DEF": 25,
+        "ACC": 45,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Slow Blow",
+            "baseDamage": 20,
+            "fpCost": 50
+        },
+        {
+            "name": "Slow Combo",
+            "baseDamage": 48,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Slow Fury",
+            "baseDamage": 88,
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Power Dive",
+            "baseDamage": 30,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "Parting Blow 3",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": -20,
+        "SPE": -20
+    },
+    "misc": {
+        "genus": "Megatherium",
+        "group": "Megatheriidae",
+        "era": "Cenozoic Quaternary",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["South America"]
+    }
+}

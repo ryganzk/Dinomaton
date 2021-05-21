@@ -1,0 +1,84 @@
+{
+    "num": 100,
+    "element": "Water",
+    "name": "Chelon",
+    "class": "Mid-Range",
+    "description": "Chelon knows the rare Position Lock ability, which prevents its team from being rotated. Its skills are also Counter-proof, which allows it to attack with impunity",
+    "sprite": "images/sprites/Chelon_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 54,
+        "DEF": 38,
+        "ACC": 45,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Aqua Blast",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Water Blade",
+            "baseDamage": 27,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Maelstrom",
+            "baseDamage": 36,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Ancient Waters",
+            "baseDamage": 30,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "Position Lock",
+            "effect": {
+                "description": "Prevents forced rotation by skills (excludes gold excite)"
+            }
+        },
+        {
+            "name": "Uncounterable",
+            "effect": {
+                "description": "All skills break through Counters"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -50
+    },
+    "misc": {
+        "genus": "Archelon",
+        "group": "Testudines",
+        "era": "Mozosoic Cretaceous",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

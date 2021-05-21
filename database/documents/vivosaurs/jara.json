@@ -1,0 +1,67 @@
+{
+    "num": 82,
+    "element": "Neutral",
+    "name": "Jara",
+    "class": "Long-Range",
+    "description": "Jara is a tactician's vivosaur that learns sleep and FP-thieving skills. It can be a key tool in engineering come-from-behind victories",
+    "sprite": "images/sprites/Jara_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 31,
+        "DEF": 11,
+        "ACC": 44,
+        "SPE": 29
+    },
+    "skills": [
+        {
+            "name": "Knockout Cry",
+            "baseDamage": 15,
+            "fpCost": 50,
+            "effect": {
+                "description": "Gold Sleep",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Distracting Cry",
+            "baseDamage": 25,
+            "fpCost": 100,
+            "effect": {
+                "description": "Steal 120 FP",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Spite Blast",
+            "fpCost": 200,
+            "effect": {
+                "description": "Reduce own LP to 1, dealing 180 damage"
+            }
+        },
+        {
+            "name": "Rubble Rain",
+            "fpCost": 380,
+            "effect": {
+                "description": "Gold Sleep (team)",
+                "rate": 30
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -50,
+        "SPE": -50
+    },
+    "misc": {
+        "genus": "Tapejara",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Brazil"]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "num": 98,
+    "element": "Earth",
+    "name": "Tryma",
+    "class": "Mid-Range",
+    "description": "Tryma can throw enemy tactics into disarray with Dirt Spray, Link, and Parting Blow",
+    "sprite": "images/sprites/Tryma_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 61,
+        "DEF": 20,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Paki Fang",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Paki Kick",
+            "baseDamage": 22,
+            "fpCost": 60
+        },
+        {
+            "name": "Dirt Spray",
+            "baseDamage": 38,
+            "fpCost": 120,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Boulder Spray",
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Parting Blow 1",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 9,
+        "DEF": 9,
+        "ACC": 9,
+        "SPE": 9
+    },
+    "misc": {
+        "genus": "Diatryma",
+        "group": "Gastornithidae",
+        "era": "Cenozoic Paleogene",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

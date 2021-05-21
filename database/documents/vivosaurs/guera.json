@@ -1,0 +1,68 @@
+{
+    "num": 84,
+    "element": "Neutral",
+    "name": "Guera",
+    "class": "Long-Range",
+    "description": "Guera learns sleep and zone-rotation skills that interfere with enemy tactics. It also packs good support effects",
+    "sprite": "images/sprites/Guera_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 31,
+        "DEF": 11,
+        "ACC": 45,
+        "SPE": 28
+    },
+    "skills": [
+        {
+            "name": "Knockout Cry",
+            "baseDamage": 15,
+            "fpCost": 50,
+            "effect": {
+                "description": "Gold Sleep",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Distracting Cry",
+            "baseDamage": 30,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Spite Blast",
+            "fpCost": 200,
+            "effect": {
+                "description": "Reduce own LP to 1, dealing 180 damage"
+            }
+        },
+        {
+            "name": "Flame Bazooka",
+            "baseDamage": 53,
+            "fpCost": 350,
+            "effect": {
+                "description": "Silver Sleep (team)",
+                "rate": 50
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -50,
+        "ACC": -50
+    },
+    "misc": {
+        "genus": "Anhanguera",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Brazil"]
+    }
+}

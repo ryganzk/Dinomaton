@@ -1,0 +1,72 @@
+{
+    "num": 93,
+    "element": "Air",
+    "name": "Hoplo",
+    "class": "Mid-Range",
+    "description": "Place Hoplo in the SZ to take advantage of its FP Plus ability, powerful support effects, and great Speed",
+    "sprite": "images/sprites/Hoplo_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 59,
+        "DEF": 25,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Hoplo Fang",
+            "baseDamage": 5,
+            "fpCost": 20
+        },
+        {
+            "name": "Hoplo Kick",
+            "baseDamage": 13,
+            "fpCost": 50
+        },
+        {
+            "name": "Phobia Beam",
+            "baseDamage": 27,
+            "fpCost": 100
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Evasion Rate",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Wild Crush",
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 90
+            }
+        },
+        {
+            "name": "FP Plus 2",
+            "effect": {
+                "description": "FP recharge is boosted by 20%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 50,
+        "DEF": -10,
+        "ACC": 50
+    },
+    "misc": {
+        "genus": "Hoplophoneus",
+        "group": "Nimravidae",
+        "era": "Cenozoic Paleogene",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

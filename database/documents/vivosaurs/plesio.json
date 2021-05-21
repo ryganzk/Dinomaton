@@ -1,0 +1,72 @@
+{
+    "num": 88,
+    "element": "Water",
+    "name": "Plesio",
+    "class": "Mid-Range",
+    "description": "Over time, Plesio gains expertise in poison skills and even learns a team skill that infects all enemies",
+    "sprite": "images/sprites/Plesio_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 41,
+        "DEF": 25,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Darting Blur",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Winding Snap",
+            "baseDamage": 22,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Steer the Storm",
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Tidal Assault",
+            "fpCost": 170,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 60
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20,
+        "DEF": 20,
+        "ACC": 20
+    },
+    "misc": {
+        "genus": "Plesiosaurus",
+        "group": "Pliosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 16,
+            "meters": 4.9,
+            "overall": "Medium"
+        },
+        "diet": "Carnivore",
+        "discovered": ["England"]
+    }
+}

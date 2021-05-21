@@ -1,0 +1,70 @@
+{
+    "num": 86,
+    "element": "Water",
+    "name": "Momo",
+    "class": "Mid-Range",
+    "description": "When fully raised, Momo's support effects can slash the stats of AZ enemies in half. Just keep an eye on this super evolver's low LP.",
+    "sprite": "images/sprites/Momo_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 56,
+        "DEF": 7,
+        "ACC": 47,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Momo Torque",
+            "baseDamage": 32,
+            "fpCost": 120
+        },
+        {
+            "name": "Momo Mash",
+            "baseDamage": 59,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Momo Muddle",
+            "baseDamage": 82,
+            "fpCost": 340,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Bubble Breath",
+            "baseDamage": 200,
+            "fpCost": 800,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -45,
+        "DEF": -45,
+        "ACC": -45,
+        "SPE": -45
+    },
+    "misc": {
+        "properName": "Momoplesiosaur",
+        "length": {
+            "feet": 2,
+            "meters": 0.6,
+            "overall": "Small"
+        }
+    }
+}

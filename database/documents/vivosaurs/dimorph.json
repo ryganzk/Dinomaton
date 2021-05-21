@@ -1,0 +1,75 @@
+{
+    "num": 83,
+    "element": "Fire",
+    "name": "Dimorph",
+    "class": "Long-Range",
+    "description": "Although effective with its enrage skills, Dimorph is most notable for its enemy-hampering support effects",
+    "sprite": "images/sprites/Dimorph_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 47,
+        "DEF": 11,
+        "ACC": 50,
+        "SPE": 29
+    },
+    "skills": [
+        {
+            "name": "Fiery Dive",
+            "baseDamage": 6,
+            "fpCost": 20
+        },
+        {
+            "name": "Distracting Cry",
+            "baseDamage": 18,
+            "fpCost": 60,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Ignite Rage",
+            "baseDamage": 30,
+            "fpCost": 100,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Flame Bazooka",
+            "baseDamage": 53,
+            "fpCost": 280,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 30
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -35,
+        "DEF": -35,
+        "ACC": -35,
+        "SPE": -35
+    },
+    "misc": {
+        "genus": "Dimorphodon",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["England"]
+    }
+}

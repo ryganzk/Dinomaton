@@ -1,0 +1,72 @@
+{
+    "num": 89,
+    "element": "Water",
+    "name": "Shoni",
+    "class": "Mid-Range",
+    "description": "While its Elemental Boost is full of potential, Shoni is hampered by slow development. Use in battle only after achieving sufficient rank",
+    "sprite": "images/sprites/Shoni_Battle.png",
+    "stats": {
+        "LP": 640,
+        "ATT": 66,
+        "DEF": 25,
+        "ACC": 35,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Torpedo Attack",
+            "baseDamage": 26,
+            "fpCost": 110
+        },
+        {
+            "name": "Snapping Jaws",
+            "baseDamage": 48,
+            "fpCost": 200
+        },
+        {
+            "name": "Whirlpool",
+            "baseDamage": 70,
+            "fpCost": 300
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Ocean Pulse",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 5,
+        "DEF": 5,
+        "ACC": 5,
+        "SPE": 5
+    },
+    "misc": {
+        "genus": "Shonisaurus",
+        "group": "Icthyosaurs",
+        "era": "Mesozoic Triassic",
+        "length": {
+            "feet": 62,
+            "meters": 18.9,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA", "England"]
+    }
+}

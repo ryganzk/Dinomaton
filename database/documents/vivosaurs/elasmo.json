@@ -1,0 +1,73 @@
+{
+    "num": 87,
+    "element": "Water",
+    "name": "Elasmo",
+    "class": "Mid-Range",
+    "description": "Powerful even at low ranks, Elasmo exhibits equal power from the AZ or SZ, making it a versatile and dependable ally",
+    "sprite": "images/sprites/Elasmo_Battle.png",
+    "stats": {
+        "LP": 520,
+        "ATT": 72,
+        "DEF": 29,
+        "ACC": 40,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Elasmo Tackle",
+            "baseDamage": 12,
+            "fpCost": 50
+        },
+        {
+            "name": "Winding Snap",
+            "baseDamage": 31,
+            "fpCost": 130,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Steer the Storm",
+            "baseDamage": 63,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Tidal Assault",
+            "baseDamage": 62,
+            "fpCost": 300,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 50
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20,
+        "ACC": 20
+    },
+    "misc": {
+        "genus": "Elasmosaurus",
+        "group": "Plesiosauria",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 42,
+            "meters": 12.8,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

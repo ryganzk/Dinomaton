@@ -1,0 +1,76 @@
+{
+    "num": 97,
+    "element": "Water",
+    "name": "Mammoth",
+    "class": "Mid-Range",
+    "description": "Mammoth can give LP to allies using Sacrifice, then recover it with the LP Recovery ability. Now that's handy!",
+    "sprite": "images/sprites/Mammoth_Battle.png",
+    "stats": {
+        "LP": 380,
+        "ATT": 59,
+        "DEF": 37,
+        "ACC": 40,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Trunk Lash",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Mammoth Combo",
+            "baseDamage": 20,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Mammoth Cannon",
+            "baseDamage": 30,
+            "fpCost": 120
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Glacial Barrage",
+            "fpCost": 390,
+            "effect": {
+                "description": "Gold Sleep (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Auto LP Recovery 2",
+            "effect": {
+                "description": "Recovers 10% of the vivosaur's max LP at the start of every turn"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 10,
+        "ACC": 10,
+        "SPE": 10
+    },
+    "misc": {
+        "genus": "Mammuthus",
+        "group": "Elephantidae",
+        "era": "Cenozoic Quaternary",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Russia", "Japan"]
+    }
+}

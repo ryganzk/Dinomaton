@@ -1,0 +1,64 @@
+{
+    "num": 96,
+    "element": "Fire",
+    "name": "Smilo",
+    "class": "Mid-Range",
+    "description": "With FP Plus and amazing support effects, Smilo is the only vivosaur that can add 90% to an ally's Defense and Speed",
+    "sprite": "images/sprites/Smilo_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 61,
+        "DEF": 25,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Smile Rage",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Smilo Kick",
+            "baseDamage": 21,
+            "fpCost": 80
+        },
+        {
+            "name": "Smilo Rage",
+            "baseDamage": 47,
+            "fpCost": 160
+        },
+        {
+            "name": "Rattling Sabers",
+            "fpCost": 340,
+            "effect": {
+                "description": "Silver Sleep (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "FP Plus 1",
+            "effect": {
+                "description": "FP recharge is boosted by 10%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -10,
+        "DEF": 90,
+        "SPE": 90
+    },
+    "misc": {
+        "genus": "Smilodon",
+        "group": "Felidae",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

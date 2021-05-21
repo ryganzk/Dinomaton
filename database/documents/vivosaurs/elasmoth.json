@@ -1,0 +1,78 @@
+{
+    "num": 92,
+    "element": "Air",
+    "name": "Elasmoth",
+    "class": "Mid-Range",
+    "description": "The Parting Blow ability gives Elasmoth a power boost when it's faced with defeat. It ain't over 'til it's over!",
+    "sprite": "images/sprites/Elasmoth_Battle.png",
+    "stats": {
+        "LP": 320,
+        "ATT": 59,
+        "DEF": 32,
+        "ACC": 46,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Ramming Horn",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Elasmoth Combo",
+            "baseDamage": 24,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "effect": 70
+            }
+        },
+        {
+            "name": "Phobia Beam",
+            "baseDamage": 48,
+            "fpCost": 160,
+            "effect": {
+                "description": "Gold Scare",
+                "effect": 70
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Ruin Beam",
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "SPE": 15
+    },
+    "misc": {
+        "genus": "Elasmotherium",
+        "group": "Rhinoceros",
+        "era": "Cenozoic Quaternary",
+        "length": {
+            "feet": 16,
+            "meters": 4.9,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Russia"]
+    }
+}

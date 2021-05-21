@@ -1,0 +1,60 @@
+{
+    "num": 85,
+    "element": "Water",
+    "name": "Krona",
+    "class": "Long-Range",
+    "description": "A large Water-type vivosaur that's effective when attacking from long range. It's a rival to the Fire-type T-Rex",
+    "sprite": "images/sprites/Krona_Battle.png",
+    "stats": {
+        "LP": 620,
+        "ATT": 85,
+        "DEF": 25,
+        "ACC": 36,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Krona Bite",
+            "baseDamage": 24,
+            "fpCost": 100
+        },
+        {
+            "name": "Snapping Jaws",
+            "baseDamage": 48,
+            "fpCost": 200
+        },
+        {
+            "name": "Whirlpool",
+            "baseDamage": 70,
+            "fpCost": 300
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Waterspout",
+            "baseDamage": 88,
+            "fpCost": 380,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Kronosaurus",
+        "group": "Pliosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 46,
+            "meters": 14,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Australia"]
+    }
+}

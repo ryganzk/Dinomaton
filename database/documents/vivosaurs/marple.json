@@ -1,0 +1,70 @@
+{
+    "num": 88,
+    "element": "Water",
+    "name": "Marple",
+    "class": "Mid-Range",
+    "description": "Marple's support effects can strongly enhance the stats of allies in the AZ. Just keep an eye on its low LP",
+    "sprite": "images/sprites/Marple_Battle.png",
+    "stats": {
+        "LP": 50,
+        "ATT": 49,
+        "DEF": 6,
+        "ACC": 52,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Rat-a-Tat",
+            "baseDamage": 28,
+            "fpCost": 90
+        },
+        {
+            "name": "Marple Mash",
+            "baseDamage": 55,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Marple Tox",
+            "baseDamage": 80,
+            "fpCost": 330,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Ice Bullets",
+            "baseDamage": 170,
+            "fpCost": 680,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 60,
+        "DEF": 60,
+        "ACC": 60,
+        "SPE": 60
+    },
+    "misc": {
+        "properName": "Marplesiosaur",
+        "length": {
+            "feet": 2,
+            "meters": 0.6,
+            "overall": "Small"
+        }
+    }
+}

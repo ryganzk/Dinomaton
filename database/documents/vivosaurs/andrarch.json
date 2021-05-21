@@ -1,0 +1,74 @@
+{
+    "num": 94,
+    "element": "Fire",
+    "name": "Andrarch",
+    "class": "Mid-Range",
+    "description": "Andrarch's Link ability allows it to chain blows together with teammates' attacks. A high critical rate is icing on the cake",
+    "sprite": "images/sprites/Andrarch_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 65,
+        "DEF": 25,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Dire Fang",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Dire Combo",
+            "baseDamage": 24,
+            "fpCost": 80
+        },
+        {
+            "name": "Dire Fury",
+            "baseDamage": 45,
+            "fpCost": 150
+        },
+        {
+            "name": "Super Enflame",
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack +40, Defense -10"
+            }
+        },
+        {
+            "name": "Wild Fire",
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 90
+            }
+        },{
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15
+    },
+    "misc": {
+        "genus": "Andrewsarchus",
+        "group": "Artiodactyla",
+        "era": "Cenozoic Tertiary",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Mongolia", "China"]
+    }
+}

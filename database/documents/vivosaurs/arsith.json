@@ -1,0 +1,78 @@
+{
+    "num": 90,
+    "element": "Earth",
+    "name": "Arsith",
+    "class": "Mid-Range",
+    "description": "Arsith can learn powerful sleep skills and boasts impressive support effects. Its full potential is realized while in the SZ",
+    "sprite": "images/sprites/Arsith_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 55,
+        "DEF": 39,
+        "ACC": 42,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Ramming Horn",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Arsith Combo",
+            "baseDamage": 21,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "effect": 70
+            }
+        },
+        {
+            "name": "Somnia Beam",
+            "baseDamage": 48,
+            "fpCost": 160,
+            "effect": {
+                "description": "Gold Sleep",
+                "effect": 70
+            }
+        },
+        {
+            "name": "Super Enflame",
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack +40, Defense -10"
+            }
+        },
+        {
+            "name": "Ruin Beam",
+            "fpCost": 400,
+            "effect": {
+                "description": "Gold Sleep (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 40,
+        "ACC": 15
+    },
+    "misc": {
+        "genus": "Arsinotherium",
+        "group": "Rhinoceros",
+        "era": "Mesozoic Triassic",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Egypt", "Turkey"]
+    }
+}
