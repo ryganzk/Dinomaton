@@ -29,7 +29,7 @@
             "name": "Healing Song",
             "fpCost": 90,
             "effect": {
-                "description": "Heals a chosen ally for LP"
+                "description": "Heals a chosen ally for 120 LP"
             }
         },
         {
