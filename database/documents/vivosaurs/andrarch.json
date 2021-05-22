@@ -42,7 +42,8 @@
                 "description": "Silver Enrage (team)",
                 "rate": 90
             }
-        },{
+        },
+        {
             "name": "Parting Blow 2",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
