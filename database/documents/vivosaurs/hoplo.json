@@ -32,8 +32,7 @@
             "name": "Quicken",
             "fpCost": 15,
             "effect": {
-                "description": "Evasion Rate",
-                "rate": 30
+                "description": "Speed +30%"
             }
         },
         {
