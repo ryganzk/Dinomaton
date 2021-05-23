@@ -128,7 +128,7 @@ module.exports = {
             var goldFossilStatBonus = ``;
             var goldFossilLPBonus = ``;
         } else {
-            var desc3 = `**Proper Name:** ${vivosaur.misc.properName}\n**Length:** ${vivosaur.misc.length}`;
+            var desc3 = `**Proper Name:** ${vivosaur.misc.properName}\n**Length:** ${vivoLength.feet} ft. - ${vivoLength.meters} m. (${vivoLength.overall})`;
             var goldFossilStatBonus = ` (+5)`;
             var goldFossilLPBonus = ` (+100)`;
         }
