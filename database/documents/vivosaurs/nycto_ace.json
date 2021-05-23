@@ -1,0 +1,66 @@
+{
+    "num": 123,
+    "element": "Air",
+    "name": "Nycto Ace",
+    "class": "Long-Range",
+    "description": "As a Long-Range attacker, Nycto Ace should manipulate the enemy's formation with its rotation skill, then use its LP-stealing attack from the SZ",
+    "sprite": "images/sprites/Nycto_Ace_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 69,
+        "DEF": 21,
+        "ACC": 55,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Nycto Star",
+            "baseDamage": 41,
+            "fpCost": 140
+        },
+        {
+            "name": "Nycto Somersault",
+            "baseDamage": 58,
+            "fpCost": 180
+        },
+        {
+            "name": "Nycto Wave",
+            "baseDamage": 82,
+            "fpCost": 330,
+            "effect": {
+                "description": "Recover LP equal to amount of damage dealt",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Nycto Hurricane",
+            "baseDamage": 100,
+            "fpCost": 400,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Nycto Typhoon",
+            "baseDamage": 140,
+            "fpCost": 680,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "ACC": 20
+    },
+    "misc": {
+        "genus": "Nyctoaserius",
+        "length": {
+            "feet": 33,
+            "meters": 6.7,
+            "overall": "Large"
+        }
+    }
+}

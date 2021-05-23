@@ -1,0 +1,76 @@
+{
+    "num": 147,
+    "element": "Earth",
+    "name": "Terata",
+    "class": "Mid-Range",
+    "description": "Terata is the rare vivosaur that enters battle with Quicken applied. As it grows, it will provide team members with strong support effects across the board",
+    "sprite": "images/sprites/Terata_Battle.png",
+    "stats": {
+        "LP": 200,
+        "ATT": 35,
+        "DEF": 20,
+        "ACC": 45,
+        "SPE": 17
+    },
+    "skills": [
+        {
+            "name": "Terata Wrath",
+            "baseDamage": 10,
+            "fpCost": 40
+        },
+        {
+            "name": "Terata Katana",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Meteor Strike",
+            "baseDamage": 56,
+            "fpCost": 240,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Healing Chorus",
+            "fpCost": 480,
+            "effect": {
+                "description": "Heals the entire team for 200 LP"
+            }
+        },
+        {
+            "name": "Terata Special",
+            "baseDamage": 35,
+            "fpCost": 150,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Quicken Plus",
+            "effect": {
+                "description": "Enters battle with Quicken applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "DEF": 20,
+        "ACC": 20,
+        "SPE": 40
+    },
+    "misc": {
+        "genus": "Terataspis",
+        "group": "Trilobites",
+        "era": "Paleozoic Devonian",
+        "length": {
+            "feet": 2,
+            "meters": 0.6,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Spain", "Canada"]
+    }
+}

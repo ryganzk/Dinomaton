@@ -1,0 +1,76 @@
+{
+    "num": 127,
+    "element": "Fire",
+    "name": "Macahi",
+    "class": "Mid-Range",
+    "description": "With strong support effects and a condition-lifting skill, Machai makes a good addition to any team. The Link ability adds to its effectiveness",
+    "sprite": "images/sprites/Machai_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 65,
+        "DEF": 24,
+        "ACC": 43,
+        "SPE": 27
+    },
+    "skills": [
+        {
+            "name": "Machai Fang",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Machai Twist",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Machai Rend",
+            "baseDamage": 29,
+            "fpCost": 180,
+            "effect": {
+                "description": "Steal 120 FP",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Wild Wheeze",
+            "baseDamage": 30,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 50,
+        "ACC": -10,
+        "SPE": 50
+    },
+    "misc": {
+        "genus": "Machairodus",
+        "group": "Felidae",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 8,
+            "meters": 2.4,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

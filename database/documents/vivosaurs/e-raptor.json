@@ -1,0 +1,71 @@
+{
+    "num": 109,
+    "element": "Neutral",
+    "name": "E-Raptor",
+    "class": "Mid-Range",
+    "description": "E-Raptor is a master of vexing skills including condition afflictions and FP thievery. Its support effects also cut enemy Attack and Defense stats",
+    "sprite": "images/sprites/E-Raptor_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 48,
+        "DEF": 21,
+        "ACC": 45,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "E-Ram",
+            "baseDamage": 11,
+            "fpCost": 40
+        },
+        {
+            "name": "E-Rip",
+            "baseDamage": 1,
+            "fpCost": 100,
+            "effect": {
+                "description": "Steal 300 FP",
+                "rate": 33
+            }
+        },
+        {
+            "name": "Random Cutter",
+            "fpCost": 230,
+            "effect": {
+                "description": "Inflict random negative status effects"
+            }
+        },
+        {
+            "name": "E-Bomb",
+            "fpCost": 200,
+            "effect": {
+                "description": "Infection",
+                "rate": 60
+            }
+        },
+        {
+            "name": "E-Cutter",
+            "baseDamage": 37,
+            "fpCost": 160,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -20,
+        "DEF": -20
+    },
+    "misc": {
+        "genus": "Eoraptor",
+        "group": "Sauropods",
+        "era": "Mesozoic Triassic",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Argentina"]
+    }
+}

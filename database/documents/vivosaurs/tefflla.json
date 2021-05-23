@@ -1,0 +1,60 @@
+{
+    "num": 101,
+    "element": "Air",
+    "name": "Teffla",
+    "class": "Close-Range",
+    "description": "Despite its appearance, Teffla can use Law of the Jungle. Its Teffla Dive is not only vicious, it can also excite the target",
+    "sprite": "images/sprites/Teffla_Battle.png",
+    "stats": {
+        "LP": 520,
+        "ATT": 92,
+        "DEF": 33,
+        "ACC": 31,
+        "SPE": 23
+    },
+    "skills": [
+        {
+            "name": "Teffla Scale",
+            "baseDamage": 43,
+            "fpCost": 140
+        },
+        {
+            "name": "Teffla Soar",
+            "baseDamage": 78,
+            "fpCost": 250
+        },
+        {
+            "name": "Teffla Dive",
+            "baseDamage": 140,
+            "fpCost": 550,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Teffla Coil",
+            "baseDamage": 172,
+            "fpCost": 780,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "properName": "Tefflaceras",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        }
+    }
+}

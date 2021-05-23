@@ -1,0 +1,70 @@
+{
+    "num": 121,
+    "element": "Air",
+    "name": "Blitzigon",
+    "class": "Mid-Range",
+    "description": "Blitzigon is a super evolver with an outstanding Accuracy-boosting support effect. It also grows quickly, making it easy to use",
+    "sprite": "images/sprites/Blitzigon_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 81,
+        "DEF": 36,
+        "ACC": 33,
+        "SPE": 7
+    },
+    "skills": [
+        {
+            "name": "Blitzigon Blade",
+            "baseDamage": 38,
+            "fpCost": 120
+        },
+        {
+            "name": "Blitzigon Beam",
+            "baseDamage": 60,
+            "fpCost": 200,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Blitzigon Bore",
+            "baseDamage": 88,
+            "fpCost": 350,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Chasmo Whirlwind",
+            "baseDamage": 164,
+            "fpCost": 810,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20,
+        "DEF": -10,
+        "ACC": 80,
+        "SPE": -40
+    },
+    "misc": {
+        "properName": "Blitzigon",
+        "length": {
+            "feet": 46,
+            "meters": 14,
+            "overall": "Large"
+        }
+    }
+}

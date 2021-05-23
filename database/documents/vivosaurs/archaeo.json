@@ -1,0 +1,67 @@
+{
+    "num": 106,
+    "element": "Water",
+    "name": "Archaeo",
+    "class": "Close-Range",
+    "description": "When highly raised, Archaeo's support effects sharply boost Attack and Accuracy. It can also learn a skill that lifts health conditions and restores LP",
+    "sprite": "images/sprites/Archaeo_Battle.png",
+    "stats": {
+        "LP": 200,
+        "ATT": 37,
+        "DEF": 13,
+        "ACC": 45,
+        "SPE": 24
+    },
+    "skills": [
+        {
+            "name": "Archaeo Fang",
+            "baseDamage": 4,
+            "fpCost": 10
+        },
+        {
+            "name": "Archaeo Kick",
+            "baseDamage": 10,
+            "fpCost": 40
+        },
+        {
+            "name": "Random Breath",
+            "fpCost": 230,
+            "effect": {
+                "description": "Inflict random negative status effects"
+            }
+        },
+        {
+            "name": "Sparkling Heal",
+            "fpCost": 400,
+            "effect": {
+                "description": "Heal 150 LP and cure negative status effects to the whole team"
+            }
+        },
+        {
+            "name": "Torpor Arrows",
+            "baseDamage": 46,
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Sleep (team)",
+                "rate": 15
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "ACC": 80
+    },
+    "misc": {
+        "genus": "Archaeoceratops",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["China"]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "num": 102,
+    "element": "Water",
+    "name": "Mapo King",
+    "class": "Close-Range",
+    "description": "Mapo King can learn the devastating Royal Splash skill, but if it's in the SZ, it severely diminishes the stats of AZ allies",
+    "sprite": "images/sprites/Mapo_King_Battle.png",
+    "stats": {
+        "LP": 580,
+        "ATT": 90,
+        "DEF": 43,
+        "ACC": 39,
+        "SPE": 6
+    },
+    "skills": [
+        {
+            "name": "Royal Strike",
+            "baseDamage": 44,
+            "fpCost": 150
+        },
+        {
+            "name": "Royal Buster",
+            "baseDamage": 75,
+            "fpCost": 230,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Royal Splash",
+            "baseDamage": 130,
+            "fpCost": 480,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Aqua Cannon",
+            "baseDamage": 186,
+            "fpCost": 810,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -35,
+        "DEF": -35,
+        "ACC": -35,
+        "SPE": -35
+    },
+    "misc": {
+        "properName": "Mapusaurus King",
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        }
+    }
+}

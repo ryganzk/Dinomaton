@@ -1,0 +1,66 @@
+{
+    "num": 115,
+    "element": "Earth",
+    "name": "Argento",
+    "class": "Long-Range",
+    "description": "When fully raised, Argento's LP and Attack rise to top levels. It can also absorb expended FP when under attack",
+    "sprite": "images/sprites/Argento_Battle.png",
+    "stats": {
+        "LP": 680,
+        "ATT": 82,
+        "DEF": 37,
+        "ACC": 38,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Mountain Press",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Mountain Buster",
+            "baseDamage": 45,
+            "fpCost": 180
+        },
+        {
+            "name": "Mountain Crush",
+            "baseDamage": 95,
+            "fpCost": 300
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Meteor Attack",
+            "baseDamage": 95,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "FP Absorb",
+            "effect": {
+                "description": "Absorbs 30% FP of the skill used to hit it"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Argentinosaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 115,
+            "meters": 35.1,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Argentina"]
+    }
+}

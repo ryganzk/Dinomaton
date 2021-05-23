@@ -1,0 +1,74 @@
+{
+    "num": 113,
+    "element": "Water",
+    "name": "Seidon",
+    "class": "Long-Range",
+    "description": "An extra-large vivosaur that grows slowly but makes strong LP gains. Seidon's Auto Counter makes it a dangerous opponent",
+    "sprite": "images/sprites/Seidon_Battle.png",
+    "stats": {
+        "LP": 680,
+        "ATT": 78,
+        "DEF": 36,
+        "ACC": 40,
+        "SPE": 11
+    },
+    "skills": [
+        {
+            "name": "Ocean Lore",
+            "baseDamage": 22,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Ocean Dance",
+            "baseDamage": 42,
+            "fpCost": 140
+        },
+        {
+            "name": "Ocean Waltz",
+            "baseDamage": 82,
+            "fpCost": 280
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Ocean Impact",
+            "baseDamage": 95,
+            "fpCost": 400,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -10,
+        "DEF": -10
+    },
+    "misc": {
+        "genus": "Sauroposeidon",
+        "group": "Sauropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 98,
+            "meters": 29.9,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

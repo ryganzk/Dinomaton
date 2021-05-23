@@ -1,0 +1,77 @@
+{
+    "num": 117,
+    "element": "Earth",
+    "name": "Tsintao",
+    "class": "Close-Range",
+    "description": "A versatile vivosaur with the Link ability, Tsintao can learn a skill that hits multiple times. Its support effects impact enemy stats across the board",
+    "sprite": "images/sprites/Tsintao_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 73,
+        "DEF": 32,
+        "ACC": 45,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Spinning Punch",
+            "baseDamage": 28,
+            "fpCost": 70
+        },
+        {
+            "name": "Valiant Tackle",
+            "baseDamage": 39,
+            "fpCost": 150
+        },
+        {
+            "name": "Tsintao Roar",
+            "baseDamage": 30,
+            "fpCost": 230,
+            "effect": {
+                "description": "Randomly attack enemy team several times",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Tsintao Song",
+            "baseDamage": 65,
+            "fpCost": 290,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -20,
+        "DEF": -20,
+        "ACC": -20,
+        "SPE": -20
+    },
+    "misc": {
+        "genus": "Tsintaosaurus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["China"]
+    }
+}

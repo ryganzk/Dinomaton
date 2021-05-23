@@ -1,0 +1,79 @@
+{
+    "num": 143,
+    "element": "Water",
+    "name": "Parapu",
+    "class": "Long-Range",
+    "description": "Parapu is good at using confuse and poison skills. It enters battle with Harden already applied, which makes it good to go no matter when the team attacks",
+    "sprite": "images/sprites/Parapu_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 64,
+        "DEF": 46,
+        "ACC": 43,
+        "SPE": 19
+    },
+    "skills": [
+        {
+            "name": "Parapu Punch",
+            "baseDamage": 11,
+            "fpCost": 40
+        },
+        {
+            "name": "Bewilder Beam",
+            "baseDamage": 24,
+            "fpCost": 100,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Parapu Poison",
+            "baseDamage": 37,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Toxic Deluge",
+            "baseDamage": 62,
+            "fpCost": 350,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 20
+            }
+        },
+        {
+            "name": "Harden Plus",
+            "effect": {
+                "description": "Enters battle with Harden applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -20,
+        "ACC": -5
+    },
+    "misc": {
+        "genus": "Parapuzosia",
+        "group": "Ammonites",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Germany"]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "num": 112,
+    "element": "Air",
+    "name": "Camara",
+    "class": "Long-Range",
+    "description": "Camara learns a rare skill that randomly boosts the status of an ally. It also knows Auto LP Recovery",
+    "sprite": "images/sprites/Camara_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 61,
+        "DEF": 31,
+        "ACC": 42,
+        "SPE": 10
+    },
+    "skills": [
+        {
+            "name": "Camara Stomp",
+            "baseDamage": 17,
+            "fpCost": 60
+        },
+        {
+            "name": "Camara Buster",
+            "baseDamage": 31,
+            "fpCost": 130
+        },
+        {
+            "name": "Camara Storm",
+            "baseDamage": 53,
+            "fpCost": 210
+        },
+        {
+            "name": "Fickle Goddess",
+            "fpCost": 40,
+            "effect": {
+                "description": "Gives one random positive status effect"
+            }
+        },
+        {
+            "name": "Camara Crash",
+            "baseDamage": 83,
+            "fpCost": 300,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto LP Recovery 1",
+            "effect": {
+                "description": "Recovers 5% of the vivosaur's max LP at the start of every turn"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 35
+    },
+    "misc": {
+        "genus": "Camararsaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 59,
+            "meters": 18,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

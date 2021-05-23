@@ -1,0 +1,67 @@
+{
+    "num": 118,
+    "element": "Air",
+    "name": "Pacro",
+    "class": "Mid-Range",
+    "description": "Pacro is a maternal vivosaur with a slate of healing skills. It even has a powerful team skill that heals the LP of all allies",
+    "sprite": "images/sprites/Pacro_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 65,
+        "DEF": 30,
+        "ACC": 50,
+        "SPE": 19
+    },
+    "skills": [
+        {
+            "name": "Mother's Slap",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Mother's Care",
+            "fpCost": 30,
+            "effect": {
+                "description": "Cures a chosen ally of all negative status effects"
+            }
+        },
+        {
+            "name": "Mother's Heal",
+            "fpCost": 90,
+            "effect": {
+                "description": "Heals a chosen ally for 300 LP"
+            }
+        },
+        {
+            "name": "Curative Ode",
+            "fpCost": 480,
+            "effect": {
+                "description": "Heals 250 LP and cures negative status effects to a chosen ally"
+            }
+        },
+        {
+            "name": "Life Song",
+            "fpCost": 450,
+            "effect": {
+                "description": "Heals 200 LP (team)"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 20
+    },
+    "misc": {
+        "genus": "Hypacrosaurus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada"]
+    }
+}

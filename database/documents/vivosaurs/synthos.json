@@ -1,0 +1,79 @@
+{
+    "num": 134,
+    "element": "Earth",
+    "name": "Synthos",
+    "class": "Mid-Range",
+    "description": "Synthos usually plays a supporting role, as Link helps it augment allied attacks. When on its own, however, its Attack gains a massive bonus",
+    "sprite": "images/sprites/Synthos_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 48,
+        "DEF": 30,
+        "ACC": 50,
+        "SPE": 27
+    },
+    "skills": [
+        {
+            "name": "Synthos Strike",
+            "baseDamage": 7,
+            "fpCost": 20
+        },
+        {
+            "name": "Synthos Spring",
+            "baseDamage": 17,
+            "fpCost": 50
+        },
+        {
+            "name": "Synthos Smash",
+            "baseDamage": 28,
+            "fpCost": 220,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Boulder Barrage",
+            "baseDamage": 28,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "SPE": 15
+    },
+    "misc": {
+        "genus": "Synthetoceras",
+        "group": "Artiodactyla",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

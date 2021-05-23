@@ -1,0 +1,69 @@
+{
+    "num": 114,
+    "element": "Fire",
+    "name": "Menchi",
+    "class": "Long-Range",
+    "description": "Menchi's attack doubles if it's the only battle-ready vivosaur in its team. Unleash a powerful move using bonus FP to turn the tables!",
+    "sprite": "images/sprites/Menchi_Battle.png",
+    "stats": {
+        "LP": 560,
+        "ATT": 70,
+        "DEF": 25,
+        "ACC": 35,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Menchi Stomp",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Menchi Slash",
+            "baseDamage": 68,
+            "fpCost": 210
+        },
+        {
+            "name": "Blast Radius",
+            "baseDamage": 75,
+            "fpCost": 300
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Menchi Crush",
+            "baseDamage": 51,
+            "fpCost": 220,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 10
+    },
+    "misc": {
+        "genus": "Mamenchisaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 82,
+            "meters": 25,
+            "overall": "Titanic"
+        },
+        "diet": "Herbivore",
+        "discovered": ["China"]
+    }
+}

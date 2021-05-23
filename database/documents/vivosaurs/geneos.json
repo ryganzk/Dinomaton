@@ -1,0 +1,66 @@
+{
+    "num": 137,
+    "element": "Air",
+    "name": "Geneos",
+    "class": "Mid-Range",
+    "description": "Geneos is a super evolver that can learn a rare skill that inflicts damage, poisons a target, and rotates the enemy team. Talk about a triple threat!",
+    "sprite": "images/sprites/Geneos_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 71,
+        "DEF": 37,
+        "ACC": 45,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Geneos Tail",
+            "baseDamage": 34,
+            "fpCost": 120
+        },
+        {
+            "name": "Geneos Sphere",
+            "baseDamage": 59,
+            "fpCost": 200
+        },
+        {
+            "name": "Geneos Blaster",
+            "baseDamage": 85,
+            "fpCost": 340,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Geneos Spike",
+            "baseDamage": 140,
+            "fpCost": 220,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -25,
+        "DEF": -50,
+        "ACC": 50,
+        "SPE": 25
+    },
+    "misc": {
+        "properName": "Genesaurus",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "num": 104,
+    "element": "Earth",
+    "name": "Giga Raja",
+    "class": "Close-Range",
+    "description": "A super evolver with a naturally high Attack rating, Giga Raja can make its already hard-hitting attacks catastrophic using Charge",
+    "sprite": "images/sprites/Giga_Raja_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 89,
+        "DEF": 33,
+        "ACC": 35,
+        "SPE": 4
+    },
+    "skills": [
+        {
+            "name": "Raja Mega",
+            "baseDamage": 41,
+            "fpCost": 160
+        },
+        {
+            "name": "Raja Giga",
+            "baseDamage": 73,
+            "fpCost": 220
+        },
+        {
+            "name": "Raja Tera",
+            "baseDamage": 120,
+            "fpCost": 430,
+            "effect": {
+                "description": "Rotate",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Raja Peta",
+            "baseDamage": 182,
+            "fpCost": 900,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 40,
+        "DEF": -20,
+        "ACC": -20,
+        "SPE": -20
+    },
+    "misc": {
+        "properName": "Giga Rajasaurus",
+        "length": {
+            "feet": 56,
+            "meters": 17.1,
+            "overall": "Large"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "num": 148,
+    "element": "Fire",
+    "name": "Dikelo",
+    "class": "Mid-Range",
+    "description": "Dikelo can learn a skill that restores LP and lifts status conditions from all allies. It also enters battle with Quicken already applied",
+    "sprite": "images/sprites/Dikelo_Battle.png",
+    "stats": {
+        "LP": 220,
+        "ATT": 36,
+        "DEF": 10,
+        "ACC": 45,
+        "SPE": 29
+    },
+    "skills": [
+        {
+            "name": "Dikelo Attack",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Dickelo Sword",
+            "baseDamage": 20,
+            "fpCost": 60
+        },
+        {
+            "name": "Thunderbolt",
+            "baseDamage": 55,
+            "fpCost": 240,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Sparkling Heal",
+            "fpCost": 400,
+            "effect": {
+                "description": "Heal 150 LP and cure negative status effects to the whole team"
+            }
+        },
+        {
+            "name": "Eruption",
+            "baseDamage": 35,
+            "fpCost": 150,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Quicken Plus",
+            "effect": {
+                "description": "Enters battle with Quicken applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "DEF": 10,
+        "ACC": 10,
+        "SPE": 30
+    },
+    "misc": {
+        "genus": "Dikelocephalina",
+        "group": "Trilobites",
+        "era": "Paleozoic Ordovician",
+        "length": {
+            "feet": 1,
+            "meters": 0.3,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Worldwide"]
+    }
+}

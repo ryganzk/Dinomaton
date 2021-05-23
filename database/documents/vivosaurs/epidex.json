@@ -1,0 +1,81 @@
+{
+    "num": 107,
+    "element": "Air",
+    "name": "Epidex",
+    "class": "Mid-Range",
+    "description": "An expert in the use of poison skills, Epidex backs allies with generous support effects and the Link ability",
+    "sprite": "images/sprites/Epidex_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 38,
+        "DEF": 22,
+        "ACC": 47,
+        "SPE": 28
+    },
+    "skills": [
+        {
+            "name": "Epidex Claw",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Epidex Double",
+            "baseDamage": 18,
+            "fpCost": 60,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Epidex Toxin",
+            "baseDamage": 37,
+            "fpCost": 240,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Speed +30%"
+            }
+        },
+        {
+            "name": "Toxic Cannon",
+            "baseDamage": 60,
+            "fpCost": 320,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 15,
+        "DEF": 35,
+        "ACC": 25,
+        "SPE": 25
+    },
+    "misc": {
+        "genus": "Epidexipteryx",
+        "group": "Theropods",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 1,
+            "meters": 0.3,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["China"]
+    }
+}

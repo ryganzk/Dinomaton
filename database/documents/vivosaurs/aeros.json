@@ -1,0 +1,70 @@
+{
+    "num": 101,
+    "element": "Air",
+    "name": "Aeros",
+    "class": "Close-Range",
+    "description": "An Air-type vivosaur boasting high Attack and LP, Aeros's Parting Blow is triggered when it feels threatened",
+    "sprite": "images/sprites/Aeros_Battle.png",
+    "stats": {
+        "LP": 600,
+        "ATT": 89,
+        "DEF": 34,
+        "ACC": 42,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Wind Blast",
+            "baseDamage": 24,
+            "fpCost": 70
+        },
+        {
+            "name": "Aeros Alert",
+            "baseDamage": 40,
+            "fpCost": 140
+        },
+        {
+            "name": "Aeros Special",
+            "baseDamage": 110,
+            "fpCost": 300,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Cyclonic Breath",
+            "baseDamage": 60,
+            "fpCost": 260,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 3",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "genus": "Aerosteon",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Argentina"]
+    }
+}

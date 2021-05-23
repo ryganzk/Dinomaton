@@ -1,0 +1,68 @@
+{
+    "num": 103,
+    "element": "Fire",
+    "name": "Berto",
+    "class": "Close-Range",
+    "description": "Berto is a Close-Range vivosaur with high Attack and Defense. It can also learn a skill that enrages the target",
+    "sprite": "images/sprites/Berto_Battle.png",
+    "stats": {
+        "LP": 540,
+        "ATT": 85,
+        "DEF": 44,
+        "ACC": 36,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Thick Jaws",
+            "baseDamage": 28,
+            "fpCost": 100
+        },
+        {
+            "name": "Vaporizer Combo",
+            "baseDamage": 46,
+            "fpCost": 190
+        },
+        {
+            "name": "Blast Breath",
+            "baseDamage": 73,
+            "fpCost": 260,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Scorch Breath",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Albertosaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Canada"]
+    }
+}

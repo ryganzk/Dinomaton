@@ -1,0 +1,76 @@
+{
+    "num": 120,
+    "element": "Neutral",
+    "name": "Nippono",
+    "class": "Close-Range",
+    "description": "Nippono can restrict enemy actions by rotating their zones and using Payback. The Link ability only adds to its effectiveness",
+    "sprite": "images/sprites/Nippono_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 77,
+        "DEF": 20,
+        "ACC": 55,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "The Ol' One-Two",
+            "baseDamage": 23,
+            "fpCost": 70
+        },
+        {
+            "name": "Nippono Uppercut",
+            "baseDamage": 33,
+            "fpCost": 90
+        },
+        {
+            "name": "Nippono Rush",
+            "baseDamage": 55,
+            "fpCost": 180,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Mad Rush",
+            "baseDamage": 93,
+            "fpCost": 380,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -5,
+        "DEF": -15,
+        "ACC": -5,
+        "SPE": -15
+    },
+    "misc": {
+        "genus": "Nipponosaurus",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Russia"]
+    }
+}

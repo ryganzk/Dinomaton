@@ -1,0 +1,76 @@
+{
+    "num": 119,
+    "element": "Water",
+    "name": "Oloro",
+    "class": "Close-Range",
+    "description": "A vivosaur with a high critical rate, Oloro's effectiveness is further enhanced by its Link ability",
+    "sprite": "images/sprites/Oloro_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 75,
+        "DEF": 25,
+        "ACC": 45,
+        "SPE": 28
+    },
+    "skills": [
+        {
+            "name": "Oloro Punch",
+            "baseDamage": 29,
+            "fpCost": 120
+        },
+        {
+            "name": "Oloro Combo",
+            "baseDamage": 40,
+            "fpCost": 150
+        },
+        {
+            "name": "Oloro Rush",
+            "baseDamage": 62,
+            "fpCost": 230,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Payback",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Spirit Calling",
+            "baseDamage": 58,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 10,
+        "ACC": 10,
+        "SPE": 10
+    },
+    "misc": {
+        "genus": "Olorotitan",
+        "group": "Ornithopods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Russia"]
+    }
+}

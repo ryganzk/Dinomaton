@@ -1,0 +1,73 @@
+{
+    "num": 142,
+    "element": "Earth",
+    "name": "Dunkle",
+    "class": "Mid-Range",
+    "description": "Dunkle learns Dunkle Down, a skill that can instantly KO a target. It's worth a try in dire situations",
+    "sprite": "images/sprites/Dunkle_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 72,
+        "DEF": 35,
+        "ACC": 35,
+        "SPE": 27
+    },
+    "skills": [
+        {
+            "name": "Dunkle Thump",
+            "baseDamage": 15,
+            "fpCost": 30
+        },
+        {
+            "name": "Dunkle Combo",
+            "baseDamage": 29,
+            "fpCost": 230
+        },
+        {
+            "name": "Dunkle Down",
+            "baseDamage": 1,
+            "fpCost": 180,
+            "effect": {
+                "description": "Chance of OHKO"
+            }
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Dull Blaster",
+            "baseDamage": 28,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -25,
+        "SPE": -25
+    },
+    "misc": {
+        "genus": "Dunkleosteus",
+        "group": "Placoderms",
+        "era": "Paleozoic Devonian",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

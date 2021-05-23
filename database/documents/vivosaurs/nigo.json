@@ -1,0 +1,79 @@
+{
+    "num": 111,
+    "element": "Earth",
+    "name": "Nigo",
+    "class": "Long-Range",
+    "description": "Its stats are excellent, and it knows Link, but lazy Nigo always enters battle asleep",
+    "sprite": "images/sprites/Nigo_Battle.png",
+    "stats": {
+        "LP": 700,
+        "ATT": 91,
+        "DEF": 34,
+        "ACC": 30,
+        "SPE": 12
+    },
+    "skills": [
+        {
+            "name": "Nigo Stomp",
+            "baseDamage": 22,
+            "fpCost": 100
+        },
+        {
+            "name": "Nigo Spin",
+            "baseDamage": 51,
+            "fpCost": 200
+        },
+        {
+            "name": "Nigo Impact",
+            "baseDamage": 77,
+            "fpCost": 310,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Nigo Burst",
+            "baseDamage": 51,
+            "fpCost": 220,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Sleepy",
+            "effect": {
+                "description": "Enters battle with Gold Sleep applied"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": 20
+    },
+    "misc": {
+        "genus": "Nigersaurus",
+        "group": "Sauropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 42,
+            "meters": 12.8,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Niger"]
+    }
+}

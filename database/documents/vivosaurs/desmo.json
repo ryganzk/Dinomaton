@@ -1,0 +1,75 @@
+{
+    "num": 144,
+    "element": "Fire",
+    "name": "Desmo",
+    "class": "Mid-Range",
+    "description": "Desmo goes into battle with Payback already applied and can retaliate even if the enemy attacks first",
+    "sprite": "images/sprites/Desmo_Battle.png",
+    "stats": {
+        "LP": 260,
+        "ATT": 52,
+        "DEF": 37,
+        "ACC": 50,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Desmo Headbutt",
+            "baseDamage": 22,
+            "fpCost": 80
+        },
+        {
+            "name": "Desmo Twirl",
+            "baseDamage": 27,
+            "fpCost": 100
+        },
+        {
+            "name": "Desmo Dreamer",
+            "baseDamage": 34,
+            "fpCost": 130,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Axel Turn",
+            "baseDamage": 58,
+            "fpCost": 380,
+            "effect": {
+                "description": "Gold Sleep (team)",
+                "rate": 15
+            }
+        },
+        {
+            "name": "Counter Plus",
+            "effect": {
+                "description": "Enters battle with Counter applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "DEF": 30
+    },
+    "misc": {
+        "genus": "Pachydesmoceras",
+        "group": "Ammonites",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 4,
+            "meters": 1.2,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Worldwide"]
+    }
+}

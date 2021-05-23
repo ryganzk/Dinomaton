@@ -1,0 +1,76 @@
+{
+    "num": 146,
+    "element": "Air",
+    "name": "Radox",
+    "class": "Mid-Range",
+    "description": "Radox grows to support the team with an LP-healing skill and high speed. It enters battle with Payback applied so it can retaliate right away",
+    "sprite": "images/sprites/Radox_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 43,
+        "DEF": 38,
+        "ACC": 42,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Radox Headbutt",
+            "baseDamage": 7,
+            "fpCost": 20
+        },
+        {
+            "name": "Radox Blade",
+            "baseDamage": 19,
+            "fpCost": 60
+        },
+        {
+            "name": "Stampede",
+            "baseDamage": 31,
+            "fpCost": 110,
+            "effect": {
+                "description": "Randomly attack enemy team several times",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Life Charge",
+            "fpCost": 160,
+            "effect": {
+                "description": "Heals a chose ally for 200 LP"
+            }
+        },
+        {
+            "name": "Radox Batter",
+            "baseDamage": 62,
+            "fpCost": 230,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Counter Plus",
+            "effect": {
+                "description": "Enters battle with Counter applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -30,
+        "DEF": -30,
+        "ACC": -30,
+        "SPE": -30
+    },
+    "misc": {
+        "genus": "Paradoxides",
+        "group": "Trilobites",
+        "era": "Paleozoic Cambrian",
+        "length": {
+            "feet": 2,
+            "meters": 0.6,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Worldwide"]
+    }
+}

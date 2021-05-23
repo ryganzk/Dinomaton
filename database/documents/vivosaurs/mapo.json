@@ -1,0 +1,78 @@
+{
+    "num": 102,
+    "element": "Water",
+    "name": "Mapo",
+    "class": "Close-Range",
+    "description": "With high Attack even at low ranks, Mapo can be counted on at any time. It also has Auto Counter",
+    "sprite": "images/sprites/Mapo_Battle.png",
+    "stats": {
+        "LP": 620,
+        "ATT": 83,
+        "DEF": 36,
+        "ACC": 54,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Conqueror Fang",
+            "baseDamage": 40,
+            "fpCost": 120
+        },
+        {
+            "name": "Conqueror Combo",
+            "baseDamage": 70,
+            "fpCost": 220,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Conqueror Special",
+            "baseDamage": 100,
+            "fpCost": 320,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Aqua Cannon",
+            "baseDamage": 62,
+            "fpCost": 270,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 15,
+        "ACC": 15
+    },
+    "misc": {
+        "genus": "Mapusaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 42,
+            "meters": 12.8,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Argentina"]
+    }
+}

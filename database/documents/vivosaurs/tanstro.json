@@ -1,0 +1,76 @@
+{
+    "num": 138,
+    "element": "Water",
+    "name": "Tanstro",
+    "class": "Long-Range",
+    "description": "Naturally sleepy, Tanstro enters battle while still in dreamland. It can, however, learn a skill that strikes the entire enemy team",
+    "sprite": "images/sprites/Tanstro_Battle.png",
+    "stats": {
+        "LP": 600,
+        "ATT": 88,
+        "DEF": 20,
+        "ACC": 32,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Slithery Bite",
+            "baseDamage": 23,
+            "fpCost": 90
+        },
+        {
+            "name": "Creepy Lick",
+            "baseDamage": 46,
+            "fpCost": 170,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Orb Shot",
+            "baseDamage": 67,
+            "fpCost": 230
+        },
+        {
+            "name": "Giant Wave",
+            "baseDamage": 50,
+            "fpCost": 300,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Watery Wave",
+            "baseDamage": 88,
+            "fpCost": 530,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Sleepy",
+            "effect": {
+                "description": "Enters battle with Gold Sleep applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15,
+        "DEF": -15
+    },
+    "misc": {
+        "genus": "Tanystropheus",
+        "group": "Diaspids",
+        "era": "Mesozoic Triassic",
+        "length": {
+            "feet": 20,
+            "meters": 6.1,
+            "overall": "Medium"
+        },
+        "diet": "Carnivore",
+        "discovered": ["All Europe"]
+    }
+}

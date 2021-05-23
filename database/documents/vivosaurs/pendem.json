@@ -1,0 +1,76 @@
+{
+    "num": 139,
+    "element": "Earth",
+    "name": "Pendem",
+    "class": "Mid-Range",
+    "description": "Pendem can learn confuse skills that affect the entire enemy team, while Position Lock keeps its team from rotating",
+    "sprite": "images/sprites/Pendem_Battle.png",
+    "stats": {
+        "LP": 300,
+        "ATT": 52,
+        "DEF": 46,
+        "ACC": 44,
+        "SPE": 12
+    },
+    "skills": [
+        {
+            "name": "Pendem Bite",
+            "baseDamage": 17,
+            "fpCost": 50
+        },
+        {
+            "name": "Spin Attack",
+            "baseDamage": 25,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Ancient Soil",
+            "baseDamage": 34,
+            "fpCost": 140
+        },
+        {
+            "name": "Tantrum",
+            "baseDamage": 55,
+            "fpCost": 320,
+            "effect": {
+                "description": "Silver Confuse all opponents",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Ancient Boulder",
+            "baseDamage": 30,
+            "fpCost": 210,
+            "effect": {
+                "description": "Gold Confuse (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Position Lock",
+            "effect": {
+                "description": "Prevents forced rotation by skills (excludes gold excite)"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "SPE": -50
+    },
+    "misc": {
+        "genus": "Stupendemys",
+        "group": "Anapsids",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Venezuela", "Brazil"]
+    }
+}

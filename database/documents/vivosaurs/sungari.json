@@ -1,0 +1,77 @@
+{
+    "num": 124,
+    "element": "Fire",
+    "name": "Sungari",
+    "class": "Long-Range",
+    "description": "Sungari backs up its team with enrage and rotation skills. It also knows Immolation for critical situations",
+    "sprite": "images/sprites/Sungari_Battle.png",
+    "stats": {
+        "LP": 200,
+        "ATT": 61,
+        "DEF": 15,
+        "ACC": 36,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Sungari Beam",
+            "baseDamage": 19,
+            "fpCost": 80,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Sungari Flare",
+            "baseDamage": 33,
+            "fpCost": 130,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Immolation",
+            "fpCost": 200,
+            "effect": {
+                "description": "Reduce own LP to 1, dealing 180 damage",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Sungari Fire",
+            "baseDamage": 53,
+            "fpCost": 250,
+            "effect": {
+                "description": "Silver Enrage (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Parting Blow 1",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -40,
+        "DEF": -40,
+        "ACC": -40,
+        "SPE": -40
+    },
+    "misc": {
+        "genus": "Dsungaripterus",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["China"]
+    }
+}

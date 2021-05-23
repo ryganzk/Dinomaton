@@ -1,0 +1,79 @@
+{
+    "num": 141,
+    "element": "Fire",
+    "name": "Coelanth",
+    "class": "Mid-Range",
+    "description": "Coelanth's bag of tricks includes Super Enflame, a confuse skill, and a skill that can inflict several random conditions at once",
+    "sprite": "images/sprites/Coelanth_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 56,
+        "DEF": 33,
+        "ACC": 41,
+        "SPE": 26
+    },
+    "skills": [
+        {
+            "name": "Coelanth Crush",
+            "baseDamage": 11,
+            "fpCost": 30
+        },
+        {
+            "name": "Coelanth Power",
+            "fpCost": 230,
+            "effect": {
+                "description": "Inflicts random negative status effects",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Jewel Beam",
+            "baseDamage": 36,
+            "fpCost": 250,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Super Enflame",
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack +40, Defense -10"
+            }
+        },
+        {
+            "name": "Fire Hurricane",
+            "baseDamage": 53,
+            "fpCost": 230,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15,
+        "DEF": -15,
+        "ACC": -15,
+        "SPE": -15
+    },
+    "misc": {
+        "genus": "Coelacanth",
+        "group": "Sarcopterygii",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Worldwide"]
+    }
+}

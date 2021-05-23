@@ -1,0 +1,79 @@
+{
+    "num": 108,
+    "element": "Fire",
+    "name": "Lagia",
+    "class": "Mid-Range",
+    "description": "Lagia is a rare vivosaur possessing not only the Parting Blow ability, but Link as well",
+    "sprite": "images/sprites/Lagia_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 66,
+        "DEF": 21,
+        "ACC": 45,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Lagia Claw",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Lagia Bash",
+            "baseDamage": 21,
+            "fpCost": 80
+        },
+        {
+            "name": "Lagia Smash",
+            "baseDamage": 40,
+            "fpCost": 140
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Venom Shot",
+            "baseDamage": 58,
+            "fpCost": 300,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Parting Blow 1",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
+            }
+        },
+        {
+            "name": "Link",
+            "effect": {
+                "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -9,
+        "DEF": -9,
+        "ACC": -9,
+        "SPE": -9
+    },
+    "misc": {
+        "genus": "Unenlagia",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Argentina"]
+    }
+}

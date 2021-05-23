@@ -1,0 +1,71 @@
+{
+    "num": 131,
+    "element": "Earth",
+    "name": "Anan",
+    "class": "Mid-Range",
+    "description": "Anan's Position Lock ability holds it in place against zone rotations. Use Charge to prepare for a massive strike",
+    "sprite": "images/sprites/Anan_Battle.png",
+    "stats": {
+        "LP": 340,
+        "ATT": 66,
+        "DEF": 34,
+        "ACC": 37,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Anancus Whip",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "Anancus Combo",
+            "baseDamage": 26,
+            "fpCost": 80
+        },
+        {
+            "name": "Anancus Smash",
+            "baseDamage": 56,
+            "fpCost": 210
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Sand Maelstrom",
+            "baseDamage": 30,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Position Lock",
+            "effect": {
+                "description": "Prevents forced rotation by skills (excludes gold excite)"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20,
+        "ACC": 20
+    },
+    "misc": {
+        "genus": "Anancus",
+        "group": "Synapsids",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

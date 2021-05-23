@@ -1,0 +1,73 @@
+{
+    "num": 122,
+    "element": "Water",
+    "name": "Berta",
+    "class": "Mid-Range",
+    "description": "Berta's sleep and confuse skills let it hamper enemy actions. If the enemy team is rendered inactive, this vivosaur can make its Parting Blow status last",
+    "sprite": "images/sprites/Berta_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 69,
+        "DEF": 34,
+        "ACC": 42,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Skewer",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Berta Combo",
+            "baseDamage": 28,
+            "fpCost": 100,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Berta Fury",
+            "baseDamage": 39,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Berta Storm",
+            "baseDamage": 40,
+            "fpCost": 240,
+            "effect": {
+                "description": "Silver Sleep (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": -10,
+        "ACC": 30,
+        "SPE": 30
+    },
+    "misc": {
+        "genus": "Albertaceratops",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 20,
+            "meters": 6.1,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Canada"]
+    }
+}

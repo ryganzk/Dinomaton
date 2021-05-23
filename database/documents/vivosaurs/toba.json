@@ -1,0 +1,71 @@
+{
+    "num": 110,
+    "element": "Water",
+    "name": "Toba",
+    "class": "Long-Range",
+    "description": "Its support effects add to the Attack and Defense of allies. Being a Long-Range attacker, it can subject a Fire-type target to deadly attacks from the SZ",
+    "sprite": "images/sprites/Toba_Battle.png",
+    "stats": {
+        "LP": 560,
+        "ATT": 68,
+        "DEF": 35,
+        "ACC": 43,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Toba Drop",
+            "baseDamage": 23,
+            "fpCost": 70
+        },
+        {
+            "name": "Pearl Strike",
+            "baseDamage": 37,
+            "fpCost": 140
+        },
+        {
+            "name": "Pearl Crush",
+            "baseDamage": 54,
+            "fpCost": 180
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Pearl Smash",
+            "baseDamage": 85,
+            "fpCost": 360,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "Auto Counter",
+            "effect": {
+                "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20,
+        "DEF": 30
+    },
+    "misc": {
+        "genus": "Toba Titanosaur",
+        "group": "Sauropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 59,
+            "meters": 18,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Japan"]
+    }
+}

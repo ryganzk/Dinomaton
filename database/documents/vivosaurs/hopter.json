@@ -1,0 +1,80 @@
+{
+    "num": 126,
+    "element": "Earth",
+    "name": "Hopter",
+    "class": "Long-Range",
+    "description": "Hopter has high LP for a pterosaur. But with negative team-support effects and disobedience if its LP drops below 50%, it's a handful for any Fighter",
+    "sprite": "images/sprites/Hopter_Battle.png",
+    "stats": {
+        "LP": 460,
+        "ATT": 77,
+        "DEF": 20,
+        "ACC": 25,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Beak Stab",
+            "baseDamage": 21,
+            "fpCost": 70
+        },
+        {
+            "name": "Rock Wing",
+            "baseDamage": 25,
+            "fpCost": 100,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Rock Breath",
+            "baseDamage": 33,
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Rock Cannon",
+            "fpCost": 480,
+            "effect": {
+                "description": "Gold Confuse (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Beserker",
+            "effect": {
+                "description": "When Hopter reaches below half of its max LP, it disobeys orders"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -25,
+        "DEF": -10,
+        "ACC": -10,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Hatzegopteryx",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 39,
+            "meters": 11.9,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Romania"]
+    }
+}

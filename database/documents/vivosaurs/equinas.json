@@ -1,0 +1,60 @@
+{
+    "num": 110,
+    "element": "Water",
+    "name": "Equinas",
+    "class": "Long-Range",
+    "description": "Equinas is a super evolver possessing top-class Speed. It can also learn a skill that restores the LP of allies in return for its own LP",
+    "sprite": "images/sprites/Equinas_Battle.png",
+    "stats": {
+        "LP": 510,
+        "ATT": 68,
+        "DEF": 33,
+        "ACC": 53,
+        "SPE": 30
+    },
+    "skills": [
+        {
+            "name": "Equinas X",
+            "baseDamage": 43,
+            "fpCost": 120
+        },
+        {
+            "name": "Equinas Dos",
+            "baseDamage": 75,
+            "fpCost": 230
+        },
+        {
+            "name": "Equinas Punish",
+            "baseDamage": 90,
+            "fpCost": 400
+        },
+        {
+            "name": "Sacrifice",
+            "fpCost": 50,
+            "effect": {
+                "description": "Reduce own LP to 1, split equally across both teammates"
+            }
+        },
+        {
+            "name": "Equinas Exodus",
+            "baseDamage": 160,
+            "fpCost": 720,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 10,
+        "SPE": 40
+    },
+    "misc": {
+        "properName": "Equinasaurus",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Large"
+        }
+    }
+}

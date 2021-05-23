@@ -1,0 +1,66 @@
+{
+    "num": 136,
+    "element": "Fire",
+    "name": "Lugmos",
+    "class": "Mid-Range",
+    "description": "Lugmos is a Mid-Range super evolver that can learn Charge. Its Defense, however, leaves something to be desired",
+    "sprite": "images/sprites/Lugmos_Battle.png",
+    "stats": {
+        "LP": 420,
+        "ATT": 77,
+        "DEF": 31,
+        "ACC": 45,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Lugmos Tail",
+            "baseDamage": 36,
+            "fpCost": 130
+        },
+        {
+            "name": "Lugmos Sphere",
+            "baseDamage": 65,
+            "fpCost": 230
+        },
+        {
+            "name": "Lugmos Blaster",
+            "baseDamage": 95,
+            "fpCost": 380,
+            "effect": {
+                "description": "Silver Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Lugmos Lava",
+            "baseDamage": 120,
+            "fpCost": 720,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": 25,
+        "DEF": 25,
+        "ACC": -50,
+        "SPE": -50
+    },
+    "misc": {
+        "properName": "Lugmorius",
+        "length": {
+            "feet": 16,
+            "meters": 4.9,
+            "overall": "Medium"
+        }
+    }
+}

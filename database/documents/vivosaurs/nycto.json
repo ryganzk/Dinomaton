@@ -1,0 +1,76 @@
+{
+    "num": 123,
+    "element": "Air",
+    "name": "Nycto",
+    "class": "Long-Range",
+    "description": "Nycto has a high critical hit rate and can learn an LP-stealing skill. It also has the FP Plus ability, which boosts the team's FP recharge volume",
+    "sprite": "images/sprites/Nycto_Battle.png",
+    "stats": {
+        "LP": 280,
+        "ATT": 40,
+        "DEF": 15,
+        "ACC": 50,
+        "SPE": 29
+    },
+    "skills": [
+        {
+            "name": "Beak Strike",
+            "baseDamage": 21,
+            "fpCost": 60
+        },
+        {
+            "name": "Wing Whirlwind",
+            "baseDamage": 27,
+            "fpCost": 80
+        },
+        {
+            "name": "Wing Whirlwind",
+            "baseDamage": 34,
+            "fpCost": 120,
+            "effect": {
+                "description": "Recover LP equal to amount of damage dealt",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Coriolis Force",
+            "baseDamage": 35,
+            "fpCost": 260,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Cyclone Cutter",
+            "baseDamage": 35,
+            "fpCost": 170,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 50
+            }
+        },
+        {
+            "name": "FP Plus 2",
+            "effect": {
+                "description": "FP recharge is boosted by 20%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "SPE": -20
+    },
+    "misc": {
+        "genus": "Nyctosaurus",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA", "Brazil"]
+    }
+}

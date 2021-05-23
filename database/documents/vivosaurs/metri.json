@@ -1,0 +1,78 @@
+{
+    "num": 129,
+    "element": "Earth",
+    "name": "Metri",
+    "class": "Mid-Range",
+    "description": "Metri can make shambles of enemy tatics with its rotation skill. It can also learn a skill that randomly afflicts a target with status ailments",
+    "sprite": "images/sprites/Metri_Battle.png",
+    "stats": {
+        "LP": 340,
+        "ATT": 56,
+        "DEF": 36,
+        "ACC": 19,
+        "SPE": 24
+    },
+    "skills": [
+        {
+            "name": "Head Crush",
+            "baseDamage": 9,
+            "fpCost": 30
+        },
+        {
+            "name": "Metri Combo",
+            "baseDamage": 32,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Dull Spark",
+            "baseDamage": 49,
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Pandora's Box",
+            "fpCost": 240,
+            "effect": {
+                "description": "Inflict random negative status effects"
+            }
+        },
+        {
+            "name": "Dull Blaster",
+            "baseDamage": 28,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 50,
+        "ACC": -20
+    },
+    "misc": {
+        "genus": "Metridiochoerus",
+        "group": "Synapsids",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 6,
+            "meters": 1.8,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Tanzania"]
+    }
+}

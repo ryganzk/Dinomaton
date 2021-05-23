@@ -1,0 +1,78 @@
+{
+    "num": 128,
+    "element": "Fire",
+    "name": "Peloro",
+    "class": "Mid-Range",
+    "description": "If Peloro is on its own, it activates Solo Power for outrageous Attack. If it's with a team, Super Enflame can pump them up instead!",
+    "sprite": "images/sprites/Peloro_Battle.png",
+    "stats": {
+        "LP": 360,
+        "ATT": 73,
+        "DEF": 30,
+        "ACC": 20,
+        "SPE": 26
+    },
+    "skills": [
+        {
+            "name": "Peloro Horn",
+            "baseDamage": 12,
+            "fpCost": 40
+        },
+        {
+            "name": "Peloro Combo",
+            "baseDamage": 24,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Red Spark",
+            "baseDamage": 49,
+            "fpCost": 170,
+            "effect": {
+                "description": "Gold Enrage",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Super Enflame",
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack +40, Defense -10"
+            }
+        },
+        {
+            "name": "Red Blaster",
+            "baseDamage": 28,
+            "fpCost": 120,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 50,
+        "ACC": -20
+    },
+    "misc": {
+        "genus": "Pelorovis",
+        "group": "Synapsids",
+        "era": "Cenozoic Quaternary",
+        "length": {
+            "feet": 13,
+            "meters": 3.4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Tanzania"]
+    }
+}

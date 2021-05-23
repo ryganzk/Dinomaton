@@ -1,0 +1,71 @@
+{
+    "num": 130,
+    "element": "Water",
+    "name": "Gomp",
+    "class": "Mid-Range",
+    "description": "Gomp supports allies with its Super Harden skill, while Position Lock thwarts enemy attempts to rotate your team",
+    "sprite": "images/sprites/Gomp_Battle.png",
+    "stats": {
+        "LP": 360,
+        "ATT": 57,
+        "DEF": 41,
+        "ACC": 38,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Gomp Romp",
+            "baseDamage": 20,
+            "fpCost": 60
+        },
+        {
+            "name": "Gomp Combo",
+            "baseDamage": 28,
+            "fpCost": 100
+        },
+        {
+            "name": "Gomp Stomp",
+            "baseDamage": 36,
+            "fpCost": 140
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Ice Crusher",
+            "baseDamage": 30,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "Position Lock",
+            "effect": {
+                "description": "Prevents forced rotation by skills (excludes gold excite)"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 20,
+        "SPE": 20
+    },
+    "misc": {
+        "genus": "Gomphptherium",
+        "group": "Mammals",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["Worldwide"]
+    }
+}

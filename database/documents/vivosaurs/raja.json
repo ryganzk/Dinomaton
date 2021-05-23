@@ -1,0 +1,67 @@
+{
+    "num": 104,
+    "element": "Earth",
+    "name": "Raja",
+    "class": "Close-Range",
+    "description": "Raja is an Earth-type vivosaur adept at close-range attacks. Once it learns Charge, its already-tough attacks become devastating",
+    "sprite": "images/sprites/Raja_Battle.png",
+    "stats": {
+        "LP": 540,
+        "ATT": 85,
+        "DEF": 44,
+        "ACC": 36,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Raja Fang",
+            "baseDamage": 18,
+            "fpCost": 70
+        },
+        {
+            "name": "Raja Rage",
+            "baseDamage": 37,
+            "fpCost": 140
+        },
+        {
+            "name": "Raja Whirl",
+            "baseDamage": 71,
+            "fpCost": 250,
+            "effect": {
+                "description": "Rotate",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Raja Vice",
+            "baseDamage": 55,
+            "fpCost": 225,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": -10
+    },
+    "misc": {
+        "genus": "Rajasaurus",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 29,
+            "meters": 8.8,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["India"]
+    }
+}

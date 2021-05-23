@@ -1,0 +1,78 @@
+{
+    "num": 121,
+    "element": "Air",
+    "name": "Chasmo",
+    "class": "Mid-Range",
+    "description": "An Air-type vivosaur that knows Parting Blow, Chasmo is a fierce battler when teamed with an ally that knows Law of the Jungle",
+    "sprite": "images/sprites/Chasmo_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 66,
+        "DEF": 35,
+        "ACC": 50,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Chasmo Jab",
+            "baseDamage": 14,
+            "fpCost": 60
+        },
+        {
+            "name": "Chasmo Combo",
+            "baseDamage": 30,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Chasmo Fury",
+            "baseDamage": 43,
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Chasmo Whirlwind",
+            "fpCost": 380,
+            "effect": {
+                "description": "Gold Excite (team)",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "ACC": 40
+    },
+    "misc": {
+        "genus": "Chasmosaurus",
+        "group": "Ceratopsians",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA", "Canada"]
+    }
+}

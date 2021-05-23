@@ -1,0 +1,84 @@
+{
+    "num": 116,
+    "element": "Fire",
+    "name": "Dacerus",
+    "class": "Close-Range",
+    "description": "Dacerus is highly proficient in the use of poison-related moves. It also absorbes some FP when attacked",
+    "sprite": "images/sprites/Dacerus_Battle.png",
+    "stats": {
+        "LP": 440,
+        "ATT": 65,
+        "DEF": 45,
+        "ACC": 45,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Poison Hammer",
+            "baseDamage": 15,
+            "fpCost": 60,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Toxic Spin",
+            "baseDamage": 29,
+            "fpCost": 110,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Poison Shank",
+            "baseDamage": 42,
+            "fpCost": 270,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Toxic Cutter",
+            "baseDamage": 35,
+            "fpCost": 200,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 20
+            }
+        },
+        {
+            "name": "FP Absorb",
+            "effect": {
+                "description": "Absorbs 30% FP of the skill used to hit it"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 30,
+        "DEF": 50,
+        "SPE": -10
+    },
+    "misc": {
+        "genus": "Dacentrurus",
+        "group": "Stegosaurs",
+        "era": "Mesozoic Jurassic",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Herbivore",
+        "discovered": ["England", "France"]
+    }
+}

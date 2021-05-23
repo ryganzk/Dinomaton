@@ -1,0 +1,75 @@
+{
+    "num": 145,
+    "element": "Neutral",
+    "name": "Gaudry",
+    "class": "Mid-Range",
+    "description": "A Neutral-type vivosaur that learns scare skills, Gaudry enters battle with Harden already applied",
+    "sprite": "images/sprites/Gaudry_Battle.png",
+    "stats": {
+        "LP": 380,
+        "ATT": 68,
+        "DEF": 30,
+        "ACC": 41,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Gaudry Headbutt",
+            "baseDamage": 20,
+            "fpCost": 70
+        },
+        {
+            "name": "Quick Jabs",
+            "baseDamage": 30,
+            "fpCost": 100
+        },
+        {
+            "name": "Gaudry Terror",
+            "baseDamage": 44,
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Panic Needles",
+            "baseDamage": 62,
+            "fpCost": 400,
+            "effect": {
+                "description": "Gold Scare (team)",
+                "rate": 15
+            }
+        },
+        {
+            "name": "Harden Plus",
+            "effect": {
+                "description": "Enters battle with Harden applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -20,
+        "SPE": -5
+    },
+    "misc": {
+        "genus": "Gaudryceras",
+        "group": "Ammonites",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 1,
+            "meters": 0.3,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Japan"]
+    }
+}

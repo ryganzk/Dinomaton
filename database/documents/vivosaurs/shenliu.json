@@ -1,0 +1,66 @@
+{
+    "num": 115,
+    "element": "Earth",
+    "name": "Shenliu",
+    "class": "Long-Range",
+    "description": "Shenliu has the highest LP among super evolvers. Use its scare skill to restrict the enemy's options",
+    "sprite": "images/sprites/Shenliu_Battle.png",
+    "stats": {
+        "LP": 660,
+        "ATT": 82,
+        "DEF": 31,
+        "ACC": 35,
+        "SPE": 5
+    },
+    "skills": [
+        {
+            "name": "Shen Smash",
+            "baseDamage": 40,
+            "fpCost": 150
+        },
+        {
+            "name": "Shen Shake",
+            "baseDamage": 78,
+            "fpCost": 240,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Shen Storm",
+            "baseDamage": 120,
+            "fpCost": 430
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Deep Impact",
+            "baseDamage": 190,
+            "fpCost": 900,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -10,
+        "DEF": 10,
+        "ACC": 10,
+        "SPE": -10
+    },
+    "misc": {
+        "properName": "Shenliusaurus",
+        "length": {
+            "feet": 131,
+            "meters": 39.9,
+            "overall": "Titanic"
+        }
+    }
+}

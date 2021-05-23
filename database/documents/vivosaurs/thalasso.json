@@ -1,0 +1,76 @@
+{
+    "num": 125,
+    "element": "Water",
+    "name": "Thalasso",
+    "class": "Long-Range",
+    "description": "Place Thalasso in a support role to take advantage of its FP Plus ability. It also has a powerful team skill that damages and poisons all enemies",
+    "sprite": "images/sprites/Thalasso_Battle.png",
+    "stats": {
+        "LP": 320,
+        "ATT": 47,
+        "DEF": 12,
+        "ACC": 45,
+        "SPE": 30
+    },
+    "skills": [
+        {
+            "name": "Angry Peck",
+            "baseDamage": 19,
+            "fpCost": 50
+        },
+        {
+            "name": "Spiral Wing",
+            "baseDamage": 25,
+            "fpCost": 70
+        },
+        {
+            "name": "Tornado Wing",
+            "baseDamage": 31,
+            "fpCost": 100,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Wingtip Vortex",
+            "baseDamage": 32,
+            "fpCost": 240,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Venom Cyclone",
+            "baseDamage": 35,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "FP Plus 1",
+            "effect": {
+                "description": "FP recharge is boosted by 10%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "SPE": 20
+    },
+    "misc": {
+        "genus": "Thalassodromeus",
+        "group": "Pterosaurs",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Brazil"]
+    }
+}

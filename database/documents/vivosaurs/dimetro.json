@@ -1,0 +1,74 @@
+{
+    "num": 136,
+    "element": "Fire",
+    "name": "Dimetro",
+    "class": "Mid-Range",
+    "description": "Dimetro learns a team-attack skill as it grows. Use its Charge skill to ready a wicked attack on the next turn",
+    "sprite": "images/sprites/Dimetro_Battle.png",
+    "stats": {
+        "LP": 430,
+        "ATT": 70,
+        "DEF": 38,
+        "ACC": 50,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Dimetro Fang",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Dimetro Whirl",
+            "baseDamage": 40,
+            "fpCost": 150
+        },
+        {
+            "name": "Dimeteor",
+            "baseDamage": 10,
+            "fpCost": 220,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Fiery Tornado",
+            "baseDamage": 40,
+            "fpCost": 240,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "FP Absorb",
+            "effect": {
+                "description": "Absorbs 30% FP of the skill used to hit it"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": 30,
+        "SPE": 30
+    },
+    "misc": {
+        "genus": "Dimetrodon",
+        "group": "Synapsids",
+        "era": "Paleozoic Permian",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "num": 133,
+    "element": "Air",
+    "name": "Ceros",
+    "class": "Mid-Range",
+    "description": "Ceros is a healing vivosaur that can learn to restore LP and lift conditions. Keep it far away from Earth-type enemies!",
+    "sprite": "images/sprites/Ceros_Battle.png",
+    "stats": {
+        "LP": 470,
+        "ATT": 79,
+        "DEF": 25,
+        "ACC": 35,
+        "SPE": 28
+    },
+    "skills": [
+        {
+            "name": "Ceros Attack",
+            "baseDamage": 12,
+            "fpCost": 40
+        },
+        {
+            "name": "Ceros Leap",
+            "baseDamage": 25,
+            "fpCost": 100
+        },
+        {
+            "name": "Vital Aura",
+            "fpCost": 300,
+            "effect": {
+                "description": "Heals the entire team for 150 LP"
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Ceros Mirage",
+            "fpCost": 210,
+            "effect": {
+                "description": "Silver Sleep (team)"
+            }
+        },
+        {
+            "name": "Elemental Boost",
+            "effect": {
+                "description": "Intensifies elemental effects of attacks"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 40,
+        "SPE": 20
+    },
+    "misc": {
+        "genus": "Megaloceros Giganteus",
+        "group": "Synapsids",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["All Asia"]
+    }
+}

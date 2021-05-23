@@ -1,0 +1,65 @@
+{
+    "num": 117,
+    "element": "Earth",
+    "name": "Bulgon",
+    "class": "Close-Range",
+    "description": "Although very vulnerable to attack, Bulgon's fully raised support effects can devastate enemy stats",
+    "sprite": "images/sprites/Bulgon_Battle.png",
+    "stats": {
+        "LP": 200,
+        "ATT": 70,
+        "DEF": 8,
+        "ACC": 43,
+        "SPE": 25
+    },
+    "skills": [
+        {
+            "name": "Bulgon Bash",
+            "baseDamage": 44,
+            "fpCost": 120
+        },
+        {
+            "name": "Bulgon Bop",
+            "baseDamage": 70,
+            "fpCost": 200
+        },
+        {
+            "name": "Bulgon Blast",
+            "baseDamage": 40,
+            "fpCost": 450,
+            "effect": {
+                "description": "Randomly attack enemy team several times",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Bulgon Breakdance",
+            "baseDamage": 195,
+            "fpCost": 870,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 50
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -99,
+        "SPE": -99
+    },
+    "misc": {
+        "properName": "Bulguanadon",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        }
+    }
+}

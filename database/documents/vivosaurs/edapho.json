@@ -1,0 +1,73 @@
+{
+    "num": 137,
+    "element": "Air",
+    "name": "Edapho",
+    "class": "Mid-Range",
+    "description": "This Air-type vivosaur can learn Rallying Cry, a skill that lifts all conditions afflicting an ally. Edapho can also absorb a portion of FP when attacked",
+    "sprite": "images/sprites/Edapho_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 63,
+        "DEF": 30,
+        "ACC": 50,
+        "SPE": 24
+    },
+    "skills": [
+        {
+            "name": "Edapho Fang",
+            "baseDamage": 14,
+            "fpCost": 50
+        },
+        {
+            "name": "Edapho Twirl",
+            "baseDamage": 29,
+            "fpCost": 120
+        },
+        {
+            "name": "Edapho Cyclone",
+            "baseDamage": 41,
+            "fpCost": 270,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Rallying Cry",
+            "fpCost": 30,
+            "effect": {
+                "description": "Eliminate all effects on a chosen ally"
+            }
+        },
+        {
+            "name": "Edapho Hurricane",
+            "fpCost": 220,
+            "effect": {
+                "description": "Gold Poison (team)",
+                "rate": 60
+            }
+        },
+        {
+            "name": "FP Absorb",
+            "effect": {
+                "description": "Absorbs 30% FP of the skill used to hit it"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -40
+    },
+    "misc": {
+        "genus": "Edaphosaurus",
+        "group": "Synapsids",
+        "era": "Paleozoic Carboniferous",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "diet": "Herbivore",
+        "discovered": ["USA"]
+    }
+}

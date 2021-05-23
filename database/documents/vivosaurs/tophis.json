@@ -1,0 +1,77 @@
+{
+    "num": 140,
+    "element": "Neutral",
+    "name": "Tophis",
+    "class": "Close-Range",
+    "description": "Tophis has Solo Power, which sharply raises its attack when fighting without allies. It can also learn an attack that can cause an instant KO, although the chance is low",
+    "sprite": "images/sprites/Tophis_Battle.png",
+    "stats": {
+        "LP": 480,
+        "ATT": 72,
+        "DEF": 30,
+        "ACC": 38,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Snake Bite",
+            "baseDamage": 14,
+            "fpCost": 50
+        },
+        {
+            "name": "Cobra Twist",
+            "baseDamage": 26,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Tophis Hiss",
+            "baseDamage": 1,
+            "fpCost": 180,
+            "effect": {
+                "description": "Chance to OHKO"
+            }
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Speed +30%"
+            }
+        },
+        {
+            "name": "Tripod Bomb",
+            "baseDamage": 40,
+            "fpCost": 170,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -15,
+        "SPE": -30
+    },
+    "misc": {
+        "genus": "Gigantophis",
+        "group": "Diapsids",
+        "era": "Cenozoic Paleogene",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Egypt", "Algeria"]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "num": 149,
+    "element": "Air",
+    "name": "Anomalo",
+    "class": "Long-Range",
+    "description": "Anomalo learns a skill that heals LP and lifts status conditions from all team members. It also enters battle with Quicken already active",
+    "sprite": "images/sprites/Anomalo_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 56,
+        "DEF": 40,
+        "ACC": 46,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Anomalo Twist",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Anomalo Combo",
+            "baseDamage": 28,
+            "fpCost": 120
+        },
+        {
+            "name": "Anomalo Hurricane",
+            "baseDamage": 40,
+            "fpCost": 280,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Sparkling Heal",
+            "fpCost": 400,
+            "effect": {
+                "description": "Heal 150 LP and cure negative status effects to the whole team"
+            }
+        },
+        {
+            "name": "Chopper Cyclone",
+            "baseDamage": 30,
+            "fpCost": 130,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "Quicken Plus",
+            "effect": {
+                "description": "Enters battle with Quicken applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "DEF": -25,
+        "ACC": -25
+    },
+    "misc": {
+        "genus": "Anomalocaris",
+        "group": "Trilobites",
+        "era": "Paleozoic Cambrian",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Worldwide"]
+    }
+}

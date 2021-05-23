@@ -1,0 +1,68 @@
+{
+    "num": 105,
+    "element": "Neutral",
+    "name": "Krypto",
+    "class": "Close-Range",
+    "description": "Krypto can doom a target using the infectious Krypto Virus, but its support effects increasingly hamper allies when it ranks up",
+    "sprite": "images/sprites/Krypto_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 77,
+        "DEF": 31,
+        "ACC": 48,
+        "SPE": 17
+    },
+    "skills": [
+        {
+            "name": "Krypto Fang",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Krypto Combo",
+            "baseDamage": 34,
+            "fpCost": 110
+        },
+        {
+            "name": "Krypto Virus",
+            "fpCost": 200,
+            "effect": {
+                "description": "Infection",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Quicken",
+            "fpCost": 15,
+            "effect": {
+                "description": "Speed +30%"
+            }
+        },
+        {
+            "name": "Horror Storm",
+            "baseDamage": 65,
+            "fpCost": 390,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -5,
+        "DEF": -5
+    },
+    "misc": {
+        "genus": "Kryptops",
+        "group": "Theropods",
+        "era": "Mesozoic Cretaceous",
+        "length": {
+            "feet": 26,
+            "meters": 7.9,
+            "overall": "Medium"
+        },
+        "diet": "Carnivore",
+        "discovered": ["Niger"]
+    }
+}

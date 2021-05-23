@@ -1,0 +1,67 @@
+{
+    "num": 135,
+    "element": "Neutral",
+    "name": "Titanis",
+    "class": "Mid-Range",
+    "description": "Once Titanis learns its team-rotation skill, throw the enemy into disarray by shuffling them around!",
+    "sprite": "images/sprites/Titanis_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 71,
+        "DEF": 29,
+        "ACC": 35,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Titanis Strike",
+            "baseDamage": 21,
+            "fpCost": 70
+        },
+        {
+            "name": "Titanis Combo",
+            "baseDamage": 35,
+            "fpCost": 140
+        },
+        {
+            "name": "Titanis Buster",
+            "baseDamage": 65,
+            "fpCost": 240,
+            "effect": {
+                "description": "Rotate",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Harden",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Frenzy Comet",
+            "fpCost": 310,
+            "effect": {
+                "description": "Silver Excite (team)",
+                "rate": 90
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 20
+    },
+    "misc": {
+        "genus": "Titanis",
+        "group": "Phorusrhacids",
+        "era": "Cenozoic Neogene",
+        "length": {
+            "feet": 8,
+            "meters": 2.4,
+            "overall": "Small"
+        },
+        "diet": "Carnivore",
+        "discovered": ["USA"]
+    }
+}
