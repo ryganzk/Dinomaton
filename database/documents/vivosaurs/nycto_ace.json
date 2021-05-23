@@ -56,7 +56,7 @@
         "ACC": 20
     },
     "misc": {
-        "genus": "Nyctoaserius",
+        "properName": "Nyctoaserius",
         "length": {
             "feet": 33,
             "meters": 6.7,
