@@ -4,12 +4,17 @@ const config = require('../config.json');
 var draftPickInterval;
 var stoppedTime = 0;
 
-module.exports.getPickInterval = async function() {
-    console.log(draftPickInterval);
+module.exports.getPickInterval = function() {
+    return draftPickInterval;
+}
+
+module.exports.getStoppedTime = function() {
+    return stoppedTime;
 }
 
 module.exports.startPickInterval = async function(client, time) {
     console.log(`${time} minute(s) remaining...`);
+    stoppedTime = time;
 
     //Recursive function that keeps setting itself for a minute and keeping track of those minutes
     draftPickInterval = setInterval(async () => {
@@ -19,35 +24,32 @@ module.exports.startPickInterval = async function(client, time) {
             draft = await client.data.findOngoing();
             tookTooLong(client, draft);
 
-        //User has a minute left to make a pick
-        } else if(time === 2) {
-            draft = await client.data.findOngoing();
-            await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> ONLY HAS A MINUTE TO PICK A VIVOSAUR! HURRY UP, SKREE!!!`);
-            clearInterval(draftPickInterval);
-            await client.timer.startPickInterval(client, time - 1);
-
-        //User has 5 minutes left to make a pick
-        } else if(time === 6) {
-            draft = await client.data.findOngoing();
-            await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> HAS FIVE MINUTES TO PICK A VIVOSAUR, SKREE!!!`);
-            clearInterval(draftPickInterval);
-            await client.timer.startPickInterval(client, time - 1);
-
-        //No special event occurs, just tick the timer down
+        //User still has time to make a pick
         } else {
+
+            //User has a minute left to make a pick
+            if(time === 2) {
+                draft = await client.data.findOngoing();
+                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> ONLY HAS A MINUTE TO PICK A VIVOSAUR! HURRY UP, SKREE!!!`);
+    
+            //User has 5 minutes left to make a pick
+            } else if(time === 6) {
+                draft = await client.data.findOngoing();
+                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> HAS FIVE MINUTES TO PICK A VIVOSAUR, SKREE!!!`);
+            }
+
             clearInterval(draftPickInterval);
             await client.timer.startPickInterval(client, time - 1);
         }
     }, 60000);
-    stoppedTime = time;
 }
    
 module.exports.haltPickInterval = async function() {
-    draftPickInterval.pause();
+    clearInterval(draftPickInterval);
 }
     
-module.exports.resumePickInterval = async function() {
-    draftPickInterval.play();
+module.exports.resumePickInterval = async function(client) {
+    client.timer.startPickInterval(client, stoppedTime);
 }
     
 module.exports.extendPickInterval = async function(time) {
@@ -56,6 +58,11 @@ module.exports.extendPickInterval = async function(time) {
     
 module.exports.stopPickInterval = async function() {
     clearInterval(draftPickInterval);
+    stoppedTime = 0
+}
+
+module.exports.deletePickInterval = async function() {
+    draftPickInterval = null;
 }
 
 //This function is nearly identical to the one in pick.js and executes if the fighter takes too long to pick a vivo
