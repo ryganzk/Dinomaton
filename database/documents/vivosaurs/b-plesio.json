@@ -1,0 +1,75 @@
+{
+    "num": 155,
+    "element": "Water",
+    "name": "B-Plesio",
+    "class": "Mid-Range",
+    "description": "A boneysaur that learns skills like those of Plesio. Exploit its strong support effects and poison skills to punish enemies",
+    "sprite": "images/sprites/B-Plesio_Battle.png",
+    "stats": {
+        "LP": 70,
+        "ATT": 49,
+        "DEF": 5,
+        "ACC": 45,
+        "SPE": 18
+    },
+    "skills": [
+        {
+            "name": "Boney Blur",
+            "baseDamage": 8,
+            "fpCost": 30
+        },
+        {
+            "name": "B-Plesio Poison",
+            "baseDamage": 22,
+            "fpCost": 90,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 50
+            }
+        },
+        {
+            "name": "B-Plesio Venom",
+            "fpCost": 180,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Boney Wave",
+            "baseDamage": 30,
+            "fpCost": 180,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 99,
+        "SPE": 99
+    },
+    "misc": {
+        "properName": "Boney Plesiosaurus",
+        "length": {
+            "feet": 39,
+            "meters": 11.9,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

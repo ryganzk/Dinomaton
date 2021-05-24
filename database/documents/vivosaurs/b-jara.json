@@ -1,0 +1,71 @@
+{
+    "num": 157,
+    "element": "Fire",
+    "name": "B-Jara",
+    "class": "Long-Range",
+    "description": "A boneysaur that learns skills like those of Jara. Its support effects can sharply raise both Accuracy and Speed",
+    "sprite": "images/sprites/B-Jara_Battle.png",
+    "stats": {
+        "LP": 50,
+        "ATT": 38,
+        "DEF": 1,
+        "ACC": 48,
+        "SPE": 17
+    },
+    "skills": [
+        {
+            "name": "Boney Screech",
+            "baseDamage": 15,
+            "fpCost": 50,
+            "effect": {
+                "description": "Gold Sleep",
+                "rate": 60
+            }
+        },
+        {
+            "name": "Boney Beguile",
+            "baseDamage": 25,
+            "fpCost": 100,
+            "effect": {
+                "description": "Steal 120 FP",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Boney Spite",
+            "fpCost": 200,
+            "effect": {
+                "description": "Reduce own LP to 1, dealing 180 damage"
+            }
+        },
+        {
+            "name": "Boney Horror",
+            "baseDamage": 35,
+            "fpCost": 210,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 99,
+        "SPE": 99
+    },
+    "misc": {
+        "properName": "Boney Tapejara",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

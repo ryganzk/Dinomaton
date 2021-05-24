@@ -1,0 +1,70 @@
+{
+    "num": 156,
+    "element": "Water",
+    "name": "B-Tricera",
+    "class": "Mid-Range",
+    "description": "A boneysaur that learns skills like those of Proto. Boney Morph lets it change into another boneysaur",
+    "sprite": "images/sprites/B-Tricera_Battle.png",
+    "stats": {
+        "LP": 80,
+        "ATT": 65,
+        "DEF": 12,
+        "ACC": 40,
+        "SPE": 18
+    },
+    "skills": [
+        {
+            "name": "Boney Smash",
+            "baseDamage": 10,
+            "fpCost": 30
+        },
+        {
+            "name": "Boney Rush",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Boney Morph",
+            "fpCost": 120,
+            "effect": {
+                "description": "Transform into any boneysaur"
+            }
+        },
+        {
+            "name": "Super Harden",
+            "fpCost": 75,
+            "effect": {
+                "description": "Defense +50"
+            }
+        },
+        {
+            "name": "Boney Terror",
+            "baseDamage": 26,
+            "fpCost": 140,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 80,
+        "ACC": 50
+    },
+    "misc": {
+        "properName": "Boney Triceratops",
+        "length": {
+            "feet": 36,
+            "meters": 11,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

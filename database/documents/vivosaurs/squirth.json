@@ -1,0 +1,73 @@
+{
+    "num": 167,
+    "element": "Earth",
+    "name": "Squirth",
+    "class": "Mid-Range",
+    "description": "Born from a mysterious egg fossil, Squirth grows to provide fantastic support effects, including a 50% Defense boost!",
+    "sprite": "images/sprites/Squirth_Battle.png",
+    "stats": {
+        "LP": 100,
+        "ATT": 25,
+        "DEF": 5,
+        "ACC": 43,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Zero Cloud",
+            "baseDamage": 16,
+            "fpCost": 60
+        },
+        {
+            "name": "Earthen Torpedo",
+            "baseDamage": 32,
+            "fpCost": 120,
+            "effect": {
+                "description": "Gold Sleep",
+                "rate": 60
+            }  
+        },
+        {
+            "name": "Stone Collision",
+            "baseDamage": 48,
+            "fpCost": 180
+        },
+        {
+            "name": "Karmic Aura",
+            "fpCost": 50,
+            "effect": {
+                "description": "Counter: 100%"
+            }
+        },
+        {
+            "name": "Land Hammer",
+            "baseDamage": 55,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }  
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 10,
+        "DEF": 50,
+        "ACC": 30,
+        "SPE": 20
+    },
+    "misc": {
+        "era": "Unknown",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "favoritePlace": "Anywhere quiet"
+    }
+}

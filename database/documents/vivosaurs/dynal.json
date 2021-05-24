@@ -1,0 +1,72 @@
+{
+    "num": 174,
+    "element": "Neutral",
+    "name": "Dynal",
+    "class": "Mid-Range",
+    "description": "Excite AND poison skills with 100% success rates? All hail the king!",
+    "sprite": "images/sprites/Dynal_Battle.png",
+    "stats": {
+        "LP": 250,
+        "ATT": 89,
+        "DEF": 19,
+        "ACC": 31,
+        "SPE": 1
+    },
+    "skills": [
+        {
+            "name": "Royal Bite",
+            "baseDamage": 40,
+            "fpCost": 250
+        },
+        {
+            "name": "Regal Combo",
+            "baseDamage": 85,
+            "fpCost": 350,
+            "effect": {
+                "description": "Gold Excite",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Imperial Wrath",
+            "baseDamage": 145,
+            "fpCost": 550,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Rex Roar",
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack +40, Defense -10"
+            }
+        },
+        {
+            "name": "Antimatter Beam",
+            "baseDamage": 60,
+            "fpCost": 450,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -77,
+        "DEF": -77,
+        "ACC": -77,
+        "SPE": -77
+    },
+    "misc": {
+        "properName": "Dynal XVI",
+        "length": {
+            "feet": 36,
+            "meters": 11,
+            "overall": "Large"
+        },
+        "favoriteFood": "Space sandwich",
+        "humanAge": "40 years old"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "num": 172,
+    "element": "Water",
+    "name": "Duna",
+    "class": "Mid-Range",
+    "description": "With a 100% confuse skill and unrivaled support effects, Duna is obviously one of the dinaurian elite!",
+    "sprite": "images/sprites/Duna_Battle.png",
+    "stats": {
+        "LP": 210,
+        "ATT": 57,
+        "DEF": 19,
+        "ACC": 43,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Elegant Bite",
+            "baseDamage": 38,
+            "fpCost": 180
+        },
+        {
+            "name": "Lethal Waltz",
+            "baseDamage": 77,
+            "fpCost": 290,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Graceful Rage",
+            "baseDamage": 98,
+            "fpCost": 350,
+            "effect": {
+                "description": "Gold Confuse",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Enchanting Aura",
+            "fpCost": 30,
+            "effect": {
+                "description": "Counter: 70%"
+            }
+        },
+        {
+            "name": "Sapphire Doom",
+            "baseDamage": 72,
+            "fpCost": 380,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 77,
+        "SPE": 77
+    },
+    "misc": {
+        "properName": "Duna Nichs",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "favoriteFood": "Omelettes",
+        "humanAge": "14 years old"
+    }
+}

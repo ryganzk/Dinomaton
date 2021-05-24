@@ -1,0 +1,66 @@
+{
+    "num": 153,
+    "element": "Air",
+    "name": "B-Lambeo",
+    "class": "Close-Range",
+    "description": "A boneysaur that learns skills like those of Lambeo. Because it can learn a skill that restores team LP, it should be placed in the SZ position",
+    "sprite": "images/sprites/B-Lambeeo_Battle.png",
+    "stats": {
+        "LP": 130,
+        "ATT": 70,
+        "DEF": 5,
+        "ACC": 41,
+        "SPE": 14
+    },
+    "skills": [
+        {
+            "name": "Boney Chomp",
+            "baseDamage": 15,
+            "fpCost": 100
+        },
+        {
+            "name": "B-Lamb Combo",
+            "baseDamage": 38,
+            "fpCost": 150,
+            "effect": {
+                "description": "Silver Enrage",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Boney Shove",
+            "baseDamage": 50,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Boney Hand",
+            "fpCost": 280,
+            "effect": {
+                "description": "Heals 100 LP (team)"
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 40
+    },
+    "misc": {
+        "properName": "Boney Lambeosaurus",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

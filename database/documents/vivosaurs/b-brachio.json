@@ -1,0 +1,71 @@
+{
+    "num": 152,
+    "element": "Neutral",
+    "name": "B-Brachio",
+    "class": "Long-Range",
+    "description": "A boneysaur that learns skills like those of Brachio. Even though its LP is low, it has no elemental weakness",
+    "sprite": "images/sprites/B-Brachio_Battle.png",
+    "stats": {
+        "LP": 180,
+        "ATT": 55,
+        "DEF": 7,
+        "ACC": 39,
+        "SPE": 5
+    },
+    "skills": [
+        {
+            "name": "Boney Stomp",
+            "baseDamage": 22,
+            "fpCost": 100,
+            "effect": {
+                "description": "Rotate",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Boney Tsunami",
+            "baseDamage": 45,
+            "fpCost": 180
+        },
+        {
+            "name": "Boney Crush",
+            "baseDamage": 75,
+            "fpCost": 300            
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Boney Crash",
+            "baseDamage": 92,
+            "fpCost": 560,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "DEF": 40
+    },
+    "misc": {
+        "properName": "Boney Brachiosaurus",
+        "length": {
+            "feet": 89,
+            "meters": 27.1,
+            "overall": "Titanic"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

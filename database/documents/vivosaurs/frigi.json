@@ -1,0 +1,64 @@
+{
+    "num": 163,
+    "element": "Legendary",
+    "name": "Frigi",
+    "class": "Long-Range",
+    "description": "As one of the legendary dinosaurs, all of Frigi's ice-cold skills are very powerful",
+    "sprite": "images/sprites/Frigi_Battle.png",
+    "stats": {
+        "LP": 500,
+        "ATT": 83,
+        "DEF": 25,
+        "ACC": 30,
+        "SPE": 1
+    },
+    "skills": [
+        {
+            "name": "Subzero Stomp",
+            "baseDamage": 35,
+            "fpCost": 150
+        },
+        {
+            "name": "Mountain Wave",
+            "baseDamage": 72,
+            "fpCost": 330
+        },
+        {
+            "name": "Earth Crush",
+            "baseDamage": 69,
+            "fpCost": 530,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }         
+        },
+        {
+            "name": "Frozen Armor",
+            "fpCost": 15,
+            "effect": {
+                "description": "Defense +30"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -10,
+        "DEF": -10,
+        "ACC": -10,
+        "SPE": -10
+    },
+    "misc": {
+        "properName": "Frigisaurus",
+        "length": {
+            "feet": 101,
+            "meters": 30.8,
+            "overall": "Titanic"
+        },
+        "likes": "Cold winds"
+    }
+}

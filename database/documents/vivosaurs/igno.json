@@ -1,0 +1,65 @@
+{
+    "num": 164,
+    "element": "Legendary",
+    "name": "Igno",
+    "class": "Close-Range",
+    "description": "A legendary dinosaur and Frigi's biggest rival, Igno leaves a trail of scorched victims wherever it goes!",
+    "sprite": "images/sprites/Igno_Battle.png",
+    "stats": {
+        "LP": 450,
+        "ATT": 94,
+        "DEF": 18,
+        "ACC": 25,
+        "SPE": 5
+    },
+    "skills": [
+        {
+            "name": "Burning Bite",
+            "baseDamage": 33,
+            "fpCost": 200
+        },
+        {
+            "name": "Volcanic Combo",
+            "baseDamage": 77,
+            "fpCost": 340
+        },
+        {
+            "name": "Inferno Breath",
+            "baseDamage": 135,
+            "fpCost": 500,
+            "effect": {
+                "description": "Gold Scare",
+                "rate": 100
+            }         
+        },
+        {
+            "name": "Roaring Fire",
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack +40, Defense -10"
+            }
+        },
+        {
+            "name": "Solo Power",
+            "effect": {
+                "description": "Attack increased by 200% when no allies remain"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -50,
+        "DEF": -50,
+        "ACC": -50,
+        "SPE": -50
+    },
+    "misc": {
+        "properName": "Ignosaurus",
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        },
+        "likes": "Scorching flames"
+    }
+}

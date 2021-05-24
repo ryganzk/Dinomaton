@@ -1,0 +1,83 @@
+{
+    "num": 170,
+    "element": "Air",
+    "name": "Salada",
+    "class": "Close-Range",
+    "description": "A boneysaur with a high Attack stat. While Salada's support effects boost the Attack and Speed of allies, they lower the other stats",
+    "sprite": "images/sprites/Salada_Battle.png",
+    "stats": {
+        "LP": 240,
+        "ATT": 86,
+        "DEF": 21,
+        "ACC": 31,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Caesar Roll",
+            "baseDamage": 20,
+            "fpCost": 80
+        },
+        {
+            "name": "Thousand Islands",
+            "baseDamage": 26,
+            "fpCost": 170,
+            "effect": {
+                "description": "Randomly attack enemy team severla times"
+            }
+        },
+        {
+            "name": "Wild Downer",
+            "baseDamage": 34,
+            "fpCost": 240,
+            "effect": {
+                "description": "Silver Confuse",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Charge!",
+            "fpCost": 50,
+            "effect": {
+                "description": "Next attack does x2.5 damage"
+            }
+        },
+        {
+            "name": "Basilisco Sour",
+            "baseDamage": 64,
+            "fpCost": 450,
+            "effect": {
+                "description": "Silver Confuse (team)",
+                "rate": 25
+            }
+        },
+        {
+            "name": "Parting Blow 3",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 55,
+        "DEF": -20,
+        "ACC": -20,
+        "SPE": 55
+    },
+    "misc": {
+        "properName": "Saladasaur",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "num": 161,
+    "element": "Legendary",
+    "name": "Z-Elasmo",
+    "class": "Mid-Range",
+    "description": "A Mid-Range zombiesaur, Z-Elasmo's support effects progressively slash enemy stats as it ranks up",
+    "sprite": "images/sprites/Z-Elasmo_Battle.png",
+    "stats": {
+        "LP": 80,
+        "ATT": 67,
+        "DEF": 24,
+        "ACC": 40,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Z-Elasmo Tackle",
+            "baseDamage": 10,
+            "fpCost": 40
+        },
+        {
+            "name": "Z-Elasmo Combo",
+            "baseDamage": 28,
+            "fpCost": 100
+        },
+        {
+            "name": "Z-Elasmo Triple",
+            "baseDamage": 56,
+            "fpCost": 200
+        },
+        {
+            "name": "Power Scale",
+            "fpCost": 50,
+            "effect": {
+                "description": "Equalize FP"
+            }
+        },
+        {
+            "name": "Zombie Wave",
+            "baseDamage": 100,
+            "fpCost": 480,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Rotting Flesh",
+            "effect": {
+                "description": "Grants immunity to Sleep, Scare, and Infection status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -77,
+        "DEF": -77,
+        "SPE": -77
+    },
+    "misc": {
+        "properName": "Zombie Elasmosaurus",
+        "length": {
+            "feet": 43,
+            "meters": 13.1,
+            "overall": "Large"
+        },
+        "favoriteFood": "Unknown"
+    }
+}

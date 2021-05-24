@@ -1,0 +1,70 @@
+{
+    "num": 154,
+    "element": "Air",
+    "name": "B-Ptera",
+    "class": "Long-Range",
+    "description": "A boneysaur that learns skills like those of Ptera. It can support the team with rotation and scare skills",
+    "sprite": "images/sprites/B-Ptera_Battle.png",
+    "stats": {
+        "LP": 60,
+        "ATT": 51,
+        "DEF": 4,
+        "ACC": 46,
+        "SPE": 16
+    },
+    "skills": [
+        {
+            "name": "Boney Skewer",
+            "baseDamage": 20,
+            "fpCost": 60
+        },
+        {
+            "name": "Boney Cutter",
+            "baseDamage": 26,
+            "fpCost": 80
+        },
+        {
+            "name": "Boney Swirl",
+            "baseDamage": 34,
+            "fpCost": 120
+        },
+        {
+            "name": "Boney Churner",
+            "baseDamage": 22,
+            "fpCost": 80,
+            "effect": {
+                "description": "Rotate",
+                "rate": 70
+            }
+        },
+        {
+            "name": "Boney Cyclone",
+            "baseDamage": 35,
+            "fpCost": 210,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 70,
+        "SPE": 70
+    },
+    "misc": {
+        "properName": "Boney Pteranodon",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

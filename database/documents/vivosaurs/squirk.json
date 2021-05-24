@@ -1,0 +1,73 @@
+{
+    "num": 166,
+    "element": "Fire",
+    "name": "Squirk",
+    "class": "Mid-Range",
+    "description": "Born from a mysterious egg fossil, Squirk grows to provide fantastic support effects, including a 50% Attack boost!",
+    "sprite": "images/sprites/Squirk_Battle.png",
+    "stats": {
+        "LP": 100,
+        "ATT": 25,
+        "DEF": 5,
+        "ACC": 43,
+        "SPE": 15
+    },
+    "skills": [
+        {
+            "name": "Zero Cloud",
+            "baseDamage": 16,
+            "fpCost": 60
+        },
+        {
+            "name": "Flaming Torpedo",
+            "baseDamage": 32,
+            "fpCost": 120,
+            "effect": {
+                "description": "Silver Excite",
+                "rate": 50
+            }  
+        },
+        {
+            "name": "Burning Wave",
+            "baseDamage": 48,
+            "fpCost": 180
+        },
+        {
+            "name": "Karmic Aura",
+            "fpCost": 50,
+            "effect": {
+                "description": "Counter: 100%"
+            }
+        },
+        {
+            "name": "Blazing Ruin",
+            "baseDamage": 55,
+            "fpCost": 250,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }  
+        },
+        {
+            "name": "Parting Blow 2",
+            "effect": {
+                "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 50,
+        "DEF": 30,
+        "ACC": 20,
+        "SPE": 10
+    },
+    "misc": {
+        "era": "Unknown",
+        "length": {
+            "feet": 3,
+            "meters": 0.9,
+            "overall": "Small"
+        },
+        "favoritePlace": "Anywhere warm"
+    }
+}

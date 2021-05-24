@@ -1,0 +1,78 @@
+{
+    "num": 162,
+    "element": "Legendary",
+    "name": "Zongazonga",
+    "class": "Close-Range",
+    "description": "Zongazonga is the most powerful zombiesaur, but its support effects sharply reduce all stats of allies. All skills also require vast amounts of FP",
+    "sprite": "images/sprites/Zongazonga_Battle.png",
+    "stats": {
+        "LP": 677,
+        "ATT": 94,
+        "DEF": 20,
+        "ACC": 30,
+        "SPE": 1
+    },
+    "skills": [
+        {
+            "name": "Evil Horn",
+            "baseDamage": 50,
+            "fpCost": 350
+        },
+        {
+            "name": "Necromancy",
+            "baseDamage": 90,
+            "fpCost": 450
+        },
+        {
+            "name": "Soul Shatter",
+            "baseDamage": 150,
+            "fpCost": 700,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Ghost King",
+            "baseDamage": 90,
+            "fpCost": 340,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        },
+        {
+            "name": "FP Absorb",
+            "effect": {
+                "description": "Absorbs 30% FP of the skill used to hit it"
+            }
+        },
+        {
+            "name": "Negligible Senescence",
+            "effect": {
+                "description": "Grants immunity to Sleep, Scare, and Infection status effects, as well as OHKO moves"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": -77,
+        "DEF": -77,
+        "ACC": -77,
+        "SPE": -77
+    },
+    "misc": {
+        "properName": "Zongazonga",
+        "length": {
+            "feet": 66,
+            "meters": 20.1,
+            "overall": "Titanic"
+        },
+        "favoriteFood": "Unknown"
+    }
+}

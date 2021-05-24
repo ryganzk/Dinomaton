@@ -1,0 +1,70 @@
+{
+    "num": 151,
+    "element": "Fire",
+    "name": "B-Rex",
+    "class": "Close-Range",
+    "description": "A boneysaur that learns skills like those of T-Rex. Being a skeleton, its LP is low",
+    "sprite": "images/sprites/B-Rex_Battle.png",
+    "stats": {
+        "LP": 140,
+        "ATT": 78,
+        "DEF": 25,
+        "ACC": 43,
+        "SPE": 13
+    },
+    "skills": [
+        {
+            "name": "Boney Roar",
+            "baseDamage": 1,
+            "fpCost": 100,
+            "effect": {
+                "description": "Attack AZ and SZ simultaneously"
+            }
+        },
+        {
+            "name": "Bare Tactics",
+            "baseDamage": 67,
+            "fpCost": 200
+        },
+        {
+            "name": "Skeletal Assault",
+            "baseDamage": 90,
+            "fpCost": 300
+        },
+        {
+            "name": "Law of the Jungle",
+            "fpCost": 50,
+            "effect": {
+                "description": "Recover using ally LP"
+            }
+        },
+        {
+            "name": "Boney Breath",
+            "baseDamage": 65,
+            "fpCost": 400,
+            "effect": {
+                "description": "Silver Scare (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Bone Armor",
+            "effect": {
+                "description": "Grants immunity to Poison and Scare status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ACC": 40
+    },
+    "misc": {
+        "properName": "Boney Tyrannosaurus",
+        "length": {
+            "feet": 49,
+            "meters": 12.8,
+            "overall": "Large"
+        },
+        "favoriteFood": "Calcium"
+    }
+}

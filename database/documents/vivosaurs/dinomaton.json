@@ -1,0 +1,51 @@
+{
+    "num": 171,
+    "element": "Neutral",
+    "name": "Dinomaton",
+    "class": "Close-Range",
+    "description": "A powerful robot designed to deliver high-power attacks that consume little FP. Its weakness is its terrible Defense",
+    "sprite": "images/sprites/Dinomaton_Battle.png",
+    "stats": {
+        "LP": 400,
+        "ATT": 80,
+        "DEF": 4,
+        "ACC": 30,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Steel Slash",
+            "baseDamage": 24,
+            "fpCost": 80
+        },
+        {
+            "name": "Scissor Swipe",
+            "baseDamage": 48,
+            "fpCost": 160
+        },
+        {
+            "name": "Heartless Fury",
+            "baseDamage": 84,
+            "fpCost": 280
+        },
+        {
+            "name": "Death Ray",
+            "baseDamage": 46,
+            "fpCost": 280,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {},
+    "misc": {
+        "modelName": "TC-4237",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "power": "Electricity (rechargeable)",
+        "warrantyPeriod": "500 years"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "num": 160,
+    "element": "Legendary",
+    "name": "Z-Ptera",
+    "class": "Long-Range",
+    "description": "A zombiesaur with weak Attack and Defense stats that are compensated by powerful support effects. Keep it in the SZ at all costs",
+    "sprite": "images/sprites/Z-Ptera_Battle.png",
+    "stats": {
+        "LP": 10,
+        "ATT": 38,
+        "DEF": 6,
+        "ACC": 48,
+        "SPE": 22
+    },
+    "skills": [
+        {
+            "name": "Zombie Skewer",
+            "baseDamage": 6,
+            "fpCost": 20
+        },
+        {
+            "name": "Undead Wing",
+            "baseDamage": 18,
+            "fpCost": 60
+        },
+        {
+            "name": "Zombie Swirl",
+            "baseDamage": 30,
+            "fpCost": 100
+        },
+        {
+            "name": "Super Quicken",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Zombie Cyclone",
+            "baseDamage": 53,
+            "fpCost": 280,
+            "effect": {
+                "description": "Silver Poison (team)",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Rotting Flesh",
+            "effect": {
+                "description": "Grants immunity to Sleep, Scare, and Infection status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -77,
+        "ACC": -77,
+        "SPE": -77
+    },
+    "misc": {
+        "properName": "Zombie Pteranodon",
+        "length": {
+            "feet": 33,
+            "meters": 10.1,
+            "overall": "Large"
+        },
+        "favoriteFood": "Unknown"
+    }
+}

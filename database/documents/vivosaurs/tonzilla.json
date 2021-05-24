@@ -1,0 +1,57 @@
+{
+    "num": 150,
+    "element": "Earth",
+    "name": "Tonzilla",
+    "class": "Close-Range",
+    "description": "Tonzilla enters battle with Super Enflame already applied. Its Link ability also activates with nearly all allied attacks",
+    "sprite": "images/sprites/Tonzilla_Battle.png",
+    "stats": {
+        "LP": 455,
+        "ATT": 45,
+        "DEF": 12,
+        "ACC": 28,
+        "SPE": 17
+    },
+    "skills": [
+        {
+            "name": "Dangle",
+            "baseDamage": 15,
+            "fpCost": 60
+        },
+        {
+            "name": "Quiver",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Jiggle Flash",
+            "baseDamage": 100,
+            "fpCost": 560,
+            "effect": {
+                "description": "Silver Sleep (team)",
+                "rate": 30
+            }
+        },
+        {
+            "name": "Enflame Plus S",
+            "effect": {
+                "description": "Enters battle with Super Enflame applied"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ACC": -50
+    },
+    "misc": {
+        "properName": "Lord Tonzilla",
+        "length": {
+            "feet": 10,
+            "meters": 3,
+            "overall": "Small"
+        },
+        "favoriteFood": "Seaweed"
+    }
+}

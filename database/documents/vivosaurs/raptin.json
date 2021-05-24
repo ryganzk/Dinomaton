@@ -1,0 +1,70 @@
+{
+    "num": 173,
+    "element": "Air",
+    "name": "Duna",
+    "class": "Mid-Range",
+    "description": "A 100% poison skill and off-the-charts support effects make Raptin one tough customer",
+    "sprite": "images/sprites/Raptin_Battle.png",
+    "stats": {
+        "LP": 230,
+        "ATT": 62,
+        "DEF": 19,
+        "ACC": 43,
+        "SPE": 20
+    },
+    "skills": [
+        {
+            "name": "Spite Claw",
+            "baseDamage": 33,
+            "fpCost": 160
+        },
+        {
+            "name": "Ire Combo",
+            "baseDamage": 68,
+            "fpCost": 280,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 80
+            }
+        },
+        {
+            "name": "Reaper's Wrath",
+            "baseDamage": 89,
+            "fpCost": 350,
+            "effect": {
+                "description": "Gold Poison",
+                "rate": 100
+            }
+        },
+        {
+            "name": "Quick Shout",
+            "fpCost": 75,
+            "effect": {
+                "description": "Speed +70%"
+            }
+        },
+        {
+            "name": "Positron Beam",
+            "baseDamage": 70,
+            "fpCost": 360,
+            "effect": {
+                "description": "Attack AZ + SZ"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Own AZ",
+        "ATT": 77,
+        "ACC": 77
+    },
+    "misc": {
+        "properName": "Raptin Dinon",
+        "length": {
+            "feet": 13,
+            "meters": 4,
+            "overall": "Small"
+        },
+        "favoriteFood": "Steak",
+        "humanAge": "18 years old"
+    }
+}

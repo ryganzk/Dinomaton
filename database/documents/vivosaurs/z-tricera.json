@@ -1,0 +1,73 @@
+{
+    "num": 159,
+    "element": "Legendary",
+    "name": "Z-Tricera",
+    "class": "Mid-Range",
+    "description": "Team Z-Tricera with other zombiesaurs to unlock a team skill that poisons the entire enemy team",
+    "sprite": "images/sprites/Z-Tricera_Battle.png",
+    "stats": {
+        "LP": 70,
+        "ATT": 68,
+        "DEF": 31,
+        "ACC": 45,
+        "SPE": 21
+    },
+    "skills": [
+        {
+            "name": "Zombie Shuffle",
+            "baseDamage": 15,
+            "fpCost": 50
+        },
+        {
+            "name": "Z-Tri Combo",
+            "baseDamage": 52,
+            "fpCost": 180,
+            "effect": {
+                "description": "Rotate",
+                "rate": 50
+            }
+        },
+        {
+            "name": "Z-Tri Fury",
+            "baseDamage": 87,
+            "fpCost": 300
+        },
+        {
+            "name": "Enflame",
+            "fpCost": 30,
+            "effect": {
+                "description": "Attack +20, Defense -5"
+            }
+        },
+        {
+            "name": "Z-Tri Tornado",
+            "baseDamage": 40,
+            "fpCost": 200,
+            "effect": {
+                "description": "Silver Poison",
+                "rate": 40
+            }
+        },
+        {
+            "name": "Rotting Flesh",
+            "effect": {
+                "description": "Grants immunity to Sleep, Scare, and Infection status effects"
+            }
+        }
+    ],
+    "support": {
+        "supportPosition": "Enemy AZ",
+        "ATT": -77,
+        "DEF": -77,
+        "ACC": -77
+    },
+    "misc": {
+        "properName": "Zombie Triceratops",
+        "length": {
+            "feet": 49,
+            "meters": 14.9,
+            "overall": "Large"
+        },
+        "favoriteFood": "Unknown"
+    }
+}
