@@ -26,10 +26,15 @@ module.exports = {
             return;
         }
 
-        let draft = await client.data.findOngoing();
+        draft = await client.data.draftStatus(['congregating']);
+
+        //Changing the rules can only occur before picking has begun
+        if(!draft) {
+            message.channel.send(`IT'S TOO LATE TO CHANGE THE DRAFT'S RULESET, SKREE!!!`);
+            return; 
 
         //What happens if there are more current participants than our new minimum allows? Error duh
-        if (fighters < draft.fighterList.length) {
+        } else if (fighters < draft.fighterList.length) {
             message.channel.send(`LOOKS THE THE DRAFT HAS TOO MANY PARTICIPANTS, SKREE!!!`);
             return;
 
