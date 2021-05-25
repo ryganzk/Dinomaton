@@ -58,9 +58,25 @@ async function bootSequence() {
         }
     }
 
+    //Handles super evolver documents on first run
+    const superEvolverFiles = fs.readdirSync('./database/documents/super_evolvers/');
+    var superEvolverList = [];
+    for(const file of superEvolverFiles) {
+        const vivosaur = require(`./database/documents/super_evolvers/${file}`);
+        if(!(await client.data.superEvolverDocExists(vivosaur))) {
+            superEvolverList.push(vivosaur);
+            client.logger.log(`${file.split(".")[0]} has been imported into dinomaton.super_evolvers`);
+        }
+    }
+
     //Imports the array of vivosaur documents (if they exist)
     if(vivoList.length > 0) {
         await client.data.importVivosaurs(vivoList);
+    }
+
+    //Do the same for super evolvers
+    if(superEvolverList.length > 0) {
+        await client.data.importSuperEvolvers(superEvolverList);
     }
 
     client.login(config.token);
