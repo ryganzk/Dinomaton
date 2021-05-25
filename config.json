@@ -9,8 +9,7 @@
         "airMedal": "Air_Medal",
         "waterMedal": "Water_Medal",
         "neutralMedal": "Neutral_Medal",
-        "legendaryMedal": "Legendary_Medal"
+        "legendaryMedal": "Legend_Medal"
     },
-    "draftChannel": "general",
-    "pickTime": 10
+    "draftChannel": "general"
 }
