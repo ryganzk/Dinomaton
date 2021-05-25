@@ -18,7 +18,7 @@
             "baseDamage": 1,
             "fpCost": 100,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         },
         {
@@ -41,6 +41,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -48,6 +49,7 @@
         },
         {
             "name": "Tyrant's Breath",
+            "type": "Team",
             "baseDamage": 65,
             "fpCost": 280,
             "effect": {

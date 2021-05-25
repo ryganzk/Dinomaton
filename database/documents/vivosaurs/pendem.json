@@ -43,6 +43,7 @@
         },
         {
             "name": "Ancient Boulder",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 210,
             "effect": {
@@ -52,6 +53,7 @@
         },
         {
             "name": "Position Lock",
+            "type": "Ability",
             "effect": {
                 "description": "Prevents forced rotation by skills (excludes gold excite)"
             }

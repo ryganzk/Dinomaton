@@ -30,6 +30,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Cyclonic Breath",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 260,
             "effect": {
@@ -45,6 +47,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

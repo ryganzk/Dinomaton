@@ -38,6 +38,7 @@
         },
         {
             "name": "Poison Cannon",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 330,
             "effect": {
@@ -47,6 +48,7 @@
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }

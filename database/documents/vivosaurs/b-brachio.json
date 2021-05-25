@@ -41,6 +41,7 @@
         },
         {
             "name": "Boney Crash",
+            "type": "Team",
             "baseDamage": 92,
             "fpCost": 560,
             "effect": {
@@ -50,6 +51,7 @@
         },
         {
             "name": "Bone Armor",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Poison and Scare status effects"
             }

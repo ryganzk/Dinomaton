@@ -34,6 +34,7 @@
         },
         {
             "name": "Payback",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Counter: 70%"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Delta Cannon",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 410,
             "effect": {
@@ -50,6 +52,7 @@
         },
         {
             "name": "FP Plus 2",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 20%"
             }

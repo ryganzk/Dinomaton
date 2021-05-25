@@ -38,6 +38,7 @@
         },
         {
             "name": "Neutralize",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Cure entire team of all negative status effects"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Nightmare Call",
+            "type": "Team",
             "baseDamage": 25,
             "fpCost": 160,
             "effect": {

@@ -37,6 +37,7 @@
         },
         {
             "name": "Ancient Power",
+            "type": "Support",
             "fpCost": 60,
             "effect": {
                 "description": "Transform into any Neutral-type vivosaur"
@@ -44,6 +45,7 @@
         },
         {
             "name": "Elder Wrath",
+            "type": "Team",
             "baseDamage": 46,
             "fpCost": 200,
             "effect": {

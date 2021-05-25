@@ -34,6 +34,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Panic Needles",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 400,
             "effect": {
@@ -50,6 +52,7 @@
         },
         {
             "name": "Harden Plus",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Harden applied"
             }

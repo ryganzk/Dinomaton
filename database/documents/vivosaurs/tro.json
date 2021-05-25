@@ -34,6 +34,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Tro Storm",
+            "type": "Team",
             "baseDamage": 65,
             "fpCost": 340,
             "effect": {
@@ -50,6 +52,7 @@
         },
         {
             "name": "FP Plus 2",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 20%"
             }

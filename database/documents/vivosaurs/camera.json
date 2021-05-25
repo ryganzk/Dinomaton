@@ -37,6 +37,7 @@
         },
         {
             "name": "Camara Crash",
+            "type": "Team",
             "baseDamage": 83,
             "fpCost": 300,
             "effect": {
@@ -45,6 +46,7 @@
         },
         {
             "name": "Auto LP Recovery 1",
+            "type": "Ability",
             "effect": {
                 "description": "Recovers 5% of the vivosaur's max LP at the start of every turn"
             }

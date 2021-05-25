@@ -34,6 +34,7 @@
         },
         {
             "name": "Wild Scent",
+            "type": "Team",
             "baseDamage": 58,
             "fpCost": 280,
             "effect": {

@@ -38,6 +38,7 @@
         },
         {
             "name": "Payback",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Counter: 70%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Power Dive",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 200,
             "effect": {
@@ -54,6 +56,7 @@
         },
         {
             "name": "Parting Blow 3",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
             }
@@ -66,7 +69,7 @@
     },
     "misc": {
         "genus": "Megatherium",
-        "group": "Megatheriidae",
+        "family": "Megatheriidae",
         "era": "Cenozoic Quaternary",
         "length": {
             "feet": 26,

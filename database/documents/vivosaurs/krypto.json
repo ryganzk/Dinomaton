@@ -33,6 +33,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Horror Storm",
+            "type": "Team",
             "baseDamage": 65,
             "fpCost": 390,
             "effect": {

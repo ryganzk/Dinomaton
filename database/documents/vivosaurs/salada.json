@@ -37,6 +37,7 @@
         },
         {
             "name": "Charge!",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Next attack does x2.5 damage"
@@ -44,6 +45,7 @@
         },
         {
             "name": "Basilisco Sour",
+            "type": "Team",
             "baseDamage": 64,
             "fpCost": 450,
             "effect": {
@@ -53,12 +55,14 @@
         },
         {
             "name": "Parting Blow 3",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
             }
         },
         {
             "name": "Bone Armor",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Poison and Scare status effects"
             }

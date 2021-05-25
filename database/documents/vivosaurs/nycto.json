@@ -43,6 +43,7 @@
         },
         {
             "name": "Cyclone Cutter",
+            "type": "Team",
             "baseDamage": 35,
             "fpCost": 170,
             "effect": {
@@ -52,6 +53,7 @@
         },
         {
             "name": "FP Plus 2",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 20%"
             }

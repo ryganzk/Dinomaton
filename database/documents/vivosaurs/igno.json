@@ -34,6 +34,7 @@
         },
         {
             "name": "Roaring Fire",
+            "type": "Support",
             "fpCost": 100,
             "effect": {
                 "description": "Attack +40, Defense -10"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Solo Power",
+            "type": "Ability",
             "effect": {
                 "description": "Attack increased by 200% when no allies remain"
             }

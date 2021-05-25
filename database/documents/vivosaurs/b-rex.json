@@ -18,7 +18,7 @@
             "baseDamage": 1,
             "fpCost": 100,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         },
         {
@@ -33,6 +33,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Boney Breath",
+            "type": "Team",
             "baseDamage": 65,
             "fpCost": 400,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Bone Armor",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Poison and Scare status effects"
             }

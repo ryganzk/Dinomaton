@@ -20,6 +20,7 @@
         },
         {
             "name": "Mother's Care",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Cures a chosen ally of all negative status effects"
@@ -27,6 +28,7 @@
         },
         {
             "name": "Mother's Heal",
+            "type": "Support",
             "fpCost": 90,
             "effect": {
                 "description": "Heals a chosen ally for 300 LP"
@@ -34,6 +36,7 @@
         },
         {
             "name": "Curative Ode",
+            "type": "Support",
             "fpCost": 480,
             "effect": {
                 "description": "Heals 250 LP and cures negative status effects to a chosen ally"
@@ -41,6 +44,7 @@
         },
         {
             "name": "Life Song",
+            "type": "Team",
             "fpCost": 450,
             "effect": {
                 "description": "Heals 200 LP (team)"

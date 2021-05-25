@@ -34,6 +34,7 @@
         },
         {
             "name": "Enflame",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Tri-Torpedo",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 170,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Parting Blow 3",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
             }

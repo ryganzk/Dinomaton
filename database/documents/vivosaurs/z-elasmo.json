@@ -37,6 +37,7 @@
         },
         {
             "name": "Zombie Wave",
+            "type": "Team",
             "baseDamage": 100,
             "fpCost": 480,
             "effect": {
@@ -46,6 +47,7 @@
         },
         {
             "name": "Rotting Flesh",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Sleep, Scare, and Infection status effects"
             }

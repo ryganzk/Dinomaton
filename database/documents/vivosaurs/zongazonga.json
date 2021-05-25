@@ -33,6 +33,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Ghost King",
+            "type": "Team",
             "baseDamage": 90,
             "fpCost": 340,
             "effect": {
@@ -48,12 +50,14 @@
         },
         {
             "name": "FP Absorb",
+            "type": "Ability",
             "effect": {
                 "description": "Absorbs 30% FP of the skill used to hit it"
             }
         },
         {
             "name": "Negligible Senescence",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Sleep, Scare, and Infection status effects, as well as OHKO moves"
             }

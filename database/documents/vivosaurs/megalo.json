@@ -24,7 +24,7 @@
             "fpCost": 110
         },
         {
-            "name": "Null Breathe",
+            "name": "Null Breath",
             "fpCost": 80,
             "effect": {
                 "description": "Gold Scare",
@@ -39,8 +39,9 @@
             }
         },
         {
-            "name": "Cyclonic Breath",
-            "fpCost": 420,
+            "name": "Null Storm",
+            "type": "Team",
+            "fpCost": 280,
             "effect": {
                 "description": "Gold Scare",
                 "rate": 40

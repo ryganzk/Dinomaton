@@ -20,6 +20,7 @@
         },
         {
             "name": "Quiver",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
@@ -27,6 +28,7 @@
         },
         {
             "name": "Jiggle Flash",
+            "type": "Team",
             "baseDamage": 100,
             "fpCost": 560,
             "effect": {
@@ -36,6 +38,7 @@
         },
         {
             "name": "Enflame Plus S",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Super Enflame applied"
             }

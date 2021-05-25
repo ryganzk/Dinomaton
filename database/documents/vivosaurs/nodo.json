@@ -41,6 +41,7 @@
         },
         {
             "name": "Panic Typhoon",
+            "type": "Team",
             "fpCost": 460,
             "effect": {
                 "description": "Gold Confuse (team)",

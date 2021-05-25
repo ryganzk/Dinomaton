@@ -34,6 +34,7 @@
         },
         {
             "name": "Sacrifice",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Reduce own LP to 1, split equally across both teammates"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Glacial Barrage",
+            "type": "Team",
             "fpCost": 390,
             "effect": {
                 "description": "Gold Sleep (team)",
@@ -49,6 +51,7 @@
         },
         {
             "name": "Auto LP Recovery 2",
+            "type": "Ability",
             "effect": {
                 "description": "Recovers 10% of the vivosaur's max LP at the start of every turn"
             }
@@ -63,7 +66,7 @@
     },
     "misc": {
         "genus": "Mammuthus",
-        "group": "Elephantidae",
+        "family": "Elephantidae",
         "era": "Cenozoic Quaternary",
         "length": {
             "feet": 10,

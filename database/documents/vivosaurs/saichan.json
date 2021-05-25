@@ -38,6 +38,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Fire Cannon",
+            "type": "Team",
             "baseDamage": 53,
             "fpCost": 230,
             "effect": {
@@ -53,6 +55,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

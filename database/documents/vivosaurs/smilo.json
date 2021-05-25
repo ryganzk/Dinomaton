@@ -30,6 +30,7 @@
         },
         {
             "name": "Rattling Sabers",
+            "type": "Team",
             "fpCost": 340,
             "effect": {
                 "description": "Silver Sleep (team)",
@@ -38,6 +39,7 @@
         },
         {
             "name": "FP Plus 1",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 10%"
             }
@@ -51,7 +53,7 @@
     },
     "misc": {
         "genus": "Smilodon",
-        "group": "Felidae",
+        "family": "Felidae",
         "era": "Cenozoic Neogene",
         "length": {
             "feet": 6,

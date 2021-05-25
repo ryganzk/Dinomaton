@@ -30,6 +30,7 @@
         },
         {
             "name": "Super Harden",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Defense +50"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Ice Crusher",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 200,
             "effect": {
@@ -46,6 +48,7 @@
         },
         {
             "name": "Position Lock",
+            "type": "Ability",
             "effect": {
                 "description": "Prevents forced rotation by skills (excludes gold excite)"
             }

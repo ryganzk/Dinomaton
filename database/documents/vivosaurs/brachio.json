@@ -41,6 +41,7 @@
         },
         {
             "name": "Voidquake",
+            "type": "Team",
             "baseDamage": 92,
             "fpCost": 400,
             "effect": {

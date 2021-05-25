@@ -5,6 +5,7 @@ fightersDB = require('./schemas/fighter.js');
 matchesDB = require('./schemas/match.js');
 draftsDB = require('./schemas/draft.js');
 vivosaursDB = require('./schemas/vivosaur.js');
+superEvolversDB = require('./schemas/super_evolvers.js');
 
 /*------------- USER COMMANDS -------------*/
 
@@ -340,6 +341,14 @@ module.exports.updateMaxFighters = async function(draft, fighters) {
     return updatedDraft;
 }
 
+module.exports.updatePickTime = async function(draft, time) {
+    let updatedDraft = await draftsDB.findOneAndUpdate(
+        { _id: draft._id },
+        { $set: { pickTime : time }}
+    );
+    return updatedDraft;
+}
+
 module.exports.incrementPick = async function(draft) {
     let updatedDraft = await draftsDB.findOneAndUpdate(
         { _id: draft._id },
@@ -426,6 +435,13 @@ module.exports.replaceSkippedSaur = async function(userID, vivosaur) {
     return fighter;
 }
 
+module.exports.gotSuperEvolver = async function(userID) {
+    let fighter = await fightersDB.findOneAndUpdate(
+        { id: userID },
+        { $set: { 'currentDraft.holdsSuperEvolver': true }}
+    );
+    return fighter;
+}
 
 /*------------ VIVOSAUR COMMANDS ------------*/
 
@@ -434,16 +450,17 @@ module.exports.importVivosaurs = async function(dataArray) {
 }
 
 module.exports.returnAllVivosaurs = async function() {
-    return await vivosaursDB.find(
-        { 'misc.genus': { $exists: true }}
-    );
+    return await vivosaursDB.find();
 }
 
 module.exports.returnAllVivosaursWithQuery = async function(arg) {
     return await vivosaursDB.find(
-        { $and: [
-            { 'misc.genus': { $exists: true }},
-            { element: arg }
+        { $or: [
+            { element: arg },
+            { 'misc.diet': arg},
+            { 'misc.group': arg },
+            { 'misc.family': arg },
+            { 'misc.length.overall': arg }
         ]}
     );
 }
@@ -474,6 +491,34 @@ module.exports.vivosaurNumSuper = async function(number) {
 
 module.exports.vivosaurExists = async function(vivosaur) {
     let exists = await vivosaursDB.collection.findOne({ name: vivosaur });
+    if(exists) {
+        return exists;
+    } else {
+        return false;
+    }
+}
+
+/*------------ SUPER EVOLVER COMMANDS ------------*/
+
+module.exports.importSuperEvolvers = async function(dataArray) {
+    await superEvolversDB.collection.insertMany(dataArray);
+}
+
+module.exports.returnAllSuperEvolvers = async function() {
+    return await superEvolversDB.find();
+}
+
+module.exports.superEvolverDocExists = async function(vivosaur) {
+    let exists = await superEvolversDB.collection.findOne({ name: vivosaur.name });
+    if(exists) {
+        return exists;
+    } else {
+        return false;
+    }
+}
+
+module.exports.superEvolverExists = async function(vivosaur) {
+    let exists = await superEvolversDB.collection.findOne({ name: vivosaur });
     if(exists) {
         return exists;
     } else {

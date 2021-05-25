@@ -34,6 +34,7 @@
         },
         {
             "name": "Terror Storm",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 380,
             "effect": {

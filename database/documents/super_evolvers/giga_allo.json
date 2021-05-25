@@ -34,6 +34,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Allo Peta",
+            "type": "Team",
             "baseDamage": 175,
             "fpCost": 840,
             "effect": {

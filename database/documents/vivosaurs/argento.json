@@ -30,6 +30,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Meteor Attack",
+            "type": "Team",
             "baseDamage": 95,
             "fpCost": 400,
             "effect": {
@@ -45,6 +47,7 @@
         },
         {
             "name": "FP Absorb",
+            "type": "Ability",
             "effect": {
                 "description": "Absorbs 30% FP of the skill used to hit it"
             }

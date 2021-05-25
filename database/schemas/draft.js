@@ -10,5 +10,6 @@ module.exports = mongoose.model("Draft", new mongoose.Schema({
         id: { type: String },
         fighterName: { type: String }
     }]},
+    pickTime: { type: Number, default: 60 },
     nextPickNum: { type: Number, default: 0 }
 }));

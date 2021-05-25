@@ -40,6 +40,7 @@
         },
         {
             "name": "Rubble Rain",
+            "type": "Team",
             "fpCost": 380,
             "effect": {
                 "description": "Gold Sleep (team)",

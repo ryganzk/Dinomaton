@@ -41,6 +41,7 @@
         },
         {
             "name": "Sungari Fire",
+            "type": "Team",
             "baseDamage": 53,
             "fpCost": 250,
             "effect": {
@@ -50,6 +51,7 @@
         },
         {
             "name": "Parting Blow 1",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
             }

@@ -34,6 +34,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Lantern Blight",
+            "type": "Team",
             "baseDamage": 100,
             "fpCost": 400,
             "effect": {

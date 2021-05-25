@@ -38,6 +38,7 @@
         },
         {
             "name": "Enflame",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Morbid Mirage",
+            "type": "Team",
             "baseDamage": 169,
             "fpCost": 900,
             "effect": {

@@ -30,6 +30,7 @@
         },
         {
             "name": "Enflame",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Flamequake",
+            "type": "Team",
             "baseDamage": 51,
             "fpCost": 310,
             "effect": {
@@ -46,6 +48,7 @@
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }

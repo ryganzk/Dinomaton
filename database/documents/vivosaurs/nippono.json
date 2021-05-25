@@ -34,6 +34,7 @@
         },
         {
             "name": "Payback",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Counter: 70%"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Mad Rush",
+            "type": "Team",
             "baseDamage": 93,
             "fpCost": 380,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

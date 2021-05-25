@@ -38,6 +38,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Venom Breath",
+            "type": "Team",
             "baseDamage": 58,
             "fpCost": 300,
             "effect": {

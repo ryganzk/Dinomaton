@@ -34,6 +34,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Nigo Burst",
+            "type": "Team",
             "baseDamage": 51,
             "fpCost": 220,
             "effect": {
@@ -49,12 +51,14 @@
         },
         {
             "name": "Sleepy",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Gold Sleep applied"
             }
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

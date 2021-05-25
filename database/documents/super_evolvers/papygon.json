@@ -34,6 +34,7 @@
         },
         {
             "name": "Sacrifice",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Reduce own LP to 1, split equally across both teammates"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Papygon Immolation",
+            "type": "Team",
             "baseDamage": 185,
             "fpCost": 780,
             "effect": {

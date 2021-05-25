@@ -38,6 +38,7 @@
         },
         {
             "name": "Healing Chorus",
+            "type": "Support",
             "fpCost": 480,
             "effect": {
                 "description": "Heals the entire team for 200 LP"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Toxic Dream",
+            "type": "Team",
             "baseDamage": 25,
             "fpCost": 130,
             "effect": {

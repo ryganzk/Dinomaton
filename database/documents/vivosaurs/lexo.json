@@ -42,6 +42,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -49,6 +50,7 @@
         },
         {
             "name": "Poison Storm",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 200,
             "effect": {
@@ -58,6 +60,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

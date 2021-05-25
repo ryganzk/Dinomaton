@@ -43,6 +43,7 @@
         },
         {
             "name": "Nycto Typhoon",
+            "type": "Team",
             "baseDamage": 140,
             "fpCost": 680,
             "effect": {

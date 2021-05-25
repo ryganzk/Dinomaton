@@ -34,6 +34,7 @@
         },
         {
             "name": "Continental Drift",
+            "type": "Team",
             "baseDamage": 95,
             "fpCost": 400,
             "effect": {
@@ -42,6 +43,7 @@
         }, 
         {
             "name": "Auto LP Recovery 1",
+            "type": "Ability",
             "effect": {
                 "description": "Recovers 5% of the vivosaur's max LP at the start of every turn"
             }

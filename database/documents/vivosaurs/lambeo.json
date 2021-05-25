@@ -38,6 +38,7 @@
         },
         {
             "name": "Healing Hand",
+            "type": "Team",
             "fpCost": 250,
             "effect": {
                 "description": "Heals 100 LP (team)"

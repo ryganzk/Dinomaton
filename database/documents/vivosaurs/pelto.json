@@ -38,6 +38,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Earth Cannon",
+            "type": "Team",
             "baseDamage": 55,
             "fpCost": 260,
             "effect": {
@@ -54,6 +56,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

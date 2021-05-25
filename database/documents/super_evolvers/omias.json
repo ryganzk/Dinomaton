@@ -41,6 +41,7 @@
         },
         {
             "name": "Omias Exodus",
+            "type": "Team",
             "baseDamage": 159,
             "fpCost": 690,
             "effect": {

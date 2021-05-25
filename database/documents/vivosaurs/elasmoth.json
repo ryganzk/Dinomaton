@@ -38,6 +38,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Ruin Beam",
+            "type": "Team",
             "fpCost": 140,
             "effect": {
                 "description": "Silver Scare (team)",
@@ -53,6 +55,7 @@
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

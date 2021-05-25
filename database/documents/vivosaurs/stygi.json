@@ -30,6 +30,7 @@
         },
         {
             "name": "Fiendish Barrage",
+            "type": "Team",
             "fpCost": 210,
             "effect": {
                 "description": "Silver Scare (team)",

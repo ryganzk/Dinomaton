@@ -30,6 +30,7 @@
         },
         {
             "name": "Charge!",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Next attack does x2.5 damage"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Sand Maelstrom",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 180,
             "effect": {
@@ -46,6 +48,7 @@
         },
         {
             "name": "Position Lock",
+            "type": "Ability",
             "effect": {
                 "description": "Prevents forced rotation by skills (excludes gold excite)"
             }

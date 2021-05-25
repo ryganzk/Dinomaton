@@ -37,6 +37,7 @@
         },
         {
             "name": "Super Enflame",
+            "type": "Support",
             "fpCost": 100,
             "effect": {
                 "description": "Attack +40, Defense -10"
@@ -44,6 +45,7 @@
         },
         {
             "name": "Fire Hurricane",
+            "type": "Team",
             "baseDamage": 53,
             "fpCost": 230,
             "effect": {
@@ -52,6 +54,7 @@
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }

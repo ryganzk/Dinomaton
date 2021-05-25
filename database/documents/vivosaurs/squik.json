@@ -34,6 +34,7 @@
         },
         {
             "name": "Karmic Aura",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Counter: 100%"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Void Storm",
+            "type": "Team",
             "baseDamage": 55,
             "fpCost": 250,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

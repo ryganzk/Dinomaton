@@ -34,6 +34,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Einio Tornado",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 170,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

@@ -43,6 +43,7 @@
         },
         {
             "name": "Venom Cyclone",
+            "type": "Team",
             "baseDamage": 35,
             "fpCost": 180,
             "effect": {
@@ -52,6 +53,7 @@
         },
         {
             "name": "FP Plus 1",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 10%"
             }

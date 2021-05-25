@@ -30,6 +30,7 @@
         },
         {
             "name": "Enflame",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Venom Shot",
+            "type": "Team",
             "baseDamage": 58,
             "fpCost": 300,
             "effect": {
@@ -46,12 +48,14 @@
         },
         {
             "name": "Parting Blow 1",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
             }
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

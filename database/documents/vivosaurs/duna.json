@@ -38,6 +38,7 @@
         },
         {
             "name": "Enchanting Aura",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Counter: 70%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Sapphire Doom",
+            "type": "Team",
             "baseDamage": 72,
             "fpCost": 380,
             "effect": {

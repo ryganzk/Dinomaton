@@ -38,6 +38,7 @@
         },
         {
             "name": "Poison Cannon",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 270,
             "effect": {

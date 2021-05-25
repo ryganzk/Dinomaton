@@ -45,6 +45,7 @@
         },
         {
             "name": "Dull Blaster",
+            "type": "Team",
             "baseDamage": 28,
             "fpCost": 120,
             "effect": {
@@ -53,6 +54,7 @@
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

@@ -41,6 +41,7 @@
         },
         {
             "name": "Tsintao Song",
+            "type": "Team",
             "baseDamage": 65,
             "fpCost": 290,
             "effect": {
@@ -50,6 +51,7 @@
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

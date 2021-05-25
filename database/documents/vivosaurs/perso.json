@@ -43,6 +43,7 @@
         },
         {
             "name": "Culture Shock",
+            "type": "Team",
             "baseDamage": 95,
             "fpCost": 400,
             "effect": {

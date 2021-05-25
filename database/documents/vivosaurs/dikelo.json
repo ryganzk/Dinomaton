@@ -34,6 +34,7 @@
         },
         {
             "name": "Sparkling Heal",
+            "type": "Support",
             "fpCost": 400,
             "effect": {
                 "description": "Heal 150 LP and cure negative status effects to the whole team"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Eruption",
+            "type": "Team",
             "baseDamage": 35,
             "fpCost": 150,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Quicken Plus",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Quicken applied"
             }

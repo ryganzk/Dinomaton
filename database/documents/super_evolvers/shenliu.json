@@ -34,6 +34,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Deep Impact",
+            "type": "Team",
             "baseDamage": 190,
             "fpCost": 900,
             "effect": {

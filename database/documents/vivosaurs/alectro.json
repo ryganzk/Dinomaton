@@ -33,6 +33,7 @@
         },
         {
             "name": "Aqua Cannon",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 270,
             "effect": {
@@ -41,6 +42,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

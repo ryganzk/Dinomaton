@@ -45,6 +45,7 @@
         },
         {
             "name": "Rock Cannon",
+            "type": "Team",
             "fpCost": 480,
             "effect": {
                 "description": "Gold Confuse (team)",
@@ -53,6 +54,7 @@
         },
         {
             "name": "Beserker",
+            "type": "Ability",
             "effect": {
                 "description": "When Hopter reaches below half of its max LP, it disobeys orders"
             }

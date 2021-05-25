@@ -45,6 +45,7 @@
         },
         {
             "name": "Bubble Breath",
+            "type": "Team",
             "baseDamage": 200,
             "fpCost": 800,
             "effect": {

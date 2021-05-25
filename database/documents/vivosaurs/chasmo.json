@@ -38,6 +38,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Chasmo Whirlwind",
+            "type": "Team",
             "fpCost": 380,
             "effect": {
                 "description": "Gold Excite (team)",
@@ -53,6 +55,7 @@
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

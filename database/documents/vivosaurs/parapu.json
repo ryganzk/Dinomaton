@@ -38,6 +38,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Toxic Deluge",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 350,
             "effect": {
@@ -54,6 +56,7 @@
         },
         {
             "name": "Harden Plus",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Harden applied"
             }

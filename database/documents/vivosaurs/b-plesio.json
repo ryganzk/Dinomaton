@@ -37,6 +37,7 @@
         },
         {
             "name": "Super Quicken",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -44,6 +45,7 @@
         },
         {
             "name": "Boney Wave",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 180,
             "effect": {
@@ -53,6 +55,7 @@
         },
         {
             "name": "Bone Armor",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Poison and Scare status effects"
             }

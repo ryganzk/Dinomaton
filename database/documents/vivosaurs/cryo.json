@@ -37,6 +37,7 @@
         },
         {
             "name": "Frozen Pulse",
+            "type": "Team",
             "fpCost": 330,
             "effect": {
                 "description": "Gold Poison (team)",

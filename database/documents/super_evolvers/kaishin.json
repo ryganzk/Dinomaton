@@ -38,6 +38,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Kaishin Strike",
+            "type": "Team",
             "baseDamage": 165,
             "fpCost": 750,
             "effect": {

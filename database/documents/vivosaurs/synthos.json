@@ -33,6 +33,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Boulder Barrage",
+            "type": "Team",
             "baseDamage": 28,
             "fpCost": 120,
             "effect": {
@@ -48,12 +50,14 @@
         },
         {
             "name": "Solo Power",
+            "type": "Ability",
             "effect": {
                 "description": "Attack increased by 200% when no allies remain"
             }
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

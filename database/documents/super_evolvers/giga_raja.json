@@ -34,6 +34,7 @@
         },
         {
             "name": "Charge!",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Next attack does x2.5 damage"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Raja Peta",
+            "type": "Team",
             "baseDamage": 182,
             "fpCost": 900,
             "effect": {

@@ -44,6 +44,7 @@
         },
         {
             "name": "E-Cutter",
+            "type": "Team",
             "baseDamage": 37,
             "fpCost": 160,
             "effect": {

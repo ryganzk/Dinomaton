@@ -38,6 +38,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Stone Crusher",
+            "type": "Team",
             "baseDamage": 160,
             "fpCost": 680,
             "effect": {

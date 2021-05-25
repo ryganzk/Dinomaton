@@ -34,6 +34,7 @@
         },
         {
             "name": "Enflame",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Boulder Spray",
+            "type": "Team",
             "fpCost": 140,
             "effect": {
                 "description": "Silver Enrage (team)",
@@ -49,12 +51,14 @@
         },
         {
             "name": "Parting Blow 1",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
             }
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }
@@ -69,7 +73,7 @@
     },
     "misc": {
         "genus": "Diatryma",
-        "group": "Gastornithidae",
+        "family": "Gastornithidae",
         "era": "Cenozoic Paleogene",
         "length": {
             "feet": 6,

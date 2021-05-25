@@ -33,6 +33,7 @@
         },
         {
             "name": "Super Harden",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Defense +50"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Dull Blaster",
+            "type": "Team",
             "baseDamage": 28,
             "fpCost": 120,
             "effect": {
@@ -48,6 +50,7 @@
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }

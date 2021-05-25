@@ -30,6 +30,7 @@
         },
         {
             "name": "Great Unmasking",
+            "type": "Support",
             "fpCost": 120,
             "effect": {
                 "description": "Transform into T-Rex"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Scorch Breath",
+            "type": "Team",
             "baseDamage": 58,
             "fpCost": 250,
             "effect": {

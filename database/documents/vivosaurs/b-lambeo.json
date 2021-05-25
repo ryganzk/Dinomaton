@@ -38,6 +38,7 @@
         },
         {
             "name": "Boney Hand",
+            "type": "Team",
             "fpCost": 280,
             "effect": {
                 "description": "Heals 100 LP (team)"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Bone Armor",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Poison and Scare status effects"
             }

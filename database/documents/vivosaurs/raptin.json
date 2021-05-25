@@ -1,7 +1,7 @@
 {
     "num": 173,
     "element": "Air",
-    "name": "Duna",
+    "name": "Raptin",
     "class": "Mid-Range",
     "description": "A 100% poison skill and off-the-charts support effects make Raptin one tough customer",
     "sprite": "images/sprites/Raptin_Battle.png",
@@ -38,6 +38,7 @@
         },
         {
             "name": "Quick Shout",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Positron Beam",
+            "type": "Team",
             "baseDamage": 70,
             "fpCost": 360,
             "effect": {

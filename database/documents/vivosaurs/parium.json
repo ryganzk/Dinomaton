@@ -28,11 +28,12 @@
             "baseDamage": 50,
             "fpCost": 250,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Corkscrew",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 270,
             "effect": {
@@ -48,12 +50,14 @@
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

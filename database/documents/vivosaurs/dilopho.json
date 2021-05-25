@@ -30,6 +30,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Water Arrow",
+            "type": "Team",
             "fpCost": 300,
             "effect": {
                 "description": "Silver Confuse (team)",
@@ -45,6 +47,7 @@
         },
         {
             "name": "FP Plus 1",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 10%"
             }

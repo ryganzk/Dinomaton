@@ -34,6 +34,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Frenzy Comet",
+            "type": "Team",
             "fpCost": 310,
             "effect": {
                 "description": "Silver Excite (team)",

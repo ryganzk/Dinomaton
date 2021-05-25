@@ -38,6 +38,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Aqua Cannon",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 270,
             "effect": {

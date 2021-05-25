@@ -30,6 +30,7 @@
         },
         {
             "name": "Harden",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Defense +30"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Spinax Peta",
+            "type": "Team",
             "baseDamage": 170,
             "fpCost": 780,
             "effect": {

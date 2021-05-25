@@ -41,6 +41,7 @@
         },
         {
             "name": "Ocean Impact",
+            "type": "Team",
             "baseDamage": 95,
             "fpCost": 400,
             "effect": {
@@ -49,6 +50,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

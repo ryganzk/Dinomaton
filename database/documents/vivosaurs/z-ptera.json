@@ -30,6 +30,7 @@
         },
         {
             "name": "Super Quicken",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Zombie Cyclone",
+            "type": "Team",
             "baseDamage": 53,
             "fpCost": 280,
             "effect": {
@@ -46,6 +48,7 @@
         },
         {
             "name": "Rotting Flesh",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Sleep, Scare, and Infection status effects"
             }

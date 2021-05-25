@@ -34,14 +34,16 @@
         },
         {
             "name": "Centro Bomb",
+            "type": "Team",
             "fpCost": 200,
             "effect": {
-                "description": "Gold Enrage",
+                "description": "Gold Enrage (team)",
                 "rate": 70
             }
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

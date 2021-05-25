@@ -30,6 +30,7 @@
         },
         {
             "name": "Death Ray",
+            "type": "Team",
             "baseDamage": 46,
             "fpCost": 280,
             "effect": {

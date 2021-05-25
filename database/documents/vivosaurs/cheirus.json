@@ -30,6 +30,7 @@
         },
         {
             "name": "Unholy Rampage",
+            "type": "Team",
             "fpCost": 300,
             "effect": {
                 "description": "Gold Enrage (team)",
@@ -38,6 +39,7 @@
         },
         {
             "name": "Parting Blow 1",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 150%, Defense + Speed = 75%"
             }

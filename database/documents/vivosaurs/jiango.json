@@ -34,6 +34,7 @@
         },
         {
             "name": "Torrent Wave",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 210,
             "effect": {
@@ -43,6 +44,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

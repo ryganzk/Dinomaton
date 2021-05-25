@@ -42,6 +42,7 @@
         },
         {
             "name": "Venom Breath",
+            "type": "Team",
             "baseDamage": 58,
             "fpCost": 300,
             "effect": {

@@ -30,6 +30,7 @@
         },
         {
             "name": "Sacrifice",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Reduce own LP to 1, split equally across both teammates"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Equinas Exodus",
+            "type": "Team",
             "baseDamage": 160,
             "fpCost": 720,
             "effect": {

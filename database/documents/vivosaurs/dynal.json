@@ -38,6 +38,7 @@
         },
         {
             "name": "Rex Roar",
+            "type": "Support",
             "fpCost": 100,
             "effect": {
                 "description": "Attack +40, Defense -10"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Antimatter Beam",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 450,
             "effect": {

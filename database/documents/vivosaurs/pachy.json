@@ -30,6 +30,7 @@
         },
         {
             "name": "Iron Barrage",
+            "type": "Team",
             "fpCost": 220,
             "effect": {
                 "description": "Silver Excite (team)",

@@ -38,6 +38,7 @@
         },
         {
             "name": "Super Quicken",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Firebird",
+            "type": "Team",
             "baseDamage": 143,
             "fpCost": 700,
             "effect": {

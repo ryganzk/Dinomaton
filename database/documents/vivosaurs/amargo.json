@@ -41,6 +41,7 @@
         },
         {
             "name": "Fire Cannon",
+            "type": "Team",
             "baseDamage": 53,
             "fpCost": 230,
             "effect": {

@@ -37,6 +37,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -44,6 +45,7 @@
         },
         {
             "name": "Tripod Bomb",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 170,
             "effect": {
@@ -52,6 +54,7 @@
         },
         {
             "name": "Solo Power",
+            "type": "Ability",
             "effect": {
                 "description": "Attack increased by 200% when no allies remain"
             }

@@ -30,6 +30,7 @@
         },
         {
             "name": "Grow Up",
+            "type": "Support",
             "fpCost": 120,
             "effect": {
                 "description": "Transform into Tarbo"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Confusion Cyclone",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 390,
             "effect": {

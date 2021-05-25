@@ -41,6 +41,7 @@
         },
         {
             "name": "Ryden Bolt",
+            "type": "Team",
             "baseDamage": 184,
             "fpCost": 890,
             "effect": {

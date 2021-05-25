@@ -38,6 +38,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Ruinous Hurricane",
+            "type": "Team",
             "baseDamage": 186,
             "fpCost": 810,
             "effect": {

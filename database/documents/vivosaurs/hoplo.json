@@ -30,6 +30,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Wild Crush",
+            "type": "Team",
             "fpCost": 140,
             "effect": {
                 "description": "Silver Excite (team)",
@@ -45,6 +47,7 @@
         },
         {
             "name": "FP Plus 2",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 20%"
             }

@@ -33,6 +33,7 @@
         },
         {
             "name": "Toxic Bazooka",
+            "type": "Team",
             "fpCost": 380,
             "effect": {
                 "description": "Silver Poison (team)",

@@ -1,7 +1,7 @@
 {
     "num": 52,
     "element": "Fire",
-    "name": "Yango",
+    "name": "Dydomio",
     "class": "Mid-Range",
     "description": "A durable super evolver, Dydomio boasts a naturally high Defense rating. When augmented with the Super Harden skill, it becomes virtually indestructible",
     "sprite": "images/sprites/Dydomio_Battle.png",
@@ -34,6 +34,7 @@
         },
         {
             "name": "Super Harden",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Defense +50"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Dydomio Flame",
+            "type": "Team",
             "baseDamage": 157,
             "fpCost": 760,
             "effect": {

@@ -38,6 +38,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Speed +30%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Toxic Cannon",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 320,
             "effect": {
@@ -54,6 +56,7 @@
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

@@ -34,6 +34,7 @@
         },
         {
             "name": "Neutralize",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Cure entire team of all negative status effects"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Typhoon",
+            "type": "Team",
             "baseDamage": 28,
             "fpCost": 120,
             "effect": {

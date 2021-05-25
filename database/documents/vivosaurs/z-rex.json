@@ -1,7 +1,7 @@
 {
     "num": 158,
     "element": "Legendary",
-    "name": "B-Rex",
+    "name": "Z-Rex",
     "class": "Close-Range",
     "description": "A zombiesaur with the Resurrect ability, Z-Rex can come back even if its LP drops to zero",
     "sprite": "images/sprites/Z-Rex_Battle.png",
@@ -18,7 +18,7 @@
             "baseDamage": 1,
             "fpCost": 100,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         },
         {
@@ -33,6 +33,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Zombie Breath",
+            "type": "Team",
             "baseDamage": 65,
             "fpCost": 340,
             "effect": {
@@ -49,12 +51,14 @@
         },
         {
             "name": "Resurrect",
+            "type": "Ability",
             "effect": {
                 "description": "After it is defeated, Z-Rex re-enters battle with full LP in three turns"
             }
         },
         {
             "name": "Rotting Flesh",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Sleep, Scare, and Infection status effects"
             }

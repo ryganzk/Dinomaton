@@ -16,7 +16,8 @@ module.exports = mongoose.model("Fighter", new mongoose.Schema({
         division: { type: String, default: 'N/A' },
         currentWins: { type: Number, default: 0  },
         currentLosses: { type: Number, default: 0  },
-        takenSaurs: { type: [String] }
+        takenSaurs: { type: [String] },
+        holdsSuperEvolver: { type: Boolean, default: false }
     },
     favoriteSaur: { type: String }
 }));

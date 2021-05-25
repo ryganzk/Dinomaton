@@ -39,6 +39,7 @@
         },
         {
             "name": "Boney Cyclone",
+            "type": "Team",
             "baseDamage": 35,
             "fpCost": 210,
             "effect": {
@@ -48,6 +49,7 @@
         },
         {
             "name": "Bone Armor",
+            "type": "Ability",
             "effect": {
                 "description": "Grants immunity to Poison and Scare status effects"
             }

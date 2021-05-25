@@ -30,6 +30,7 @@
         },
         {
             "name": "Super Harden",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Defense +50"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Icy Exhalation",
+            "type": "Team",
             "fpCost": 160,
             "effect": {
                 "description": "Silver Poison (team)",
@@ -44,12 +46,14 @@
             }
         },{
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }
         },
         {
             "name": "Link",
+            "type": "Ability",
             "effect": {
                 "description": "When an ally in the AZ attacks, the vivosaur uses its cheapest skill if it's in the SZ"
             }

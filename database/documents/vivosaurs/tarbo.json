@@ -30,6 +30,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Cyclonic Breath",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 260,
             "effect": {

@@ -34,6 +34,7 @@
         },
         {
             "name": "Sacrifice",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Reduce own LP to 1, split equally across both teammates"
@@ -41,14 +42,16 @@
         },
         {
             "name": "Penta Bomb",
+            "type": "Team",
             "fpCost": 180,
             "effect": {
-                "description": "Gold Excite",
+                "description": "Gold Excite (team)",
                 "rate": 70
             }
         },
         {
             "name": "Parting Blow 3",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
             }

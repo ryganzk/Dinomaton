@@ -34,6 +34,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Cyclonic Breath",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 260,
             "effect": {

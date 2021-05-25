@@ -38,6 +38,7 @@
         },
         {
             "name": "Styraco Bomb",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 170,
             "effect": {
@@ -46,6 +47,7 @@
         },
         {
             "name": "Parting Blow 2",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 200%"
             }

@@ -30,6 +30,7 @@
         },
         {
             "name": "Terra Pulse",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 120,
             "effect": {
@@ -38,6 +39,7 @@
         },
         {
             "name": "FP Plus 3",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 30%"
             }

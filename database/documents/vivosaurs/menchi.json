@@ -30,6 +30,7 @@
         },
         {
             "name": "Sacrifice",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Reduce own LP to 1, split equally across both teammates"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Menchi Crush",
+            "type": "Team",
             "baseDamage": 51,
             "fpCost": 220,
             "effect": {
@@ -45,6 +47,7 @@
         },
         {
             "name": "Solo Power",
+            "type": "Ability",
             "effect": {
                 "description": "Attack increased by 200% when no allies remain"
             }

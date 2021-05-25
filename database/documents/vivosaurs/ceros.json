@@ -32,6 +32,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -39,6 +40,7 @@
         },
         {
             "name": "Ceros Mirage",
+            "type": "Team",
             "fpCost": 210,
             "effect": {
                 "description": "Silver Sleep (team)"
@@ -46,6 +48,7 @@
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }

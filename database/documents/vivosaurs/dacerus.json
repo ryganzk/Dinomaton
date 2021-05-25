@@ -42,6 +42,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -49,6 +50,7 @@
         },
         {
             "name": "Toxic Cutter",
+            "type": "Team",
             "baseDamage": 35,
             "fpCost": 200,
             "effect": {
@@ -58,6 +60,7 @@
         },
         {
             "name": "FP Absorb",
+            "type": "Ability",
             "effect": {
                 "description": "Absorbs 30% FP of the skill used to hit it"
             }

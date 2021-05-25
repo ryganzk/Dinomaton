@@ -43,6 +43,7 @@
         },
         {
             "name": "Cyclone Wing",
+            "type": "Team",
             "fpCost": 170,
             "effect": {
                 "description": "Silver Enrage (team)",

@@ -30,6 +30,7 @@
         },
         {
             "name": "Rock Bombing",
+            "type": "Team",
             "fpCost": 200,
             "effect": {
                 "description": "Silver Enrage (team)",

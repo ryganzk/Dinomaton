@@ -38,6 +38,7 @@
         },
         {
             "name": "Super Harden",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Defense +50"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Ancient Waters",
+            "type": "Team",
             "baseDamage": 30,
             "fpCost": 180,
             "effect": {
@@ -54,12 +56,14 @@
         },
         {
             "name": "Position Lock",
+            "type": "Ability",
             "effect": {
                 "description": "Prevents forced rotation by skills (excludes gold excite)"
             }
         },
         {
             "name": "Uncounterable",
+            "type": "Ability",
             "effect": {
                 "description": "All skills break through Counters"
             }
@@ -71,7 +75,7 @@
     },
     "misc": {
         "genus": "Archelon",
-        "group": "Testudines",
+        "order": "Testudines",
         "era": "Mozosoic Cretaceous",
         "length": {
             "feet": 13,

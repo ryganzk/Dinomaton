@@ -19,7 +19,7 @@
             "fpCost": 120
         },
         {
-            "name": "Tricera Combo",
+            "name": "Heracles Beam",
             "baseDamage": 83,
             "fpCost": 270,
             "effect": {
@@ -28,19 +28,21 @@
             }
         },
         {
-            "name": "Triple Threat",
+            "name": "Heracles Bore",
             "baseDamage": 120,
             "fpCost": 430
         },
         {
             "name": "Enflame",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Attack +20, Defense -5"
             }
         },
         {
-            "name": "Tri-Torpedo",
+            "name": "Heracles Rush",
+            "type": "Team",
             "baseDamage": 170,
             "fpCost": 850,
             "effect": {

@@ -38,6 +38,7 @@
         },
         {
             "name": "Super Quicken",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "Halitosis",
+            "type": "Team",
             "fpCost": 340,
             "effect": {
                 "description": "Gold Poison (team)",

@@ -30,6 +30,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -37,6 +38,7 @@
         },
         {
             "name": "Waterspout",
+            "type": "Team",
             "baseDamage": 88,
             "fpCost": 380,
             "effect": {

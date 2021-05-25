@@ -30,6 +30,7 @@
         },
         {
             "name": "Quicken",
+            "type": "Support",
             "fpCost": 15,
             "effect": {
                 "description": "Evasion Rate",
@@ -38,14 +39,16 @@
         },
         {
             "name": "Sand Storm",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 270,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         },
         {
             "name": "Elemental Boost",
+            "type": "Ability",
             "effect": {
                 "description": "Intensifies elemental effects of attacks"
             }

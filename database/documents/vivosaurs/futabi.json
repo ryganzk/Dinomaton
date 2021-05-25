@@ -45,6 +45,7 @@
         },
         {
             "name": "Tidal Assault",
+            "type": "Team",
             "baseDamage": 100,
             "fpCost": 400,
             "effect": {

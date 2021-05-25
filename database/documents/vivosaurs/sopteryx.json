@@ -34,6 +34,7 @@
         },
         {
             "name": "Life Charge",
+            "type": "Support",
             "fpCost": 160,
             "effect": {
                 "description": "Heal one ally by 200 LP"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Heat Pulse",
+            "type": "Team",
             "baseDamage": 28,
             "fpCost": 120,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "FP Plus 3",
+            "type": "Ability",
             "effect": {
                 "description": "FP recharge is boosted by 30%"
             }

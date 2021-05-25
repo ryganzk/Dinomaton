@@ -33,6 +33,7 @@
         },
         {
             "name": "Charge!",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Next attack does x2.5 damage"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Fiery Tornado",
+            "type": "Team",
             "baseDamage": 40,
             "fpCost": 240,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "FP Absorb",
+            "type": "Ability",
             "effect": {
                 "description": "Absorbs 30% FP of the skill used to hit it"
             }

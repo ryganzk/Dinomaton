@@ -37,6 +37,7 @@
         },
         {
             "name": "Super Quicken",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -44,6 +45,7 @@
         },
         {
             "name": "Tidal Assault",
+            "type": "Team",
             "fpCost": 170,
             "effect": {
                 "description": "Gold Poison (team)",

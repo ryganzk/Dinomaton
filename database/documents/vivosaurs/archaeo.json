@@ -32,6 +32,7 @@
         },
         {
             "name": "Sparkling Heal",
+            "type": "Support",
             "fpCost": 400,
             "effect": {
                 "description": "Heal 150 LP and cure negative status effects to the whole team"
@@ -39,6 +40,7 @@
         },
         {
             "name": "Torpor Arrows",
+            "type": "Team",
             "baseDamage": 46,
             "fpCost": 300,
             "effect": {

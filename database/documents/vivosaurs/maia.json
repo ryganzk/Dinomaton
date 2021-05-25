@@ -20,6 +20,7 @@
         },
         {
             "name": "Null Song",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Cure entire team of all negative status effects"
@@ -27,6 +28,7 @@
         },
         {
             "name": "Healing Song",
+            "type": "Support",
             "fpCost": 90,
             "effect": {
                 "description": "Heals a chosen ally for 120 LP"
@@ -34,6 +36,7 @@
         },
         {
             "name": "Healing Chorus",
+            "type": "Support",
             "fpCost": 480,
             "effect": {
                 "description": "Heals the entire team for 200 LP"
@@ -41,6 +44,7 @@
         },
         {
             "name": "Song of Life",
+            "type": "Team",
             "fpCost": 500,
             "effect": {
                 "description": "Heals 250 LP (team)"

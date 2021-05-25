@@ -34,6 +34,7 @@
         },
         {
             "name": "Law of the Jungle",
+            "type": "Support",
             "fpCost": 50,
             "effect": {
                 "description": "Recover using ally LP"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Cyclonic Breath",
+            "type": "Team",
             "baseDamage": 60,
             "fpCost": 260,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Parting Blow 3",
+            "type": "Ability",
             "effect": {
                 "description": "When LP drops to 1/10 or lower: Attack + Accuracy = 300%, Defense + Speed = 150%"
             }

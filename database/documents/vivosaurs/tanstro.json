@@ -37,11 +37,12 @@
             "baseDamage": 50,
             "fpCost": 300,
             "effect": {
-                "description": "Attack AZ and SZ simultaneously"
+                "description": "Attack AZ + SZ"
             }
         },
         {
             "name": "Watery Wave",
+            "type": "Team",
             "baseDamage": 88,
             "fpCost": 530,
             "effect": {
@@ -51,6 +52,7 @@
         },
         {
             "name": "Sleepy",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Gold Sleep applied"
             }

@@ -34,6 +34,7 @@
         },
         {
             "name": "Life Charge",
+            "type": "Support",
             "fpCost": 160,
             "effect": {
                 "description": "Heals a chose ally for 200 LP"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Radox Batter",
+            "type": "Team",
             "baseDamage": 62,
             "fpCost": 230,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Counter Plus",
+            "type": "Ability",
             "effect": {
                 "description": "Enters battle with Counter applied"
             }

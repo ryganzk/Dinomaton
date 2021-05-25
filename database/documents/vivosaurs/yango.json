@@ -33,6 +33,7 @@
         },
         {
             "name": "Super Harden",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Defense +50"
@@ -40,6 +41,7 @@
         },
         {
             "name": "Fire Storm",
+            "type": "Team",
             "baseDamage": 35,
             "fpCost": 170,
             "effect": {
@@ -49,6 +51,7 @@
         },
         {
             "name": "Auto Counter",
+            "type": "Ability",
             "effect": {
                 "description": "Retaliates 3/10 of damage taken back to the attacking vivosaur"
             }

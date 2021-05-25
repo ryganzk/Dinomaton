@@ -38,6 +38,7 @@
         },
         {
             "name": "Super Quicken",
+            "type": "Support",
             "fpCost": 75,
             "effect": {
                 "description": "Speed +70%"
@@ -45,6 +46,7 @@
         },
         {
             "name": "O-Sonic",
+            "type": "Team",
             "baseDamage": 1,
             "fpCost": 250,
             "effect": {

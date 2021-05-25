@@ -34,6 +34,7 @@
         },
         {
             "name": "Rallying Cry",
+            "type": "Support",
             "fpCost": 30,
             "effect": {
                 "description": "Eliminate all effects on a chosen ally"
@@ -41,6 +42,7 @@
         },
         {
             "name": "Edapho Hurricane",
+            "type": "Team",
             "fpCost": 220,
             "effect": {
                 "description": "Gold Poison (team)",
@@ -49,6 +51,7 @@
         },
         {
             "name": "FP Absorb",
+            "type": "Ability",
             "effect": {
                 "description": "Absorbs 30% FP of the skill used to hit it"
             }
