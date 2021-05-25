@@ -44,7 +44,7 @@ module.exports = {
             }
             await client.data.updateFighters(draft, draft.fighterList)
             message.channel.send(`DRAFT PICK ROTATION: ${fighterOrder.substring(9, fighterOrder.length - 4)}`);
-            await client.timer.startPickInterval(client, config.pickTime);
+            await client.timer.startPickInterval(client, draft.pickTime);
         }
     }
 }
