@@ -7,6 +7,7 @@ module.exports = {
     administrator: false,
 
     async execute(client, message, args) {
+        var superEvolver = false;
 
         //User needs to actually specify a vivosaur to pick
         if(!args[0]) {
@@ -28,13 +29,21 @@ module.exports = {
             message.channel.send("YOU'RE REALLY TRYING TO GET ON MY SHITLIST', SKREE...");
         }
 
-        let vivosaur = await client.data.vivosaurExists(vivoName)
+        let vivosaur = await client.data.vivosaurExists(vivoName);
         
-        //Now that we know what the user typed, we need to see if that vivosaur exists in the collection
+        //If the above statement didn't give back a normal vivosaur, we might have a super evolver on our hands
+        if(!vivosaur) {
+            vivosaur = await client.data.superEvolverExists(vivoName);
+            superEvolver = true;
+        }
+        
+        //If we STILL don't have a vivosaur, then it must not really exist
         if(!vivosaur) {
             message.channel.send("THAT VIVOSAUR DOES NOT EXIST, SKREE!!!");
             return;
         }
+
+        var vivoLength = vivosaur.misc.length;
 
         let embed = new Discord.MessageEmbed()
 
@@ -83,6 +92,7 @@ module.exports = {
 
         let desc1 = `**Class:** ${vivosaur.class}\n**Description:** ${vivosaur.description}`;
         let desc2 = ``;
+        let desc3 = ``;
         let skillFields = [];
 
         //Creates the embed fields for skills
@@ -99,38 +109,39 @@ module.exports = {
             //If a skill has an additional effect, this takes on the rate to the skill description
             if(effect !== '' && vivosaur.skills[i].effect.rate) effect = effect + ` (${vivosaur.skills[i].effect.rate}%)`;            
             
-            //Determines whether a skill is an ability, team, or normal
-            //Unfortunately Discord doesn't allow for colored text (and I'm not using code blocks eww), so this will have to do
-            if(!vivosaur.skills[i].fpCost) {
-                skillFields.push({name: `**__${vivosaur.skills[i].name} (Ability)__**`, value: `${effect}`});
-            } else if (!vivosaur.skills[i].baseDamage && !vivosaur.skills[i].effect.description.includes('Silver')
-            && !vivosaur.skills[i].effect.description.includes('Gold')) {
-                skillFields.push({name: `**__${vivosaur.skills[i].name} (Support)__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
-            } else if (!vivosaur.skills[i].effect || (vivosaur.skills[i].effect.description !== 'Attack AZ + SZ'
-            && !vivosaur.skills[i].effect.description.includes('(team)'))) {
-                skillFields.push({name: `**__${vivosaur.skills[i].name}__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
+            //Determines whether a skill is support, team, ability, or normal
+            //Unfortunately Discord doesn't allow for colored text (and I'm not using code blocks eww), so colored blocks will do for now
+            if(vivosaur.skills[i].type === "Support") {
+                skillFields.push({name: `🟩 **__${vivosaur.skills[i].name}__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
+            } else if(vivosaur.skills[i].type === "Team") {
+                skillFields.push({name: `🟥 **__${vivosaur.skills[i].name}__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
+            } else if(vivosaur.skills[i].type === "Ability") {
+                skillFields.push({name: `🟦 **__${vivosaur.skills[i].name}__**`, value: `${effect}`});
             } else {
-                skillFields.push({name: `**__${vivosaur.skills[i].name} (Team Skill)__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
+                skillFields.push({name: `🟧 **__${vivosaur.skills[i].name}__**`, value: `${baseDamage}\n${fpCost}\n${effect}`});
             }
         }
         
-        //Determines whether the vivo is a super evolver or not, and prints out the appropriate miscellaneous data
+        //Checks whether or not the vivosaur is a super evolver, and prints out the appropriate miscellaneous data
         //Also adds gold fossil bonuses under stats if the vivo IS a super evolver
-        if (vivosaur.misc.genus) {
-
-            //This for loop takes the array of discovered locations of the dinosaur counterpart and stores it as a single string!
-            for(i in vivosaur.misc.discovered) {
-                var discoveredString = `${discoveredString + vivosaur.misc.discovered[i]}, `;
-            }
-
-            var vivoLength = vivosaur.misc.length;
-            var desc3 = `**Genus:** ${vivosaur.misc.genus}\n**Group:** ${vivosaur.misc.group}\n**Era:** ${vivosaur.misc.era}\n**Length:** ${vivoLength.feet} ft. - ${vivoLength.meters} m. (${vivoLength.overall})\n**Diet:** ${vivosaur.misc.diet}\n**Discovered:** ${discoveredString.substring(9, discoveredString.length - 2)}`;
+        if (!superEvolver) {
             var goldFossilStatBonus = ``;
             var goldFossilLPBonus = ``;
         } else {
-            var desc3 = `**Proper Name:** ${vivosaur.misc.properName}\n**Length:** ${vivoLength.feet} ft. - ${vivoLength.meters} m. (${vivoLength.overall})`;
             var goldFossilStatBonus = ` (+5)`;
             var goldFossilLPBonus = ` (+100)`;
+        }
+
+        //Fills out page 3 data, including various miscellaneous data
+        //This loop takes all data in the misc section and creates specialized groups (some data is unique, such as most of the dinomaton's data wow this bot's soooo special)
+        for (var name in vivosaur.misc) {
+            dataHeader = name[0].toUpperCase() + name.substring(1, name.length).replace(/([a-z])([A-Z])/g, `$1 $2`);
+
+            if(name === 'length') {
+                desc3 = desc3 + `**${dataHeader}:** ${vivosaur.misc[name].feet} ft. - ${vivosaur.misc[name].meters} m. (${vivosaur.misc[name].overall})\n`;
+            } else {
+                desc3 = desc3 + `**${dataHeader}:** ${vivosaur.misc[name]}\n`;
+            }
         }
 
         //Creates the embed fields for stats
