@@ -30,12 +30,15 @@ module.exports.startPickInterval = async function(client, time) {
             //User has a minute left to make a pick
             if(time === 2) {
                 draft = await client.data.findOngoing();
-                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> ONLY HAS A MINUTE TO PICK A VIVOSAUR! HURRY UP, SKREE!!!`);
+                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> ONLY HAS A MINUTE LEFT TO PICK A VIVOSAUR! HURRY UP, SKREE!!!`);
     
             //User has 5 minutes left to make a pick
             } else if(time === 6) {
                 draft = await client.data.findOngoing();
-                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> HAS FIVE MINUTES TO PICK A VIVOSAUR, SKREE!!!`);
+                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> HAS FIVE MINUTES LEFT TO PICK A VIVOSAUR, SKREE!!!`);
+            } else if(time === 31) {
+                draft = await client.data.findOngoing();
+                await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> HAS THIRTY MINUTES LEFT TO PICK A VIVOSAUR, SKREE!!!`);
             }
 
             clearInterval(draftPickInterval);
@@ -96,11 +99,11 @@ async function tookTooLong(client, draft) {
     } else {
         await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> MISSED A PICK, BUT THEY STILL HAVE ANOTHER CHANCE TO FILL A SPOT AT THE MOMENT, SKREE!!!`);
         await client.timer.stopPickInterval();
-        await client.timer.startPickInterval(client, config.pickTime);
+        await client.timer.startPickInterval(client, draft.pickTime);
         return;
     }
 
     await client.channels.cache.find(i => i.name === config.draftChannel).send(`<@${draft.fighterList[draft.nextPickNum].id}> TOOK TOO LONG TO PICK A VIVOSAUR, SO NOW IT'S <@${draft.fighterList[draft.nextPickNum + index].id}>'S TURN TO PICK, SKREE!!!`);
     await client.timer.stopPickInterval();
-    await client.timer.startPickInterval(client, config.pickTime);
+    await client.timer.startPickInterval(client, draft.pickTime);
 }
