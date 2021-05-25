@@ -8,6 +8,7 @@ module.exports = {
 
     async execute(client, message, args) {
         var skippedPick = false;
+        var superEvolver = false;
 
         //First off a draft needs to actually exist
         if (!(await client.data.findOngoing())) {
@@ -15,13 +16,15 @@ module.exports = {
             return;
         }
 
+        let userID = message.author.id
         let draft = await client.data.findOngoing();
+        let fighter = await client.data.getFighterDB(userID);
 
         //If we're still in picking phase...
         if(draft.status === 'picking vivosaurs') {
 
             //You need to wait your turn
-            if(draft.fighterList[draft.nextPickNum].id !== message.author.id) {
+            if(draft.fighterList[draft.nextPickNum].id !== userID) {
                 message.channel.send("PLEASE WAIT YOUR TURN TO PICK A VIVOSAUR, SKREE!!!");
                 return;
             }
@@ -33,7 +36,6 @@ module.exports = {
 
         //Oooo you must've skipped your original pick, this will be important later...
         } else {
-            fighter = await client.data.getFighterDB(message.author.id);
 
             //Will not let the user pick another vivosaur if they already hit the max amount
             if(!fighter.currentDraft.takenSaurs.includes("-----") && fighter.currentDraft.takenSaurs.length >= draft.vivoNum) {
@@ -65,23 +67,39 @@ module.exports = {
         
         //Now that we know what the user typed, we need to see if that vivosaur exists in the collection
         if(!(await client.data.vivosaurExists(vivoName))) {
-            message.channel.send("THAT VIVOSAUR DOES NOT EXIST, SKREE!!!");
-            return;
+            if(await client.data.superEvolverExists(vivoName)) {
+                superEvolver = true;
+            } else {
+                message.channel.send("THAT VIVOSAUR DOES NOT EXIST, SKREE!!!");
+                return;
+            }
         }
 
         let fighterWithVivo = await client.data.checkDraftSaur(vivoName);
 
         //Now let's see if another user has already picked that vivosaur, and if that's false we're allowed to use it
         if(!fighterWithVivo) {
-            message.channel.send(`<@${message.author.id}> HAS CHOSEN ${vivoName.toUpperCase()} FOR THE DRAFT, SKREE!!!`);
 
-            //Aha, you skipped your original chance to pick! All good, you got your saur, now get outta here >;(((
-            if(skippedPick) {
-                await client.data.replaceSkippedSaur(message.author.id, vivoName);
+            //But wait, if a super evolver has been picked when the fighter already has one, we need to show them an error
+            if(superEvolver && fighter.currentDraft.holdsSuperEvolver) {
+                message.channel.send(`YOU'RE ONLY PERMITTED TO HAVE A SINGLE SUPER EVOLVER IN A DRAFT, SKREE!!!`);
                 return;
             }
 
-            await client.data.giveDraftSaur(message.author.id, vivoName);
+            message.channel.send(`<@${userID}> HAS CHOSEN ${vivoName.toUpperCase()} FOR THE DRAFT, SKREE!!!`);
+
+            //If this is true, then this must be their first (and only) super evolver, so log that in their record
+            if(superEvolver) {
+                await client.data.gotSuperEvolver(userID);
+            }
+
+            //Aha, you skipped your original chance to pick! All good, you got your saur, now get outta here >;(((
+            if(skippedPick) {
+                await client.data.replaceSkippedSaur(userID, vivoName);
+                return;
+            }
+
+            await client.data.giveDraftSaur(userID, vivoName);
 
             //We're gonna need the id's of the first and last fighters for the next few steps
             let firstFighter = await client.data.getFighterDB(draft.fighterList[0].id);
@@ -112,10 +130,10 @@ module.exports = {
 
             message.channel.send(`IT IS NOW <@${draft.fighterList[draft.nextPickNum + index].id}>'S TURN TO PICK, SKREE!!!`);
             await client.timer.stopPickInterval();
-            await client.timer.startPickInterval(client, config.pickTime);
+            await client.timer.startPickInterval(client, draft.pickTime);
 
         //The fact that you've come here means that you or someone else already has that vivosaur
-        } else if (fighterWithVivo.id === message.author.id) {
+        } else if (fighterWithVivo.id === userID) {
             message.channel.send(`TROGLODITE, YOU ALREADY **HAVE** THAT VIVOSAUR, SKREE!!!`);
 
         //The fact that you've come here means that someone else already has that vivosaur
