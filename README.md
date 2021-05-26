@@ -1,8 +1,8 @@
 # Dinomaton
-A Discord bot tied with MongoDB to act upon data for a Fossil Fighters Champions draft league
+A Discord bot tied with MongoDB to access and modify data for a Fossil Fighters Champions draft league
 
 # Command Types
-**Command Type** |  **Help Command** | **Command Description**
+**Command Type** | **Help Command**  | **Command Description**
 ---------------- | ----------------- | ---------------------------------------------------------------------------------------------
 Admin            | d!adminhelp       | contians commands for moderating draft flow and fighters
 Draft            | d!drafthelp       | contains commands for fighters participating in drafts, such as team picking
@@ -26,6 +26,7 @@ This guide will go over how to set up Dinomaton locally on your own machine. Cha
 3. Open the newly extracted folder in VS Code, and paste your bot token and MongoDB connection string within the config.json file
 4. Use ```npm install``` in the VS Code terminal
 5. You're good to go! Run ```npm run start``` and Dinomaton should go online!!!
+6. Make sure to import the emojis in the images folder to your server to avoid graphics problems with displaying vivosaur information (and if you rename them, make sure to set the new name in config.json)
 
 # Common Errors
 > ```npm install``` is throwing an error
@@ -34,3 +35,6 @@ You may need to reinstall Node.js with extra components, or re-open the terminal
 > The bot starts up but it won't connect to the cluster
 
 Open a new MongoDB Compass window, and override the original connection string with the new one. I think this string tacks on a few permissions at the end that grants other applications connection perms
+
+# Credits
+Thanks to the Fossil Fighters Wiki and Discord for creating the various documents displaying vivosaur information, as well as the various resources out there that helped this bot become afloat! Also big thanks to Stack Overflow for existing
